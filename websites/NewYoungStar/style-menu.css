@@ -1,0 +1,27 @@
+
+#short_info{
+	clear: both;
+}
+
+.menu{
+	float: right;
+	position: absolute;
+	top: 30px;
+	right: 58px;
+}
+.menu ul li {
+
+	display: inline;
+	margin: 18px;
+	color: ghostwhite;
+	border: none;
+}
+
+.menu ul li:active{
+	border-top: 5px solid ghostwhite;
+}
+.menu ul li:hover {
+
+	border-top: 5px solid ghostwhite;
+	
+}

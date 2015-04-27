@@ -1,0 +1,15 @@
+button{
+	margin-top: 10px;
+	position: relative;
+	top: 10px;
+}
+
+#application_form{
+	border: 5px solid lightblue;
+	border-top: none;
+	padding: 8px;
+	background-color: ghostwhite;
+	color: rgb(20, 87, 176);
+	font-size: 15px;
+	font-weight: 700;
+}

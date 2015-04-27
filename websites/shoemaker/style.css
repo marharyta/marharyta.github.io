@@ -1,0 +1,293 @@
+body {
+	background-color: #E0E0E0;
+}
+	
+*{
+	margin: 0;
+}
+@import url("http://fonts.googleapis.com/css?family=Abel");
+
+.wrapper {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: o;
+	background-color: rgb(224, 186, 145);
+	/*background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+ 	min-height: 100%;*/
+}
+
+.intro {
+	min-height: 100vh;
+}
+
+.header {
+	font-family: 'Abel', sans-serif;
+	background-color: rgba(229, 236, 229, 0.56);
+	width: 100%;
+	color: #003300 !important;
+	margin: 0 auto;
+	text-align: center;
+}
+.header h1 {
+	
+	padding-top: 10px;
+}
+
+.header h2 {
+	font-variant: small-caps;
+	font-size: 0.83em;
+	margin-top: 5px;
+	padding-bottom: 10px;
+}
+
+.menu
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px 0px;
+	
+}
+
+
+.menu li {
+	list-style-type: none; 
+	margin: auto;
+	height: 100%;
+	background-color: #6F4F2D;
+	text-align: center;
+	padding: 7px 30px;
+	
+}
+.menu li a {
+	text-decoration: none;
+	color: ghostwhite;
+}
+.menu li a:hover {
+	text-decoration: underline;
+}
+
+.menu li a hr {
+	display: none;
+	margin: 5px auto;
+}
+
+/*Menu - MOBILE VERSION*/
+
+@media (max-width: 600px){
+	.menu {
+	
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-top;
+	position: relative;
+	bottom: -21px;
+	}
+
+	.menu li {
+	width: 100%;
+	}
+
+	.menu li a hr {
+		display: block;
+		width: 30px;
+		color: white;
+	}
+
+	#drop-down{
+	
+	width: 90%;
+	
+	}
+}
+
+.fullscreen {
+	background-image: url("images/pic12.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+	background-size: cover;
+ 	min-width: 200px;
+ 	min-height: 350px;
+	background-color: rgba(229, 236, 229, 0.56);
+
+}
+
+/*Fullscreen - MOBILE VERSION*/
+
+
+
+.fullscreen h1 {
+	background-color: rgba(234, 245, 234, 0.5);
+	font-family: 'Abel', sans-serif;
+	color: #003300;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#drop-down{
+	position: relative;
+	top: 80px;
+	width: 50%;
+	margin: 0px auto;
+}
+.fullscreen h1:hover {
+	color: #6F4F2D;
+	
+}
+.fullscreen img {
+	width: 5%;
+	height: 48px;
+	position: absolute;
+	left: 45%;
+	right: 45%;
+}
+.container2 {
+	margin-left: 50px;
+	margin-right: 50px;
+	
+}
+
+.container2 a {
+	text-decoration: none;
+	color: black;
+}
+.column {
+
+	-webkit-column-count: 3; 
+    -moz-column-count: 3; 
+    column-count: 3;
+    -webkit-column-gap: 30px; 
+    -moz-column-gap: 30px; 
+    column-gap: 30px;
+
+   	padding-left: 20px;
+   	padding-right: 20px;
+
+} 
+
+.column div{
+
+	display: inline-block;
+	margin-bottom: 10px;
+	background-color: rgba(18, 88, 30, 0.49);
+	padding: 15px 0px;
+	color: #DCF0DE;
+	
+}
+.column div h2 {
+	font-family: 'Abel', sans-serif;
+	color: #DCF0DE;
+}
+.column div img {
+	width: 90%;
+	height: 60%;
+	margin-left: 5%;
+}
+
+.column div h2,p{
+	width: 90%;
+	margin-left: 5%;
+}
+
+/*Gallery - MOBILE VERSION*/
+@media (max-width: 500px){
+	.column {
+
+	-webkit-column-count: 1; 
+    -moz-column-count: 1; 
+    column-count: 1;
+
+	} 
+}
+
+/*SHOW MORE ELEMENT*/
+
+.self-align{
+	font-family: 'Abel', sans-serif;
+	margin-bottom: 10px;
+	background-color: rgba(18, 88, 30, 0.49);
+	padding: 5px;
+	margin: 10px auto;
+	width: 15%;
+	text-align: center;
+
+}
+
+.self-align:hover{
+	background-color: rgba(240, 247, 241, 0.91);
+}
+
+.self-align a {
+	text-decoration: none;
+	color: black;
+	color: #DCF0DE;
+}
+
+.self-align a:hover {
+	text-decoration: underline;
+	color: black;
+
+}
+
+.footer {
+	
+	width: 100%;
+	height: 30px;
+	background-color:  rgba(253, 253, 253, 0.5);
+	padding-top: 3px;
+	padding-left: 5px;
+	margin-top: 20px;
+	
+}
+
+
+/*STYLE FOR THE PRODUCT PAGE*/
+
+.product {
+	min-height: 100vh;
+	
+
+}
+
+
+.product img{
+	float: left;
+	width: 40%;
+	height: 70%;
+}
+
+.promo{
+	display: inline-block;
+	margin-bottom: 10px;
+	background-color: rgba(18, 88, 30, 0.49);
+	padding: 15px;
+	color: #DCF0DE;
+	width: 80%;
+	height: 100%;
+	margin: 0px auto;
+	max-height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

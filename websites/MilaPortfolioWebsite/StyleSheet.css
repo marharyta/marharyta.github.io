@@ -1,0 +1,267 @@
+﻿
+body {
+	background-image: url("PicVidMus/models/pic7.jpg");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-attachment: fixed;
+    font-size: 16px;
+    /*font-family: 'Lora', serif;*/
+    font-family: 'Arimo', sans-serif;
+}
+
+* {
+	margin: 0;
+}
+ul{
+	list-style-type: none;
+	color: inherit;
+}
+p {
+    margin-left: 20px;
+    font-size: 1.2em;
+}
+/*h1, h2, h3, h4, h5, h6 {
+    margin-left: 20px; 
+}*/
+
+hr {
+	width: 70px;
+	margin: 7px auto;
+}
+
+#menu_icon ul li{
+	display: inline-block;
+	position: relative;
+	top: 20px;
+	margin-left: 9px;
+	color: ghostwhite;
+}
+
+#menu_icon {
+	position: fixed;
+	top: 2%;
+	display: flex;
+}
+#menu_icon ul a:link{
+	text-decoration: none;
+	color: inherit;
+	display: inline;
+	
+}
+#menu_icon ul a:visited{
+	text-decoration: none;
+	color: inherit;
+	display: inline;
+	
+}
+#menu_icon ul a:hover{
+	text-decoration: line-through;
+	color: white;
+	display: inline;
+	
+}
+#menu_icon ul a:active{
+	text-decoration: line-through;
+	color: white;
+	display: inline;
+	
+}
+
+
+
+#social ul{
+	display: inline;
+	list-style-type: none;
+	float: right;
+	position: fixed;
+	right: 3%;
+	top: 2%;
+}
+
+
+
+/* ЭТО МОЕ ИМЯ НА САЙТЕ*/
+#name h1 {
+	font-family: Verdana, sans-serif;
+	font-variant: small-caps;
+	font-size: 8em;
+	font-weight: 700;
+	letter-spacing: 0.3em;
+	color: white;
+	text-align: center;
+	position: relative;
+	margin: 18% auto 0 auto;
+	text-decoration: line-through;
+}
+
+#name h2{
+	font-family: Verdana, sans-serif;
+	font-variant: small-caps;
+	font-size: 2em;
+	font-weight: 500;
+	color: white;
+	text-align: center;
+	position: relative;
+	
+}
+/*КОНЕЦ ИМЕНИ!!!*/
+
+#hi {
+	border: 2em solid;
+	border-color: white;
+	position: relative;
+	width: 50%;
+	left: 20%;
+	margin-top: 27%;
+	margin-bottom: 20%;
+	/*margin-bottom: 10%;
+	margin-right: 20%;
+	margin-left: 20%;*/
+	padding: 20px;
+}
+#white_cover {
+	background-color: white;
+	margin: 10px;
+	padding: 20px;
+}
+#white_cover h1 {
+	text-align: center;
+}
+#white_cover hr {
+	width: 70px;
+	
+}
+
+#sec2 {
+	background-color: white;
+	padding-bottom: 120%;
+	padding-top: 20px;
+}
+#sec2 h1 {
+	text-align: center;
+}
+#sec2 hr {
+	width: 70px;
+	
+}
+
+
+.strategy {
+	border: .1em solid;
+	width: 32%;
+	height: 400px;
+	float: left;
+	background-color: inherit;
+	position: relative;
+	left: 10%;
+	margin: 20px;
+	padding: 20px;
+}
+.strategy h2,h3 {
+	text-align: center;
+	color: white;
+	text-shadow: 0px 0px 1px  rgba(40,40,40,0.2);
+}
+.strategy .text {
+	display: none;
+	text-align: justify;
+	background-color: white;
+	width: 100%;
+	height: 60%;
+}
+
+
+#goal {
+	background-image: url("PicVidMus/models/pic21.jpg");
+	background-attachment: fixed;
+}
+#audience {
+	background-image: url("PicVidMus/models/pic23.jpg");
+	background-attachment: fixed;
+}
+
+#impression {
+	background-image: url("PicVidMus/models/pic22.jpg");
+	background-attachment: fixed;
+}
+#inspiration {
+	background-image: url("PicVidMus/models/pic15.jpg");
+	background-attachment: fixed;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+#success {
+	background-image: url("PicVidMus/models/pic19.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	left: 30%;
+}
+
+#sec3 {
+	background-image: url("PicVidMus/models/pic13.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	min-height: 80px;
+	
+}
+#sec3 h1 {
+	text-align: center;
+	
+}
+#sec3 #second_back_pic hr {
+	width: 70px;
+	
+}
+#sec3 #second_back_pic {
+	
+	background-color: white;
+	padding: 20px;
+	position: relative;
+	top: 230px;
+}
+#sec3 #second_back_pic p{
+	margin-left: 80px;
+	margin-right: 70px;
+	text-align: justify;
+
+}
+#sec3 #second_back_pic p q{
+	margin-left: 180px;
+	margin-right: 70px;
+}
+
+#sec4 #q_f_text {
+	background-color: white;
+	padding-top: 20px;
+}
+#sec4 #q_f_text h1{
+	text-align: center;
+}
+#sec4 #q_f_text hr{
+	width: 70px;
+}
+
+#sp{
+	clear: left;
+}
+
+#sec6 iframe {
+	width: 80%;
+	height: 300px;
+	margin: 0 10% 0 10%;
+	
+}
+
+
+footer{
+	color: ghostwhite;
+	position: relative;
+	top: 230px;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}

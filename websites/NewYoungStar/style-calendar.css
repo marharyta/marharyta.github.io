@@ -1,0 +1,44 @@
+#calendar_wrap{
+	background-color: ghostwhite;
+	background-position: center;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 70vh;
+}
+
+#calendar{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	width: 79%;
+	min-height: 100%;
+	margin: 0 auto;
+}
+
+.month{
+	width: 23%;
+	min-height: 176px;
+	text-align: center;
+	background-color: whitesmoke;
+	margin: 20px 0px 20px 0px;
+}
+
+#december{
+	background-image: url("images/december-pic.jpg");
+}
+
+#january{
+	background-image: url("images/january-pic.jpg");
+}
+
+#february{
+	background-image: url("images/february-pic.jpg");
+}
+
+#march{
+	background-image: url("images/march-pic.jpg");
+}

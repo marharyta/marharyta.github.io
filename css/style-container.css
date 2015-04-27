@@ -1,0 +1,65 @@
+.website_disc{
+		min-width: 100%;
+		min-height: 100%;
+
+}
+#first-column-of-portfolio .website_disc{
+	height: 225px;
+}
+
+#second-column-of-portfolio .website_disc{
+	height: 450px;
+}
+#third-column-of-portfolio .website_disc{
+	height: 200px;
+}
+
+.website_to_show{
+	width: 100%;
+	height: 65%;
+	background-color: pink;
+	overflow: hidden;
+	padding: 0;
+
+}
+
+.overlay_blur{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+	top: -20px;
+	-webkit-transition: transform 4s; /* Safari */
+    transition: transform 4s;
+}
+.overlay_blur:hover{
+	display: block;
+	-ms-transform: scale(1.1, 1.1); /* IE 9 */
+    -webkit-transform: scale(1.1, 1.1); /* Chrome, Safari, Opera */
+    transform: scale(1.1, 1.1);
+}
+
+#young-star{
+	background-image: url("../images/kid.jpg");
+	background-repeat: no-repeat;
+}
+
+#shoemaker{
+	background-image: url("../images/leather-shoes.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+#yonce{
+	background-image: url("../images/album_back.jpg");
+	background-size: cover;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#mila{
+	background-image: url("../images/pic13.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}

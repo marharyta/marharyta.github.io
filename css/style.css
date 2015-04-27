@@ -1,0 +1,74 @@
+#content_wrap{
+	/*background-color: transparent;*/
+}
+
+#top-section{
+	
+	background-image: url("../images/flowers-cover.jpeg");
+	background-attachment: fixed;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+#top-section_first-column{
+	/*background-color: lightblue;*/
+	background-color: ghostwhite;
+	padding-bottom: 48px;
+	
+}
+
+#top-section_second-column {
+	/*background-color: transparent;*/
+	padding-left: 0;
+	padding-right: 0;
+	height: 500px;
+	padding-bottom: 30px; 
+
+}
+
+#work_first-column{
+	/*background-color: lightgreen;*/
+	top: -60px;
+	background-color: ghostwhite;
+}
+
+#skills_third-column{
+	/*background-color: pink;*/
+}
+
+#down-section{
+	background-image: url("../images/marble.jpg");
+	background-attachment: fixed;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.website_disc{
+	/*background-color: orange;*/
+}
+
+#painter p{
+	padding: 0;
+	margin: 0;
+}
+
+.line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1.5px solid #C5B5B5;
+
+  }
+
+  #social-media ul li{
+  	text-decoration: underline;
+  }
+
+  .website_info ul li{
+  	text-align: left;
+  	position: relative;
+  	left: -25px;
+  }

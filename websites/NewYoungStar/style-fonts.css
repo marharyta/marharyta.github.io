@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Bubblegum+Sans|Cabin|Cabin+Condensed|Gochi+Hand|Open+Sans|Montserrat);
+
+/*font-family: 'Bubblegum Sans', cursive;
+font-family: 'Cabin', sans-serif;
+font-family: 'Cabin Condensed', sans-serif;
+font-family: 'Gochi Hand', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+#logo_name h1{
+	font-family: 'Bubblegum Sans', cursive;
+	  font-size: 2.36em;
+
+}
+#short_info{
+	
+font-family: 'Cabin', sans-serif;
+  font-size: 1.08em;
+  line-height: 125%;
+}
+
+.education_header{
+	font-family: 'Bubblegum Sans', cursive;
+	color: rgb(232, 98, 28);
+}
+
+.organisation_header {
+	font-family: 'Bubblegum Sans', cursive;
+	color: rgb(232, 98, 28);
+}
+
+.text_invisible h3{
+	font-family: 'Bubblegum Sans', cursive;
+	color: rgb(232, 98, 28);
+}
+
+p{
+	font-family: 'Cabin', sans-serif;
+}

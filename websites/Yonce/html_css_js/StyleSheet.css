@@ -1,0 +1,386 @@
+﻿body {
+            font-family: Verdana, sans-serif;
+            font-size: 100%;
+}
+/* All the pseudo-elements start here*/
+
+/*For all the links on the website*/
+a:link {color: #B22222; }    /* unvisited link */
+a:visited {color: #B22222;} /* visited link */
+a:hover {color:#F0F0F0; text-decoration: underline !important; }   /* mouse over link */
+a:active {color:#F0F0F0;}  /* selected link */
+
+/*For the discography table on Discography.html*/
+/*For the head of the table*/
+#discography_table table thead tr.row:link {
+           background-color: white;
+            text-shadow:2px 2px 4px #000000;
+}
+#discography_table table thead tr.row:visited {
+            background-color: white;
+            text-shadow:2px 2px 4px #000000;
+}
+#discography_table table thead tr.row:hover {
+            
+            color: rgb(48,48,48); 
+            text-shadow: none !important;
+} 
+#discography_table table thead tr.row:active {
+            
+            color: rgb(168,0,0); 
+            text-shadow: none !important;
+} 
+/*For the body of the table*/
+#discography_table table tbody tr.row:link {
+          
+            text-shadow:2px 2px 4px #000000;
+            
+} 
+#discography_table table tbody tr.row:visited {
+            
+            text-shadow:2px 2px 4px #000000;
+          
+}
+#discography_table table tbody tr.row:hover {
+              background-color: ghostwhite;
+            color: rgb(48,48,48); 
+            text-shadow: none; 
+            
+} 
+#discography_table table tbody tr.row:active {
+             background-color: ghostwhite;
+            color: rgb(48,48,48); 
+            text-shadow: none; 
+            
+} 
+/* ПОЧЕМУ НЕ УБИРАЕТСЯ ТЕНЬ????, твою мать!!! ТВОЮ МАТЬ, МНЕ ТЕНЬ СО ВСЕГО РЯДА НАДО УБРАТЬ!!!!
+если пивать как внизу, то тень убирается с каждой ячейки отдельно, а мне весь ряд нужен*/
+#discography_table table tbody tr td:link {text-shadow:2px 2px 4px #000000;}
+#discography_table table tbody tr td:visited {text-shadow:2px 2px 4px #000000;}
+#discography_table table tbody tr td:hover {text-shadow: inherit !important;}
+#discography_table table tbody tr td:active {text-shadow: inherit !important;}
+
+/*Video on the Video.html*/
+/*WHY DOESNT THE VIDEO WORK??????????*?*/
+
+/*#preview:link {
+            background-color:rgba(248, 248, 255, 0.81);
+            color: inherit; 
+            text-shadow: none;
+}
+#preview:visited {
+            background-color:rgba(248, 248, 255, 0.81); 
+            color: inherit;
+            text-shadow: none;
+}
+#preview:hover {
+            background-color:transparent;
+            color: #F0F0F0;
+            text-shadow: 2px 2px 4px #000000;
+            font-size: 1.2em;
+}
+#preview:active {
+            background-color:transparent; 
+            color: #F0F0F0;
+            text-shadow: 2px 2px 4px #000000;
+            font-size: 1.2em;
+}*/
+
+/*Как спрятать эту картинку?*/
+/*
+
+#album_production figure ul li:link{display: none !important;}
+#album_production figure ul li:visited{display:none !important;}
+#album_production figure ul li:hover{display:inline-block !important;}
+#album_production figure ul li:active{display:inline-block !important;}
+*/
+/*#visual_album_cover:link {display: none;}
+#visual_album_cover:visited {display: none;}
+#visual_album_cover:hover {display: block;}
+#visual_album_cover:active {display: block;}*/
+
+
+/*Lyrics on the INDEX.html page*/
+/*#lyrics:link { 
+            width: 530px;  
+            margin-left: 60px;
+            background-color: rgba(248, 248, 255, 0.81);
+            font-size: 1em;
+            padding-left: 20px;
+}
+#lyrics:visited{
+            width: 530px; 
+            margin-left: 60px;
+            background-color: rgba(248, 248, 255, 0.81);
+            font-size: 1em;
+            padding-left: 20px;
+}
+#lyrics:hover{
+            width: 870px;  
+            margin-left: 148px;
+            background-color: rgba(248, 248, 255, 0.9);
+            font-size: 1.3em;
+            padding-left: 120px;
+}
+#lyrics:active{
+            width: 870px; 
+            margin-left: 148px;
+            background-color: rgba(248, 248, 255, 0.9);
+            font-size: 1.3em;
+            padding-left: 120px;
+}*/
+/*Article about Beyonce biography*/
+/*#biography:link {width: 780px; font-size: 1.1em;}
+#biography:visited {width: 780px; font-size: 1.1em;}
+#biography:hover {width: 1200px; font-size: 1.3em !important;}
+#biography:active {width: 1200px; font-size: 1.3em !important;}
+*/
+/*information about Beyonce album on Album.html*/
+/*#album_production:link {
+            font-size: inherit;
+            width: 45%;     
+            padding: 10px 20px 10px 20px; 
+            margin: 20px 0px 20px 20px;
+}
+#album_production:visited {
+            font-size: inherit;
+            width: 45%;     
+            padding: 10px 20px 10px 20px; 
+            margin: 20px 0px 20px 20px;
+}
+#album_production:hover {
+            font-size: 1.3em;
+            width: 85%;     
+            padding: 10px 20px 10px 20px;
+            margin: 20px 0px 20px 60px; 
+}
+#album_production:active {
+            font-size: 1.3em;
+            width: 85%;     
+            padding: 10px 20px 10px 20px; 
+            margin: 20px 0px 20px 60px;
+}
+*/
+/*Pseudo elements end here*/
+
+address {
+            float: right;
+            margin-right: 180px;
+}
+a {
+            text-decoration: none;
+            cursor: pointer;
+}
+p {
+            margin-left: 20px;
+            margin-right: 20px;
+}
+h1, h3 {
+            margin-left: 20px;
+}
+table {
+            width: 100%;
+            border-collapse: collapse;
+}
+audio {
+            width: 500px;
+            height: 30px;
+            padding: 20px;
+}
+
+li {
+            margin: 10px;
+}
+
+
+.Menu {
+            font: normal small-caps 700 2em Verdana, san-sirif;
+}
+.menu_table {
+            background-color: black;
+            width: 100%;
+            height: 100px;
+            color: #B22222;
+            text-decoration: none;
+            text-align: center;
+            position: relative;
+            top: 0px;
+            left:0px;
+}
+.Song {
+     
+            background-image: url("../images/background2.jpg"); 
+            background-size: 100%;
+            background-attachment: fixed;
+            background-position: top; /* could be "center" */
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+            padding-bottom: 50px;
+            padding-top: 20px;
+            margin-top: 0px;
+}
+
+#lyrics {
+            margin-left: 60px;
+            background-color: rgba(248, 248, 255, 0.81);
+            width: 530px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            line-height: 160%;
+            
+}
+
+
+.footer {
+            width: 100%;
+            height: 100px;
+            background-color: black;
+            box-shadow: 0px 10px 10px 5px #888888;
+            padding-top: 10px;
+            color: ghostwhite; 
+}
+#copyright {
+             color: ghostwhite; 
+             float: left;
+             margin-left: 90px;
+             width: 700px;
+             font-weight: 500;
+}
+
+.article {
+            background-image: url("../images/pic9.jpg");
+            background-size: 100%;
+            background-attachment: fixed;
+            background-position: center top;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+            padding-bottom: 20px;
+            padding-top: 20px;
+}
+#biography {
+            margin-left: 60px;
+            background-color: rgba(248, 248, 255, 0.81);
+            width: 780px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+}
+#chapter1 {
+            margin: 40px;
+            line-height: 160%;
+            font-size: 1.1em;
+            text-align: justify;
+
+}
+.B {
+            font-size: 4.1em;
+
+}
+.discography {
+            background-image: url("../images/pic27.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin-top: 0px;
+            padding: 10px 0px 10px 0px;
+            background-size: 100%;
+            background-position: center top;
+            
+            height: 100%;
+            width: 100%;
+}
+#album_production {
+            
+            background-color: rgba(248, 248, 255, 0.81);
+            width: 48%;     
+            padding: 10px 20px 10px 20px; 
+            margin: 20px 0px 20px 20px;
+            line-height: 160%;
+            text-align: justify;
+}
+#album_production blockquote p {
+            border-left: 6px solid #B22222;
+            padding-left: 50px;
+}
+#album_production p a {
+            color: inherit;
+}
+#album_production figure ul li {
+            display:inline-block;
+            /*Как выровнять этот блок?*/
+            width:216px;
+}
+#album_production table {
+      margin-left: 50px;
+}
+
+/* понять, почему вся страница сбивается, когда я ставлю флоат вправо. Если ставлю влево, то дивы перекрываются */
+
+#cd {
+            background-image: url("../images/brickwall/brickwall3.jpg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: top;
+            width: 100%;
+
+} 
+#discography_table table {
+            
+            border: hidden;
+            color: #000000;
+}
+#discography_table table thead {
+            font-size: 1.42em;
+            font-weight: 600;
+            color: #000000;
+            /*text-shadow:3px 2px 4px #000000;*/
+            
+}
+#discography_table table tbody tr td {
+            font-size: 1.35em;
+            /*text-shadow:2px 2px 4px #000000;*/
+            
+
+}
+#discography_table table tbody tr td ul {
+            list-style-type:none;
+            margin:0;
+            padding:0;
+}
+
+.video {
+            background-image: url("../images/brickwall/brickwall5.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: top;
+            width: 100%;
+            height: 900px;
+            padding-top: 20px;
+
+}
+
+#preview {
+           
+           width:68%;
+           margin-left: 60px;
+           margin-top: 20px;
+           
+           text-shadow: none;
+}
+#preview p {
+      display: block;
+      padding: 20px 20px 20px 20px; 
+            margin: 30px 80px 0px 80px;
+            text-align: justify;
+            line-height: 1.5em;
+            font-size: 1.1em;
+            background-color:rgba(248, 248, 255, 0.81);
+
+}
+
+#discography_table table tbody tr{
+      background-color: rgba(248, 248, 255, 0.81);
+}
+#discography_table table thead .word{
+       background-color: rgba(248, 248, 255, 0.81);
+}

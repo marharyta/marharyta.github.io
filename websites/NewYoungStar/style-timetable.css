@@ -1,0 +1,10 @@
+#timetable_wrap{
+	background-image: url("images/kid-drawing-4.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 70vh;
+}
