@@ -13,15 +13,17 @@ a:visited{
 
 a:hover{
 	text-decoration: none;
-	color: #4E5357
+	color: #4E5357;
 }
 
 a:active{
 	text-decoration: none;
-	color: #4E5357
+	color: #4E5357;
 }
 
 
-
+#social-media a{
+	color: #4E5357;
+}
 
 
