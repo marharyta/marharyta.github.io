@@ -1,7 +1,12 @@
 
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Ubuntu:400,500,700|Exo:400,700italic|Monoton|Oswald:400,700|Roboto+Condensed:400,700|Montserrat|Hind:400,700,600,500|Allerta+Stencil);
-
-
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display|Lora|Droid+Serif|Merriweather|Pacifico|Alegreya|Playball|Noticia+Text|Passion+One|Playfair+Display+SC);
+@font-face {
+  font-family: 'Bazar';
+  src: url('../fonts/Bazar.eot?#iefix') format('embedded-opentype'),  url('../fonts/Bazar.woff') format('woff'), url('../fonts/Bazar.ttf')  format('truetype'), url('../fonts/Bazar.svg#Bazar') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 /*font-family: 'PT Sans Narrow', sans-serif;
 font-family: 'Ubuntu', sans-serif;
@@ -15,6 +20,7 @@ font-family: 'Hind', sans-serif;*/
 
 	font-family: 'Montserrat', sans-serif;
 	font-family: 'Hind', sans-serif;
+	font-family: 'Playfair Display', serif;
 	  font-size: 1.52em;
   font-weight: 900;
 }
@@ -22,6 +28,7 @@ font-family: 'Hind', sans-serif;*/
 #logo{
 
 	font-family: 'Montserrat', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 1.72em;
 
 }
@@ -34,17 +41,23 @@ font-family: 'Hind', sans-serif;*/
 	font-family: 'Roboto Condensed', sans-serif;
 	font-family: 'Montserrat', sans-serif;/*picked*/
 	font-family: 'Hind', sans-serif;
-	  font-size: 4.8em;
-  	font-weight: 900;
+	font-family: 'Bazar', serif;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display SC', serif;
+	font-weight: 800;
+	  font-size: 3.2em;
+  
 }
 
 #name h2{
 	
 	font-family: 'Oswald', sans-serif;
-
-	  font-weight: 700;
+	font-family: 'Bazar', serif;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display SC', serif;
+	  /*font-weight: 700;*/
   font-style: normal;
-  font-size: 3em;
+  font-size: 2em;
   line-height: 170%;
 	  
 }
@@ -65,6 +78,7 @@ font-family: 'Hind', sans-serif;*/
 
 .section_title{
 	font-family: 'Oswald', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-weight: 700;
   font-style: normal;
   font-size: 2em;
@@ -72,15 +86,18 @@ font-family: 'Hind', sans-serif;*/
 
   .website_title{
   	
-font-family: 'Oswald', sans-serif;
-font-weight: 700;
-  font-style: normal;
+
+font-family: 'Playfair Display', serif;
+
+font-weight: bold;
+  font-style: bold;
   font-size: 2em;
   }
 
   .website_info h3{
   
 font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
 font-weight: 700;
   font-style: normal;
   font-size: 1.16em;

@@ -1,0 +1,32 @@
+@media screen and (max-width:  480px) {
+    #first-column-of-portfolio .website_disc{
+		height: 200px;
+	}
+
+	#second-column-of-portfolio .website_disc{
+		height: 200px;
+	}
+	#third-column-of-portfolio .website_disc{
+		height: 200px;
+	}
+
+	#top-section_first-column{
+		padding-bottom: 48px;
+	}
+}
+
+@media screen and (max-width:  768px) {
+    #first-column-of-portfolio .website_disc{
+		height: 270px;
+	}
+
+	#second-column-of-portfolio .website_disc{
+		height: 270px;
+	}
+	#third-column-of-portfolio .website_disc{
+		height: 270px;
+	}
+	#top-section_first-column{
+		padding-bottom: 45px;
+	}
+}

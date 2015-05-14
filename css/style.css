@@ -1,6 +1,5 @@
-#content_wrap{
-	/*background-color: transparent;*/
-}
+
+
 
 #top-section{
 	
@@ -9,18 +8,20 @@
 	background-position: right;
 	background-repeat: no-repeat;
 	background-size: cover;
+
 	
 }
 
 #top-section_first-column{
-	/*background-color: lightblue;*/
+	
 	background-color: ghostwhite;
-	padding-bottom: 48px;
+	padding-bottom: 28px;
+	box-shadow: 5px 10px 5px rgba(26, 24, 24, 0.5);
 	
 }
 
 #top-section_second-column {
-	/*background-color: transparent;*/
+	
 	padding-left: 0;
 	padding-right: 0;
 	height: 500px;
@@ -29,14 +30,12 @@
 }
 
 #work_first-column{
-	/*background-color: lightgreen;*/
+	
 	top: -60px;
 	background-color: ghostwhite;
+	box-shadow: 5px 10px 5px rgba(26, 24, 24, 0.5);
 }
 
-#skills_third-column{
-	/*background-color: pink;*/
-}
 
 #down-section{
 	background-image: url("../images/marble.jpg");
@@ -44,10 +43,7 @@
 	background-position: right;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-
-.website_disc{
-	/*background-color: orange;*/
+	box-shadow: -5px -10px 5px rgba(26, 24, 24, 0.5);
 }
 
 #painter p{
@@ -63,12 +59,27 @@
 
   }
 
-  #social-media ul li{
+#social-media ul li{
   	text-decoration: underline;
   }
 
-  .website_info ul li{
+.website_info ul li{
   	text-align: left;
   	position: relative;
   	left: -25px;
   }
+
+  .blockquote-reverse {
+ 
+  border: none;
+  
+}
+
+.blockquote-reverse, blockquote.pull-right{
+	border: none;
+}
+
+#first_skills{
+	margin-top: 20px;
+  margin-bottom: 10px;
+}

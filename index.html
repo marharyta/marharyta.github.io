@@ -10,10 +10,12 @@
     <link rel="stylesheet" type="text/css" href="css/style-fonts.css">
     <!--Fonts to be used -->
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Ubuntu:400,500,700|Exo:400,700italic|Monoton|Oswald:400,700|Roboto+Condensed:400,700|Montserrat|Hind:400,700,600,500|Allerta+Stencil' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display|Lora|Droid+Serif|Merriweather|Pacifico|Alegreya|Playball|Noticia+Text|Passion+One|Playfair+Display+SC' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/style-menu.css">
    
     <link rel="stylesheet" type="text/css" href="css/style-container.css">
+    <link rel="stylesheet" type="text/css" href="css/style-media-queries.css">
     <!-- Bootstrap -->
     <link href="css/bootstrap-3.3.4-dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -38,7 +40,7 @@
               <li id="logo"><a href="index.html">MO.</a></li>
               <li><a href="index.html">Me</a></li>
               <li><a href="index.html#work">Work</a></li>
-              <li><a href="index.html#kills_column">Skills</a></li>
+              <li><a href="index.html#skills_column">Skills</a></li>
               <li><a href="index.html#contact">Contact</a></li>
             </ul>
           </div>
@@ -49,7 +51,7 @@
          <div class="row">
             <div id="name" class="col-lg-9 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-12 col-xs-offset-0">
               <!--<h1>MO.</h1>-->
-              <h2>Margarita Obraztsova, <br/> Web Developer</h2>
+              <h1>Margarita Obraztsova,<h1> <h2>Web Developer</h2>
             </div>
          </div>
           <!-- About me section-->
@@ -99,8 +101,15 @@
                           </div>
                           <!-- Young Star Info-->
                           <div class="website_info">
-                              <h3>Young Star</h3>
+                              <h3>Young Star Kindergarten</h3>
                               <p><a href="websites/NewYoungStar/index.html">visit site</a></p>
+                              <p>
+                                <ul>
+                                  <li>adaptive</li>
+                                  <li>Bootstrap</li>
+                                  <li>UX approach</li>
+                                </ul>
+                              </p>
 
                           </div>
                       </div>
@@ -118,7 +127,13 @@
                           <div class="website_info">
                               <h3>Shoemaker</h3>
                               <p><a href="websites/shoemaker/index.html">visit site</a></p>
-                             
+                              <p>
+                                <ul>
+                                  <li>adaptive</li>
+                                  <li>grid layout</li>
+                                  <li>custom media queries</li>
+                                </ul>
+                              </p>
                           </div>
                         </div>
                   </div>
@@ -138,7 +153,13 @@
                           <div class="website_info">
                               <h3>Yonce</h3>
                               <p><a href="websites/Yonce/html_css_js/index.html">visit site</a></p>
-                              
+                              <p>
+                                <ul>
+                                  <li>my very first website</li>
+                                  <li>school project</li>
+                                  <li>HTML5, CSS3</li>
+                                </ul>
+                              </p>
                           </div>
                         </div>
                    </div>
@@ -158,6 +179,12 @@
                           <div class="website_info">
                               <h3>Mila</h3>
                               <p><a href="websites/MilaPortfolioWebsite/index.html">visit site</a></p>
+                              <p>
+                                <ul>
+                                  <li>grid layout</li>
+                                  <li>design approach</li>
+                                </ul>
+                              </p>
                           </div>
                         </div>
                     </div>
@@ -171,8 +198,8 @@
               <div class="row">
                   <hr class="line" />
                   <h2 class="section_title">Skills</h2>
-                    <div class="list col-lg-6 col-md-6 col-sm-11 col-xs-12">
-                      <h3> My skills include:</h3>
+                    <div class="list col-lg-6 col-md-6 col-sm-11 col-xs-12" id="first_skills">
+                      
                       <ul>
                         <li> HTML</li>
                         <li> CSS</li>
@@ -187,7 +214,7 @@
                       </ul>
                     </div>
                     <div class="list col-lg-6 col-md-6 col-sm-11 col-xs-12">
-                      <h3>And I am learning:</h3>
+                      <h3>Learning:</h3>
                       <ul>
                         <li>ASP.NET</li>
                         <li>Java Servlet</li>
