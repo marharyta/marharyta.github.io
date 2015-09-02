@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="424px" height="182px" viewBox="0 0 424 182" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>buttons</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.62745098   0 0 0 0 0.733333333   0 0 0 0 0.854901961  0 0 0 0.7 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="155" height="155.559633" rx="40.3052832"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.623529412   0 0 0 0 0.729411765   0 0 0 0 0.858823529  0 0 0 0.7 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="155" height="155.559633" rx="40.3052832"></rect>
+        <path id="path-7" d="M0.343834707,3.41060513e-13 L90.7723627,3.41060513e-13 L90.7723627,110.871822 L0.343834707,110.871822 L0.343834707,3.41060513e-13 Z"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="HIGH-RES-IPHONE" sketch:type="MSArtboardGroup" transform="translate(-162.000000, -2385.000000)">
+            <g id="buttons" sketch:type="MSLayerGroup" transform="translate(155.000000, 2385.000000)">
+                <text id="top-outline-copy-6" sketch:type="MSTextLayer" font-family="Lucida Grande" font-size="100.763208" font-weight="normal" line-spacing="143.94744" fill="#000000">
+                    <tspan x="174" y="113.610658">+</tspan>
+                </text>
+                <rect id="button-shadow-copy-6" stroke="#000000" stroke-width="4.798248" fill="#FFFFFF" filter="url(#filter-1)" sketch:type="MSShapeGroup" x="8" y="16.6106582" width="155" height="155" rx="40.3052832"></rect>
+                <g id="dot-box-2-copy-6" transform="translate(0.000000, 12.610658)">
+                    <mask id="mask-3" sketch:name="Mask" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                    <ellipse id="Oval-1" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="32.0586821" cy="148.058501" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-46" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="32.0586821" cy="100.582509" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-92" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="32.0586821" cy="53.1065173" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-138" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="32.0586821" cy="7.65078041" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-20" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="32.0586821" cy="124.825569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-47" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="32.0586821" cy="77.349577" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-93" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="32.0586821" cy="29.8735851" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-9" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="32.0586821" cy="136.947099" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-48" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="32.0586821" cy="89.4711069" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-94" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="32.0586821" cy="41.995115" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-140" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="32.0586821" cy="-3.96568569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-21" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="32.0586821" cy="112.704039" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-49" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="32.0586821" cy="65.2280472" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-95" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="32.0586821" cy="17.7520553" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-3" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="56.2145262" cy="148.058501" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-50" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="56.2145262" cy="100.582509" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-96" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="56.2145262" cy="53.1065173" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-142" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="56.2145262" cy="7.14571667" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-22" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="56.2145262" cy="124.825569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-51" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="56.2145262" cy="77.349577" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-97" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="56.2145262" cy="29.8735851" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-10" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="56.2145262" cy="136.947099" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-52" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="56.2145262" cy="89.4711069" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-98" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="56.2145262" cy="41.995115" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-144" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="56.2145262" cy="-3.96568569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-23" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="56.2145262" cy="112.704039" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-53" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="56.2145262" cy="65.2280472" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-99" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="56.2145262" cy="17.7520553" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-6" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="104.526215" cy="148.058501" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-54" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="104.526215" cy="100.582509" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-100" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="104.526215" cy="53.1065173" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-146" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="104.526215" cy="7.14571667" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-24" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="104.526215" cy="124.825569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-55" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="104.526215" cy="77.349577" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-101" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="104.526215" cy="29.8735851" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-11" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="104.526215" cy="136.947099" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-56" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="104.526215" cy="89.4711069" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-102" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="104.526215" cy="41.995115" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-148" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="104.526215" cy="-3.96568569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-25" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="104.526215" cy="112.704039" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-57" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="104.526215" cy="65.2280472" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-103" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="104.526215" cy="17.7520553" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="44.1366041" cy="152.099011" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-58" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="44.1366041" cy="104.623019" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-104" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="44.1366041" cy="57.1470273" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-150" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="44.1366041" cy="11.1862266" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-26" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="44.1366041" cy="127.855951" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-59" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="44.1366041" cy="80.3799595" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-105" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="44.1366041" cy="32.9039676" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-151" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="44.1366041" cy="-13.0568331" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-12" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="44.1366041" cy="140.987609" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-60" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="44.1366041" cy="93.5116168" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-106" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="44.1366041" cy="46.0356249" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-152" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="44.1366041" cy="0.0748242583" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-27" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="44.1366041" cy="116.744549" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-61" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="44.1366041" cy="69.2685571" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-107" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="44.1366041" cy="21.7925652" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-18" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="19.98076" cy="140.987609" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-62" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="19.98076" cy="93.5116168" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-108" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="19.98076" cy="46.0356249" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-154" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="19.98076" cy="0.0748242583" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-28" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="19.98076" cy="116.744549" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-63" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="19.98076" cy="69.2685571" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-109" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="19.98076" cy="21.7925652" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-41" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="19.98076" cy="128.866079" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-64" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="19.98076" cy="81.390087" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-110" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="19.98076" cy="33.9140951" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-156" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="19.98076" cy="-12.0467056" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-42" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="9.91582492" cy="121.795186" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-65" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="9.91582492" cy="74.3191946" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-111" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="9.91582492" cy="26.8432027" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-43" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="9.91582492" cy="135.936971" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-66" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="9.91582492" cy="88.4609794" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-112" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="9.91582492" cy="40.9849875" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-158" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="9.91582492" cy="-4.97581318" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-2" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="92.4482924" cy="152.099011" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-67" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="92.4482924" cy="104.623019" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-113" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="92.4482924" cy="57.1470273" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-159" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="92.4482924" cy="11.1862266" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-29" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="92.4482924" cy="128.866079" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-68" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="92.4482924" cy="81.390087" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-114" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="92.4482924" cy="33.9140951" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-160" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="92.4482924" cy="-12.0467056" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-13" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="92.4482924" cy="140.987609" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-69" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="92.4482924" cy="93.5116168" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-115" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="92.4482924" cy="46.0356249" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-161" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="92.4482924" cy="0.0748242583" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-30" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="92.4482924" cy="116.744549" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-70" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="92.4482924" cy="69.2685571" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-116" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="92.4482924" cy="21.7925652" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-4" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="68.2924483" cy="152.099011" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-71" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="68.2924483" cy="104.623019" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-117" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="68.2924483" cy="57.1470273" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-163" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="68.2924483" cy="11.1862266" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-31" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="68.2924483" cy="128.866079" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-72" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="68.2924483" cy="81.390087" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-118" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="68.2924483" cy="33.9140951" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-164" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="68.2924483" cy="-12.0467056" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-14" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="68.2924483" cy="140.987609" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-73" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="68.2924483" cy="93.5116168" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-119" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="68.2924483" cy="46.0356249" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-165" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="68.2924483" cy="0.0748242583" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-32" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="68.2924483" cy="116.744549" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-74" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="68.2924483" cy="69.2685571" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-120" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="68.2924483" cy="21.7925652" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-7" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="116.604137" cy="152.099011" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-75" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="116.604137" cy="104.623019" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-121" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="116.604137" cy="57.1470273" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-167" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="116.604137" cy="11.1862266" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-33" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="116.604137" cy="128.866079" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-76" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="116.604137" cy="81.390087" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-122" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="116.604137" cy="33.9140951" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-168" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="116.604137" cy="-12.0467056" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-15" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="116.604137" cy="140.987609" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-77" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="116.604137" cy="93.5116168" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-123" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="116.604137" cy="46.0356249" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-169" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="116.604137" cy="0.0748242583" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-34" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="116.604137" cy="116.744549" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-78" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="116.604137" cy="69.2685571" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-124" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="116.604137" cy="21.7925652" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-19" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="140.759981" cy="140.987609" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-79" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="140.759981" cy="93.5116168" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-184" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="140.759981" cy="104.623019" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-125" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="140.759981" cy="46.0356249" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-187" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="140.759981" cy="58.1571548" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-171" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="140.759981" cy="0.0748242583" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-35" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="140.759981" cy="116.744549" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-80" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="140.759981" cy="69.2685571" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-126" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="140.759981" cy="21.7925652" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-190" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="140.759981" cy="11.6912904" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-40" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="140.759981" cy="128.866079" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-81" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="140.759981" cy="81.390087" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-127" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="140.759981" cy="33.9140951" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-173" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="140.759981" cy="-12.0467056" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-5" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="80.3703704" cy="148.058501" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-82" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="80.3703704" cy="100.582509" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-128" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="80.3703704" cy="53.1065173" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-174" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="80.3703704" cy="7.14571667" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-36" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="80.3703704" cy="124.825569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-83" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="80.3703704" cy="77.349577" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-129" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="80.3703704" cy="29.8735851" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-16" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="80.3703704" cy="136.947099" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-84" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="80.3703704" cy="89.4711069" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-130" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="80.3703704" cy="41.995115" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-176" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="80.3703704" cy="-3.96568569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-37" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="80.3703704" cy="112.704039" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-85" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="80.3703704" cy="65.2280472" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-131" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="80.3703704" cy="17.7520553" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-8" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="128.682059" cy="148.058501" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-86" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="128.682059" cy="100.582509" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-132" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="128.682059" cy="54.1166448" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-178" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="128.682059" cy="7.14571667" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-38" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="128.682059" cy="125.835696" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-87" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="128.682059" cy="76.3394495" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-133" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="128.682059" cy="28.8634576" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-44" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="150.824916" cy="123.815441" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-88" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="150.824916" cy="76.3394495" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-134" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="150.824916" cy="28.8634576" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-17" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="128.682059" cy="136.947099" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-89" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="128.682059" cy="89.4711069" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-135" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="128.682059" cy="41.995115" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-181" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="128.682059" cy="-3.96568569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-45" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="150.824916" cy="136.947099" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-90" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="150.824916" cy="89.4711069" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-185" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="150.824916" cy="102.602764" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-186" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="150.824916" cy="113.714167" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-136" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="150.824916" cy="41.995115" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-188" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="150.824916" cy="52.0963898" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-189" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="150.824916" cy="64.2179197" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-182" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="150.824916" cy="-3.96568569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-39" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="128.682059" cy="112.704039" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-91" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="128.682059" cy="65.2280472" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-137" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-3)" cx="128.682059" cy="17.7520553" rx="2.01298701" ry="2.02025497"></ellipse>
+                </g>
+                <rect id="button-shadow-copy-7" stroke="#000000" stroke-width="4.798248" fill="#FFFFFF" filter="url(#filter-4)" sketch:type="MSShapeGroup" x="276" y="16.6106582" width="155" height="155" rx="40.3052832"></rect>
+                <g id="dot-box-2-copy-7" transform="translate(275.000000, 10.610658)">
+                    <mask id="mask-6" sketch:name="Mask" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <use id="Mask" sketch:type="MSShapeGroup" xlink:href="#path-5"></use>
+                    <ellipse id="Oval-1" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="32.0586821" cy="148.058501" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-46" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="32.0586821" cy="100.582509" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-92" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="32.0586821" cy="53.1065173" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-138" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="32.0586821" cy="7.65078041" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-20" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="32.0586821" cy="124.825569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-47" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="32.0586821" cy="77.349577" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-93" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="32.0586821" cy="29.8735851" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-9" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="32.0586821" cy="136.947099" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-48" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="32.0586821" cy="89.4711069" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-94" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="32.0586821" cy="41.995115" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-140" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="32.0586821" cy="-3.96568569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-21" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="32.0586821" cy="112.704039" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-49" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="32.0586821" cy="65.2280472" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-95" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="32.0586821" cy="17.7520553" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-3" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="56.2145262" cy="148.058501" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-50" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="56.2145262" cy="100.582509" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-96" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="56.2145262" cy="53.1065173" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-142" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="56.2145262" cy="7.14571667" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-22" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="56.2145262" cy="124.825569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-51" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="56.2145262" cy="77.349577" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-97" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="56.2145262" cy="29.8735851" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-10" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="56.2145262" cy="136.947099" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-52" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="56.2145262" cy="89.4711069" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-98" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="56.2145262" cy="41.995115" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-144" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="56.2145262" cy="-3.96568569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-23" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="56.2145262" cy="112.704039" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-53" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="56.2145262" cy="65.2280472" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-99" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="56.2145262" cy="17.7520553" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-6" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="104.526215" cy="148.058501" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-54" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="104.526215" cy="100.582509" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-100" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="104.526215" cy="53.1065173" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-146" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="104.526215" cy="7.14571667" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-24" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="104.526215" cy="124.825569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-55" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="104.526215" cy="77.349577" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-101" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="104.526215" cy="29.8735851" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-11" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="104.526215" cy="136.947099" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-56" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="104.526215" cy="89.4711069" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-102" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="104.526215" cy="41.995115" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-148" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="104.526215" cy="-3.96568569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-25" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="104.526215" cy="112.704039" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-57" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="104.526215" cy="65.2280472" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-103" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="104.526215" cy="17.7520553" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="44.1366041" cy="152.099011" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-58" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="44.1366041" cy="104.623019" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-104" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="44.1366041" cy="57.1470273" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-150" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="44.1366041" cy="11.1862266" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-26" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="44.1366041" cy="127.855951" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-59" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="44.1366041" cy="80.3799595" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-105" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="44.1366041" cy="32.9039676" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-12" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="44.1366041" cy="140.987609" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-60" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="44.1366041" cy="93.5116168" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-106" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="44.1366041" cy="46.0356249" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-152" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="44.1366041" cy="0.0748242583" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-27" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="44.1366041" cy="116.744549" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-61" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="44.1366041" cy="69.2685571" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-107" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="44.1366041" cy="21.7925652" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-18" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="19.98076" cy="140.987609" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-62" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="19.98076" cy="93.5116168" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-108" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="19.98076" cy="46.0356249" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-154" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="19.98076" cy="0.0748242583" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-28" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="19.98076" cy="116.744549" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-63" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="19.98076" cy="69.2685571" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-109" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="19.98076" cy="21.7925652" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-41" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="19.98076" cy="128.866079" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-64" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="19.98076" cy="81.390087" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-110" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="19.98076" cy="33.9140951" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-156" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="19.98076" cy="-12.0467056" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-42" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="9.91582492" cy="121.795186" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-65" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="9.91582492" cy="74.3191946" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-111" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="9.91582492" cy="26.8432027" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-43" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="9.91582492" cy="135.936971" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-66" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="9.91582492" cy="88.4609794" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-112" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="9.91582492" cy="40.9849875" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-158" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="9.91582492" cy="-4.97581318" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-2" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="92.4482924" cy="152.099011" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-67" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="92.4482924" cy="104.623019" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-113" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="92.4482924" cy="57.1470273" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-159" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="92.4482924" cy="11.1862266" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-29" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="92.4482924" cy="128.866079" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-68" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="92.4482924" cy="81.390087" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-114" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="92.4482924" cy="33.9140951" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-160" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="92.4482924" cy="-12.0467056" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-13" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="92.4482924" cy="140.987609" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-69" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="92.4482924" cy="93.5116168" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-115" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="92.4482924" cy="46.0356249" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-161" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="92.4482924" cy="0.0748242583" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-30" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="92.4482924" cy="116.744549" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-70" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="92.4482924" cy="69.2685571" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-116" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="92.4482924" cy="21.7925652" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-4" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="68.2924483" cy="152.099011" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-71" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="68.2924483" cy="104.623019" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-117" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="68.2924483" cy="57.1470273" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-163" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="68.2924483" cy="11.1862266" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-31" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="68.2924483" cy="128.866079" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-72" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="68.2924483" cy="81.390087" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-118" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="68.2924483" cy="33.9140951" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-164" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="68.2924483" cy="-12.0467056" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-14" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="68.2924483" cy="140.987609" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-73" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="68.2924483" cy="93.5116168" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-119" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="68.2924483" cy="46.0356249" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-165" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="68.2924483" cy="0.0748242583" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-32" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="68.2924483" cy="116.744549" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-74" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="68.2924483" cy="69.2685571" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-120" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="68.2924483" cy="21.7925652" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-7" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="116.604137" cy="152.099011" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-75" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="116.604137" cy="104.623019" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-121" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="116.604137" cy="57.1470273" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-167" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="116.604137" cy="11.1862266" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-33" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="116.604137" cy="128.866079" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-76" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="116.604137" cy="81.390087" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-122" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="116.604137" cy="33.9140951" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-168" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="116.604137" cy="-12.0467056" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-15" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="116.604137" cy="140.987609" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-77" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="116.604137" cy="93.5116168" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-123" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="116.604137" cy="46.0356249" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-169" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="116.604137" cy="0.0748242583" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-34" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="116.604137" cy="116.744549" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-78" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="116.604137" cy="69.2685571" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-124" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="116.604137" cy="21.7925652" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-19" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="140.759981" cy="140.987609" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-79" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="140.759981" cy="93.5116168" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-184" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="140.759981" cy="104.623019" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-125" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="140.759981" cy="46.0356249" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-187" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="140.759981" cy="58.1571548" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-171" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="140.759981" cy="0.0748242583" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-35" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="140.759981" cy="116.744549" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-80" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="140.759981" cy="69.2685571" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-126" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="140.759981" cy="21.7925652" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-190" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="140.759981" cy="11.6912904" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-40" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="140.759981" cy="128.866079" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-81" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="140.759981" cy="81.390087" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-127" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="140.759981" cy="33.9140951" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-173" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="140.759981" cy="-12.0467056" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-5" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="80.3703704" cy="148.058501" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-82" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="80.3703704" cy="100.582509" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-128" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="80.3703704" cy="53.1065173" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-174" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="80.3703704" cy="7.14571667" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-36" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="80.3703704" cy="124.825569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-83" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="80.3703704" cy="77.349577" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-129" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="80.3703704" cy="29.8735851" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-16" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="80.3703704" cy="136.947099" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-84" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="80.3703704" cy="89.4711069" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-130" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="80.3703704" cy="41.995115" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-176" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="80.3703704" cy="-3.96568569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-37" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="80.3703704" cy="112.704039" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-85" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="80.3703704" cy="65.2280472" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-131" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="80.3703704" cy="17.7520553" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-8" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="128.682059" cy="148.058501" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-86" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="128.682059" cy="100.582509" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-132" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="128.682059" cy="54.1166448" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-178" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="128.682059" cy="7.14571667" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-38" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="128.682059" cy="125.835696" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-87" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="128.682059" cy="76.3394495" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-133" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="128.682059" cy="28.8634576" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-44" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="150.824916" cy="123.815441" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-88" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="150.824916" cy="76.3394495" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-134" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="150.824916" cy="28.8634576" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-17" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="128.682059" cy="136.947099" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-89" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="128.682059" cy="89.4711069" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-135" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="128.682059" cy="41.995115" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-181" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="128.682059" cy="-3.96568569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-45" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="150.824916" cy="136.947099" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-90" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="150.824916" cy="89.4711069" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-185" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="150.824916" cy="102.602764" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-186" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="150.824916" cy="113.714167" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-136" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="150.824916" cy="41.995115" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-188" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="150.824916" cy="52.0963898" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-189" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="150.824916" cy="64.2179197" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-182" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="150.824916" cy="-3.96568569" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-39" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="128.682059" cy="112.704039" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-91" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="128.682059" cy="65.2280472" rx="2.01298701" ry="2.02025497"></ellipse>
+                    <ellipse id="Oval-1-Copy-137" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-6)" cx="128.682059" cy="17.7520553" rx="2.01298701" ry="2.02025497"></ellipse>
+                </g>
+                <rect id="ctrl-button-copy-3" stroke="#000000" stroke-width="4.798248" fill="#FFFFFF" sketch:type="MSShapeGroup" x="8" y="0.610658217" width="155" height="155" rx="40.3052832"></rect>
+                <rect id="plane-button-copy-3" stroke="#000000" stroke-width="4.798248" fill="#FFFFFF" sketch:type="MSShapeGroup" x="276" y="0.610658217" width="155" height="155" rx="40.3052832"></rect>
+                <g id="plane-copy-3" transform="translate(361.000000, 82.110658) scale(-1, 1) rotate(-30.000000) translate(-361.000000, -82.110658) translate(315.000000, 26.610658)">
+                    <mask id="mask-8" sketch:name="Clip 2" fill="white">
+                        <use xlink:href="#path-7"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M89.4715214,57.4847569 C87.5689693,54.2124576 79.1736719,49.8923201 77.718105,49.2074202 L52.3602953,31.7336932 L50.3202094,8.68710583 C50.0279499,7.22364461 48.285854,3.41060513e-13 43.8962309,3.41060513e-13 C39.4206492,3.41060513e-13 37.9192376,6.99534465 37.7415897,7.9787906 L35.4608195,32.8576314 L12.2920908,49.4123048 C10.7677569,50.2142815 2.97990079,54.3997806 1.23207437,57.5081723 C-0.355295864,60.3180178 3.88564181e-13,68.3026623 0.0916892552,69.8773466 C0.131803304,70.4744387 0.424062805,71.0188463 0.916892552,71.3408078 C1.4097223,71.6627693 2.01716362,71.7330154 2.55010741,71.522277 L35.9479186,58.877972 L38.8819748,89.3589424 C38.8819748,89.75115 38.8819748,90.1140884 38.9048971,90.4828806 C35.9307269,92.0107341 29.1915666,95.7864641 27.6213881,98.807048 C26.8649518,100.270509 27.174403,103.308655 27.4208179,105.000416 C27.5125071,105.550677 27.8219584,106.030693 28.2746741,106.329239 C28.561203,106.510708 28.8993071,106.604369 29.2374113,106.604369 C29.4379815,106.604369 29.6385518,106.557539 29.839122,106.487293 L41.2544343,102.465701 L46.5380276,102.465701 L58.2685217,106.235577 C58.7842738,106.393631 59.3229481,106.329239 59.7928556,106.030693 C60.2398407,105.732147 60.5492919,105.275547 60.6180589,104.725285 C60.9103184,102.87547 61.0879663,100.428563 60.4174886,99.1699864 C58.7155068,95.9211025 51.2829466,91.9873187 48.0623615,90.4126345 L51.8445433,58.0350183 L88.2222553,70.2695542 C88.7551991,70.4510234 89.3397181,70.3807772 89.8325478,70.0354004 C90.3024552,69.6958774 90.5947147,69.1690313 90.6119065,68.5719391 C90.7035957,66.5874857 90.904166,59.9316641 89.4715214,57.4847569 L89.4715214,57.4847569 Z M51.3517135,53.9197654 C51.1740656,53.8495192 50.9734953,53.8261038 50.7901168,53.8261038 L50.2743648,53.8261038 C49.3345499,53.8261038 48.5551912,54.5344191 48.4405797,55.4710343 L44.3890607,90.2721422 C44.3890607,90.5941037 44.3432161,90.9160651 44.2973714,91.2146112 C44.1426458,92.0575649 44.5667086,92.882957 45.3288756,93.2458954 C49.6268094,95.259618 56.1653994,98.9651019 57.1510589,100.838332 C57.1911729,101.019801 57.2140953,101.435424 57.1911729,101.96227 L47.3689615,98.807048 C47.185583,98.7602173 47.007935,98.7133865 46.8302871,98.7133865 L40.944983,98.7133865 C40.7386822,98.7133865 40.538112,98.7602173 40.360464,98.8246096 L30.8247815,102.167155 C30.7789369,101.388594 30.8018592,100.750525 30.8706261,100.539786 C31.7875187,98.7368019 37.7186674,95.2127873 41.6154607,93.2693108 C42.3088607,92.9297878 42.7100012,92.1746418 42.6412343,91.3960804 C42.5781979,90.7580113 42.5552756,90.0672576 42.5552756,89.1774732 L39.3748045,56.0915418 C39.3289599,55.517865 39.0195087,54.991019 38.5266789,54.6924729 C38.2344194,54.4875883 37.8963153,54.3997806 37.5639418,54.3997806 C37.3404492,54.3997806 37.1169566,54.4407576 36.9106558,54.5110037 L3.67330079,67.1084779 C3.62745616,63.7483709 3.87387103,60.3414332 4.41254541,59.3579873 C5.30651565,57.783303 10.5442644,54.5578345 14.1946428,52.614358 L38.2573417,35.4157616 C38.7043269,35.1230694 38.9736641,34.6196387 39.0195087,34.0693773 L41.3690458,8.52905202 C41.7931086,6.3104448 43.0022607,3.74646074 43.8962309,3.74646074 C44.6354756,3.74646074 46.0910425,6.39825247 46.6927532,9.26078263 L48.8016061,33.0859314 C48.8646425,33.7708312 49.3345499,34.3210926 49.9649135,34.5962234 L75.8843199,52.4328888 C79.6263876,54.3061191 85.3111214,57.6896415 86.3139726,59.3814027 C86.7666883,60.159964 86.9901809,63.0166403 86.9901809,65.9201474 L51.3517135,53.9197654 L51.3517135,53.9197654 Z" id="Fill-1" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-8)"></path>
+                </g>
+                <text id="ctrl-copy-3" sketch:type="MSTextLayer" font-family="Lucida Grande" font-size="40.3052832" font-weight="normal" fill="#000000">
+                    <tspan x="28" y="124.610658">ctrl</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

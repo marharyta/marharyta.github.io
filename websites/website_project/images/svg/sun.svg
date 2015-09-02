@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="672px" height="425px" viewBox="0 0 672 425" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>sun</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="HIGH-RES-DESKTOP" sketch:type="MSArtboardGroup" transform="translate(-716.000000, -1795.000000)" fill="#FFEEB6">
+            <g id="FOOTER" sketch:type="MSLayerGroup" transform="translate(-287.000000, 1533.000000)">
+                <path d="M1332.13695,262.5 C1177.68321,262.5 1046.63826,364.458247 1003,504.488259 C1049.71824,530.173898 1084.47496,554.911099 1106.59789,572.269796 C1135.07775,594.616024 1149.41488,609.955602 1149.55618,610.10819 C1219.78469,688.948293 1310.18701,692.816847 1373.66465,682.185698 C1442.69766,670.623634 1495.77968,639.913277 1496.30806,639.604254 C1550.37749,614.720877 1610.1333,592.084432 1675,571.855201 C1657.55249,398.382354 1510.44394,262.5 1332.13695,262.5 L1417.10568,283.505425" id="sun" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

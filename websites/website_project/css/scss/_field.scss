@@ -1,0 +1,243 @@
+.images_section{
+	min-height: 70vh;
+}
+
+.images_mobile_section{
+	min-height: 60vh;
+	min-width: 100%;
+	margin: 0 -20px;
+	//position: absolute;
+	//bottom: -5px;
+	img{
+		position: absolute;
+		bottom: 0px;
+//		left: 0px;
+//		right: 0px;
+//		min-height: 60vh;
+	}
+}
+
+.grass_field{
+	img{
+		//min-width: 100vw;
+		//min-height: 32vh;
+		min-width: 100vw;
+		width: 100%;
+		min-height: 32vh;
+		margin-left: -20px;
+		margin-right: -20px;
+		padding: 0;
+		position: absolute;
+		bottom: -5px;
+		z-index: 1;
+	}
+}
+
+.sun{
+	img{
+		position: absolute;
+		//bottom: 142px;
+		//left: 538px;
+		bottom: 23vh;
+		left: 35vw;
+		z-index: -1;
+		max-width: 33%;
+
+	    /* Medium Devices, Desktops */
+	    @media only screen and (min-width : 992px) and (max-width: 1199px) {
+	        bottom: 17vh;
+			right: 29vw;
+	    }
+
+	    /* Large Devices, Wide Screens */
+	    @media only screen and (min-width : 1200px) {
+	    	bottom: 20vh;
+			left: 35vw;
+	    }
+
+		
+		/*delete transform when pics are bigger res*/
+		//transform: scale(2, 2);
+		//-ms-transform: scale(2, 2);
+		//-webkit-transform: scale(2, 2);
+
+		/*506 X 320 px when tranformation applied*/
+		/*for macbook 13 inch*/
+		//min-width: 500px;
+		//min-height: 310px;
+				//max-height: 330px;
+	}
+}
+
+.mountain{
+	img{
+		position: absolute;
+		bottom: 20vh;
+		left: 22vw;
+		max-width: 40%;
+
+
+	    /* Medium Devices, Desktops */
+	    @media only screen and (min-width : 992px) and (max-width: 1199px) {
+	       bottom: 10vh;
+			left: 20vw;
+	    }
+
+	    /* Large Devices, Wide Screens */
+	    @media only screen and (min-width : 1200px) {
+	    	bottom: 16vh;
+			left: 23vw;
+	    }
+		
+		/*delete transform when pics are bigger res*/
+		//transform: scale(2.5, 2.5);
+		//-ms-transform: scale(2.5, 2.5);
+		//-webkit-transform: scale(2.5, 2.5);
+		//z-index: 1
+
+		/*443 x 220 px when transformation applied*/
+		/*for macbook 13 inch*/
+		//max-width: 445px;
+		//max-height: 225px;
+	}
+}
+
+.city{
+	img{
+		position: absolute;
+		bottom: 20vh;
+		right: 25vw;
+
+	    /* Medium Devices, Desktops */
+	    @media only screen and (min-width : 992px) and (max-width: 1199px) {
+	        bottom: 10vh;
+			right: 25vw;
+	    }
+
+	    /* Large Devices, Wide Screens */
+	    @media only screen and (min-width : 1200px) {
+	    	bottom: 17vh;
+			right: 25vw;
+	    }
+		/*433 x 285 px when transformation applied*/
+		/*for macbook 13 inch*/
+		//max-width: 435px;
+		//max-height: 285px;
+
+		/*delete transform when pics are bigger res*/
+		//transform: scale(2.5, 2.5);
+		//-ms-transform: scale(2.5, 2.5);
+		//-webkit-transform: scale(2.5, 2.5);
+		//z-index: 2;
+	}
+}
+
+.first_tree{
+	img{
+		position: absolute;
+		bottom: 25vh;
+		left: 15vw;
+			z-index: 2;
+		/**155 x 136 px when transformation applied/
+		/*for macbook 13 inch*/
+		//max-width: 155px;
+		//max-height: 140px;
+		/*delete transform when pics are bigger res*/
+		
+
+	    /* Medium Devices, Desktops */
+	    @media only screen and (min-width : 992px) and (max-width: 1199px) {
+	        bottom: 20vh;
+			left: 13vw;
+
+			transform: scale(0.8, 0.8);
+			-ms-transform: scale(0.8, 0.8);
+			-webkit-transform: scale(0.8, 0.8);
+	    }
+
+	    /* Large Devices, Wide Screens */
+	    @media only screen and (min-width : 1200px) {
+	    	bottom: 24vh;
+			left: 15vw;
+			transform: scale(0.8, 0.8);
+			-ms-transform: scale(0.8, 0.8);
+			-webkit-transform: scale(0.8, 0.8);
+
+	    }
+	}
+}
+
+.second_tree{
+	img{
+		position: absolute;
+		bottom: 3vh;
+		left: 30vw;
+		/*136 x 154 px when transformation applied/
+		/*for macbook 13 inch*/
+		//max-width: 155px;
+		//max-height: 155px;
+			/*delete transform when pics are bigger res*/
+		transform: scale(0.8, 0.8);
+		-ms-transform: scale(0.8, 0.8);
+		-webkit-transform: scale(0.8, 0.8);
+		z-index: 2;
+
+	    /* Medium Devices, Desktops */
+	    @media only screen and (min-width : 992px) and (max-width: 1199px) {
+	         bottom: 2vh;
+			left: 27vw;
+
+			transform: scale(0.6, 0.6);
+			-ms-transform: scale(0.6, 0.6);
+			-webkit-transform: scale(0.6, 0.6);
+	    }
+
+	    /* Large Devices, Wide Screens */
+	    @media only screen and (min-width : 1200px) {
+	    	bottom: 2vh;
+			left: 28vw;
+			transform: scale(0.8, 0.8);
+			-ms-transform: scale(0.8, 0.8);
+			-webkit-transform: scale(0.8, 0.8);
+
+	    }
+
+	}
+}
+
+.third_tree{
+	img{
+		position: absolute;
+		bottom: 22vh;
+		right: 10vw;
+		z-index: 2;
+		/*136 x 154 px when transformation applied/
+		/*for macbook 13 inch*/
+		//max-width: 155px;
+		//max-height: 155px;
+			/*delete transform when pics are bigger res*/
+	
+
+	    /* Medium Devices, Desktops */
+	    @media only screen and (min-width : 992px) and (max-width: 1199px) {
+	        bottom: 16vh;
+			right: 10vw;
+			transform: scale(0.6, 0.6);
+			-ms-transform: scale(0.6, 0.6);
+			-webkit-transform: scale(0.6, 0.6);
+		
+	    }
+
+	    /* Large Devices, Wide Screens */
+	    @media only screen and (min-width : 1200px) {
+	    	bottom: 22vh;
+			right: 10vw;
+			transform: scale(0.8, 0.8);
+			-ms-transform: scale(0.8, 0.8);
+			-webkit-transform: scale(0.8, 0.8);
+
+	    }
+
+	}
+}
+

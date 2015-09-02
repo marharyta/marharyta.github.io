@@ -1,0 +1,76 @@
+.full-screen-height{
+	min-height: 70vh;
+}
+.companies-centered{
+	margin-top: 50px;
+	ul{
+    	display: flex;
+    	justify-content: center;
+    	align-items: baseline;
+
+		li{
+			img{
+				max-width: 70px;
+				max-height: 50px;
+				padding: 0px;
+				margin: 0 auto;
+			}
+		}
+	}
+}
+
+.timetable{
+	margin-top: 32px;
+	div{
+		img{
+			max-width: 90vw;
+			margin: 0 auto;
+		}
+	}
+}
+
+.border{
+	padding: 5px;
+	margin: 0 auto;
+	border: solid 3px black;
+	width: 80%;
+	background-color: white;
+}
+
+.button_border{
+	//border: solid 2px black;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 0px;
+	//background-color: ghostwhite;
+	//padding: 10px;
+	p{
+		margin: 0px;
+	}
+}
+
+#main_info{
+	//background-color: white;
+	padding: 20px 0px;
+}
+
+.button_mobile{
+	max-width: 89%;
+	margin-top: 5px;
+	margin: 0 auto;
+}
+
+.hashtags{
+	position: absolute;
+	bottom: 0px;
+	margin: 0 auto;
+	text-align: center;
+	div{
+		text-align: center;
+		width: 100vw;
+	}
+}
+
+button{
+	border: solid 3px black;
+}
