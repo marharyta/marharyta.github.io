@@ -21,6 +21,7 @@
 	img{
 		//min-width: 100vw;
 		//min-height: 32vh;
+		margin-right: 0;
 		min-width: 100vw;
 		width: 100%;
 		min-height: 32vh;
@@ -29,6 +30,8 @@
 		padding: 0;
 		position: absolute;
 		bottom: -5px;
+		right: 0;
+		lefft: 0;
 		z-index: 1;
 	}
 }

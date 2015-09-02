@@ -7201,7 +7201,10 @@ button.close {
 /* line 1, _base.scss */
 body {
   background-color: #D4EDF9;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  position: absolute;
+  left: 0;
+  right: 0; }
 
 /* line 1, _layout.scss */
 .full-screen-height {
@@ -7241,43 +7244,44 @@ body {
 
 /* line 32, _layout.scss */
 .border {
+  border-radius: 10px;
   padding: 5px;
   margin: 0 auto;
   border: solid 3px black;
   width: 80%;
   background-color: white; }
 
-/* line 40, _layout.scss */
+/* line 41, _layout.scss */
 .button_border {
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 0px; }
-  /* line 47, _layout.scss */
+  /* line 48, _layout.scss */
   .button_border p {
     margin: 0px; }
 
-/* line 52, _layout.scss */
+/* line 53, _layout.scss */
 #main_info {
   padding: 20px 0px; }
 
-/* line 57, _layout.scss */
+/* line 58, _layout.scss */
 .button_mobile {
   max-width: 89%;
   margin-top: 5px;
   margin: 0 auto; }
 
-/* line 63, _layout.scss */
+/* line 64, _layout.scss */
 .hashtags {
   position: absolute;
   bottom: 0px;
   margin: 0 auto;
   text-align: center; }
-  /* line 68, _layout.scss */
+  /* line 69, _layout.scss */
   .hashtags div {
     text-align: center;
     width: 100vw; }
 
-/* line 74, _layout.scss */
+/* line 75, _layout.scss */
 button {
   border: solid 3px black; }
 
@@ -7386,6 +7390,7 @@ button {
 
 /* line 21, _field.scss */
 .grass_field img {
+  margin-right: 0;
   min-width: 100vw;
   width: 100%;
   min-height: 32vh;
@@ -7394,9 +7399,11 @@ button {
   padding: 0;
   position: absolute;
   bottom: -5px;
+  right: 0;
+  lefft: 0;
   z-index: 1; }
 
-/* line 37, _field.scss */
+/* line 40, _field.scss */
 .sun img {
   position: absolute;
   bottom: 23vh;
@@ -7409,17 +7416,17 @@ button {
   /*506 X 320 px when tranformation applied*/
   /*for macbook 13 inch*/ }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    /* line 37, _field.scss */
+    /* line 40, _field.scss */
     .sun img {
       bottom: 17vh;
       right: 29vw; } }
   @media only screen and (min-width: 1200px) {
-    /* line 37, _field.scss */
+    /* line 40, _field.scss */
     .sun img {
       bottom: 20vh;
       left: 35vw; } }
 
-/* line 73, _field.scss */
+/* line 76, _field.scss */
 .mountain img {
   position: absolute;
   bottom: 20vh;
@@ -7431,17 +7438,17 @@ button {
   /*443 x 220 px when transformation applied*/
   /*for macbook 13 inch*/ }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    /* line 73, _field.scss */
+    /* line 76, _field.scss */
     .mountain img {
       bottom: 10vh;
       left: 20vw; } }
   @media only screen and (min-width: 1200px) {
-    /* line 73, _field.scss */
+    /* line 76, _field.scss */
     .mountain img {
       bottom: 16vh;
       left: 23vw; } }
 
-/* line 106, _field.scss */
+/* line 109, _field.scss */
 .city img {
   position: absolute;
   bottom: 20vh;
@@ -7452,17 +7459,17 @@ button {
   /*for macbook 13 inch*/
   /*delete transform when pics are bigger res*/ }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    /* line 106, _field.scss */
+    /* line 109, _field.scss */
     .city img {
       bottom: 10vh;
       right: 25vw; } }
   @media only screen and (min-width: 1200px) {
-    /* line 106, _field.scss */
+    /* line 109, _field.scss */
     .city img {
       bottom: 17vh;
       right: 25vw; } }
 
-/* line 136, _field.scss */
+/* line 139, _field.scss */
 .first_tree img {
   position: absolute;
   bottom: 25vh;
@@ -7474,7 +7481,7 @@ button {
   /* Medium Devices, Desktops */
   /* Large Devices, Wide Screens */ }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    /* line 136, _field.scss */
+    /* line 139, _field.scss */
     .first_tree img {
       bottom: 20vh;
       left: 13vw;
@@ -7482,7 +7489,7 @@ button {
       -ms-transform: scale(0.8, 0.8);
       -webkit-transform: scale(0.8, 0.8); } }
   @media only screen and (min-width: 1200px) {
-    /* line 136, _field.scss */
+    /* line 139, _field.scss */
     .first_tree img {
       bottom: 24vh;
       left: 15vw;
@@ -7490,7 +7497,7 @@ button {
       -ms-transform: scale(0.8, 0.8);
       -webkit-transform: scale(0.8, 0.8); } }
 
-/* line 171, _field.scss */
+/* line 174, _field.scss */
 .second_tree img {
   position: absolute;
   bottom: 3vh;
@@ -7505,7 +7512,7 @@ button {
   /* Medium Devices, Desktops */
   /* Large Devices, Wide Screens */ }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    /* line 171, _field.scss */
+    /* line 174, _field.scss */
     .second_tree img {
       bottom: 2vh;
       left: 27vw;
@@ -7513,7 +7520,7 @@ button {
       -ms-transform: scale(0.6, 0.6);
       -webkit-transform: scale(0.6, 0.6); } }
   @media only screen and (min-width: 1200px) {
-    /* line 171, _field.scss */
+    /* line 174, _field.scss */
     .second_tree img {
       bottom: 2vh;
       left: 28vw;
@@ -7521,7 +7528,7 @@ button {
       -ms-transform: scale(0.8, 0.8);
       -webkit-transform: scale(0.8, 0.8); } }
 
-/* line 209, _field.scss */
+/* line 212, _field.scss */
 .third_tree img {
   position: absolute;
   bottom: 22vh;
@@ -7533,7 +7540,7 @@ button {
   /* Medium Devices, Desktops */
   /* Large Devices, Wide Screens */ }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    /* line 209, _field.scss */
+    /* line 212, _field.scss */
     .third_tree img {
       bottom: 16vh;
       right: 10vw;
@@ -7541,7 +7548,7 @@ button {
       -ms-transform: scale(0.6, 0.6);
       -webkit-transform: scale(0.6, 0.6); } }
   @media only screen and (min-width: 1200px) {
-    /* line 209, _field.scss */
+    /* line 212, _field.scss */
     .third_tree img {
       bottom: 22vh;
       right: 10vw;
@@ -7613,5 +7620,4 @@ h2 {
 /* line 97, _fonts.scss */
 h4 {
   font-family: main_text_medium; }
-
 /*# sourceMappingURL=main_style.css.map */
