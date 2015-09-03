@@ -6008,7 +6008,15 @@ button {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    min-width: 100%; }
+    min-width: 100%
+    /* Very small decices*/ }
+    @media only screen and (max-width: 319px) {
+      .images_mobile_section img {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        min-height: 80vh; } }
 
 .grass_field img {
   min-width: 100vw;

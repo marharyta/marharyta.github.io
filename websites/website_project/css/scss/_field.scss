@@ -17,6 +17,16 @@
 		left: 0px;
 		right: 0px;
 		min-width: 100%;
+
+		/* Very small decices*/
+    	@media only screen and (max-width: 319px) {
+    		position: relative;
+    		top: 0px;
+    		left: 0px;
+    		right: 0px;
+    		min-height: 80vh;
+   
+        }
 //		min-height: 60vh;
 	}
 }
