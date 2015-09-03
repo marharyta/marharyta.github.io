@@ -5891,7 +5891,7 @@ button {
   /*delete transform when pics are bigger res*/ }
 
 .images_section {
-  min-height: 70vh; }
+  min-height: 80vh; }
 
 .images_mobile_section {
   min-height: 90vh;
@@ -5907,7 +5907,6 @@ button {
   min-width: 100vw;
   width: 100%;
   min-height: 32vh;
-  margin-left: -20px;
   padding: 0;
   position: absolute;
   bottom: -5px;
