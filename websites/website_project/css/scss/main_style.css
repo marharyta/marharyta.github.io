@@ -5775,7 +5775,8 @@ body {
 .timetable {
   margin-top: 32px; }
   .timetable img {
-    max-width: 90vw; }
+    max-width: 90vw;
+    margin: 0 auto; }
 
 .border {
   border-radius: 10px;
