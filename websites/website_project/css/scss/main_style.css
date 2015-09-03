@@ -5750,7 +5750,9 @@ button.close {
 /*Here are imported files */
 body {
   background-color: #D4EDF9;
-  overflow-x: hidden; }
+  position: absolute;
+  left: 0;
+  right: 0; }
 
 .full-screen-height {
   min-height: 70vh; }
