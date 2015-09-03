@@ -5772,6 +5772,14 @@ body {
     max-height: 50px;
     padding: 0px; }
 
+.logo img {
+  max-width: 700px;
+  max-height: 100%;
+  margin: 0 auto;
+  transform: scale(0.3, 0.3);
+  -ms-transform: scale(0.3, 0.3);
+  -webkit-transform: scale(0.3, 0.3); }
+
 .timetable {
   margin-top: 32px; }
   .timetable img {
@@ -5998,7 +6006,7 @@ button {
   max-height: 80vh; }
 
 .images_mobile_section {
-  min-height: 90vh;
+  min-height: 70vh;
   max-height: 90vh;
   min-width: 100%;
   margin: 0px;
@@ -6015,8 +6023,7 @@ button {
         position: relative;
         top: 0px;
         left: 0px;
-        right: 0px;
-        min-height: 80vh; } }
+        right: 0px; } }
 
 .grass_field img {
   min-width: 100vw;
