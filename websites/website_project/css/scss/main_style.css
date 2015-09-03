@@ -5749,7 +5749,8 @@ button.close {
 /*Imported sass mixind for cross browser stuff: see http://bourbon.io/*/
 /*Here are imported files */
 body {
-  background-color: #D4EDF9; }
+  background-color: #D4EDF9;
+  overflow-x: hidden; }
 
 .full-screen-height {
   min-height: 70vh; }
