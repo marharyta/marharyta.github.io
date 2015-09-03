@@ -5817,7 +5817,8 @@ button {
 
   #main_info {
     background-color: white;
-    padding: 20px 0px; } }
+    padding: 20px 0px;
+    min-height: 100vh; } }
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .companies-centered {
@@ -5825,7 +5826,8 @@ button {
 
   #main_info {
     background-color: white;
-    padding: 20px 0px; } }
+    padding: 20px 0px;
+    min-height: 100vh; } }
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .companies-centered {
