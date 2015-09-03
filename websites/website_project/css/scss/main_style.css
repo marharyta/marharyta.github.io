@@ -5752,7 +5752,7 @@ body {
   background-color: #D4EDF9; }
 
 .full-screen-height {
-  min-height: 70vh; }
+  min-height: 57vh; }
 
 .companies-centered ul {
   display: -webkit-box;
@@ -5794,7 +5794,7 @@ body {
 
 .button_mobile {
   max-width: 89%;
-  margin-top: 5px;
+  margin-top: 10px;
   margin: 0 auto; }
 
 .hashtags {
@@ -5856,60 +5856,149 @@ button {
 
   #main_info {
     background-color: transparent; } }
+.cloud_container img {
+  z-index: -1; }
 .cloud_container #left_cloud {
   position: absolute;
   top: 20vh;
   left: -20px
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */
   /*delete transform when pics are bigger res*/ }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .cloud_container #left_cloud {
+      top: 20vh;
+      left: -20px; } }
+  @media only screen and (min-width: 1200px) {
+    .cloud_container #left_cloud {
+      top: 20vh;
+      left: -20px; } }
 .cloud_container #top_cloud {
   position: absolute;
   top: 0px;
   left: 20vw
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */
   /*delete transform when pics are bigger res*/ }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .cloud_container #top_cloud {
+      top: 0px;
+      left: 20vw; } }
+  @media only screen and (min-width: 1200px) {
+    .cloud_container #top_cloud {
+      top: 0px;
+      left: 20vw; } }
 .cloud_container #second_top_cloud {
   position: absolute;
   top: 0px;
   right: 15vw
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */
   /*delete transform when pics are bigger res*/ }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .cloud_container #second_top_cloud {
+      top: 0px;
+      right: 15vw; } }
+  @media only screen and (min-width: 1200px) {
+    .cloud_container #second_top_cloud {
+      top: 0px;
+      right: 15vw; } }
 .cloud_container #left_bottom_cloud {
   position: absolute;
   top: 65vh;
   left: 0px
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */
   /*delete transform when pics are bigger res*/ }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .cloud_container #left_bottom_cloud {
+      top: 65vh;
+      left: 0px; } }
+  @media only screen and (min-width: 1200px) {
+    .cloud_container #left_bottom_cloud {
+      top: 65vh;
+      left: 0px; } }
 .cloud_container #right_bottom_cloud {
   position: absolute;
   top: 65vh;
   right: 0px
+  /* Large Devices, Wide Screens */
   /*delete transform when pics are bigger res*/ }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .cloud_container #right_bottom_cloud {
+      top: 65vh;
+      right: 0px; } }
+  @media only screen and (min-width: 1200px) {
+    .cloud_container #right_bottom_cloud {
+      top: 65vh;
+      right: 0px; } }
 .cloud_container #left_middle_cloud {
   position: absolute;
   top: 135vh;
   left: 25vw
+  /* Large Devices, Wide Screens */
   /*delete transform when pics are bigger res*/ }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .cloud_container #left_middle_cloud {
+      top: 135vh;
+      left: 25vw; } }
+  @media only screen and (min-width: 1200px) {
+    .cloud_container #left_middle_cloud {
+      top: 135vh;
+      left: 25vw; } }
 .cloud_container #right_middle_cloud {
   position: absolute;
   top: 120vh;
   right: 35vw
+  /* Large Devices, Wide Screens */
   /*delete transform when pics are bigger res*/ }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .cloud_container #right_middle_cloud {
+      top: 120vh;
+      right: 35vw; } }
+  @media only screen and (min-width: 1200px) {
+    .cloud_container #right_middle_cloud {
+      top: 120vh;
+      right: 35vw; } }
 .cloud_container #airplane1 {
   position: absolute;
   top: 20vh;
   left: 30vh;
+  /* Large Devices, Wide Screens */
   /*delete transform when pics are bigger res*/
   transform: scale(0.8, 0.8);
   -ms-transform: scale(0.8, 0.8);
   -webkit-transform: scale(0.8, 0.8); }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .cloud_container #airplane1 {
+      top: 15vh;
+      left: 15vh; } }
+  @media only screen and (min-width: 1200px) {
+    .cloud_container #airplane1 {
+      top: 20vh;
+      left: 30vh; } }
 .cloud_container #airplane2 {
   position: absolute;
   top: 31vh;
   right: 35vh
+  /* Large Devices, Wide Screens */
   /*delete transform when pics are bigger res*/ }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .cloud_container #airplane2 {
+      top: 25vh;
+      right: 15vh; } }
+  @media only screen and (min-width: 1200px) {
+    .cloud_container #airplane2 {
+      top: 31vh;
+      right: 25vh; } }
 
 .images_section {
-  min-height: 70vh; }
+  min-height: 70vh;
+  max-height: 80vh; }
 
 .images_mobile_section {
   min-height: 90vh;
+  max-height: 90vh;
   min-width: 100%;
   margin: 0px;
   padding: 0px; }
