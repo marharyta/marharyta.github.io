@@ -5809,7 +5809,7 @@ body {
 
 .hashtags {
   position: absolute;
-  margin: 0 auto;
+  bottom: 0px;
   text-align: center; }
   .hashtags div {
     text-align: center;
@@ -5901,6 +5901,7 @@ button {
   margin: 0px; }
   .images_mobile_section img {
     position: absolute;
+    bottom: 0px;
     left: 0px;
     right: 0px;
     min-width: 100%; }
