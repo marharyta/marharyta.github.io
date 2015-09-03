@@ -5894,25 +5894,25 @@ button {
   min-height: 70vh; }
 
 .images_mobile_section {
-  min-height: 60vh;
+  min-height: 90vh;
   min-width: 100%;
   margin: 0 -20px; }
   .images_mobile_section img {
     position: absolute;
-    bottom: 0px; }
+    bottom: 0px;
+    left: 0px;
+    right: 0px; }
 
 .grass_field img {
-  margin-right: 0;
   min-width: 100vw;
   width: 100%;
   min-height: 32vh;
   margin-left: -20px;
-  margin-right: -20px;
   padding: 0;
   position: absolute;
   bottom: -5px;
   right: 0;
-  lefft: 0;
+  left: 0;
   z-index: 1; }
 
 .sun img {
