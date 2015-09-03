@@ -1,13 +1,11 @@
 .images_section{
-	min-height: 80vh;
-	min-width: 100vw;
-	width: 100%;
+	min-height: 70vh;
 }
 
 .images_mobile_section{
 	min-height: 90vh;
 	min-width: 100%;
-	margin: 0px 0px;
+	margin: 0 -20px;
 	//position: absolute;
 	//bottom: -5px;
 	img{
@@ -27,7 +25,7 @@
 		min-width: 100vw;
 		width: 100%;
 		min-height: 32vh;
-		//margin-left: -20px;
+		margin-left: -20px;
 		//margin-right: -20px;
 		padding: 0;
 		position: absolute;
