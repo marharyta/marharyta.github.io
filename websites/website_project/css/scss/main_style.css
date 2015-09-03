@@ -5748,6 +5748,167 @@ button.close {
     display: none !important; } }
 /*Imported sass mixind for cross browser stuff: see http://bourbon.io/*/
 /*Here are imported files */
+.images_section {
+  min-height: 70vh; }
+
+.images_mobile_section {
+  min-height: 90vh;
+  min-width: 100%;
+  margin: 0px; }
+  .images_mobile_section img {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    min-width: 100%; }
+
+.grass_field img {
+  min-width: 100vw;
+  width: 100%;
+  min-height: 32vh;
+  margin-left: -20px;
+  padding: 0;
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  left: 0;
+  z-index: 1; }
+
+.sun img {
+  position: absolute;
+  bottom: 23vh;
+  left: 35vw;
+  z-index: -1;
+  max-width: 33%
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */
+  /*delete transform when pics are bigger res*/
+  /*506 X 320 px when tranformation applied*/
+  /*for macbook 13 inch*/ }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .sun img {
+      bottom: 17vh;
+      right: 29vw; } }
+  @media only screen and (min-width: 1200px) {
+    .sun img {
+      bottom: 20vh;
+      left: 35vw; } }
+
+.mountain img {
+  position: absolute;
+  bottom: 20vh;
+  left: 22vw;
+  max-width: 40%
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */
+  /*delete transform when pics are bigger res*/
+  /*443 x 220 px when transformation applied*/
+  /*for macbook 13 inch*/ }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .mountain img {
+      bottom: 10vh;
+      left: 20vw; } }
+  @media only screen and (min-width: 1200px) {
+    .mountain img {
+      bottom: 16vh;
+      left: 23vw; } }
+
+.city img {
+  position: absolute;
+  bottom: 20vh;
+  right: 25vw
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */
+  /*433 x 285 px when transformation applied*/
+  /*for macbook 13 inch*/
+  /*delete transform when pics are bigger res*/ }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .city img {
+      bottom: 10vh;
+      right: 25vw; } }
+  @media only screen and (min-width: 1200px) {
+    .city img {
+      bottom: 17vh;
+      right: 25vw; } }
+
+.first_tree img {
+  position: absolute;
+  bottom: 25vh;
+  left: 15vw;
+  z-index: 2
+  /**155 x 136 px when transformation applied/
+  /*for macbook 13 inch*/
+  /*delete transform when pics are bigger res*/
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .first_tree img {
+      bottom: 20vh;
+      left: 13vw;
+      transform: scale(0.8, 0.8);
+      -ms-transform: scale(0.8, 0.8);
+      -webkit-transform: scale(0.8, 0.8); } }
+  @media only screen and (min-width: 1200px) {
+    .first_tree img {
+      bottom: 24vh;
+      left: 15vw;
+      transform: scale(0.8, 0.8);
+      -ms-transform: scale(0.8, 0.8);
+      -webkit-transform: scale(0.8, 0.8); } }
+
+.second_tree img {
+  position: absolute;
+  bottom: 3vh;
+  left: 30vw;
+  /*136 x 154 px when transformation applied/
+  /*for macbook 13 inch*/
+  /*delete transform when pics are bigger res*/
+  transform: scale(0.8, 0.8);
+  -ms-transform: scale(0.8, 0.8);
+  -webkit-transform: scale(0.8, 0.8);
+  z-index: 2
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .second_tree img {
+      bottom: 2vh;
+      left: 27vw;
+      transform: scale(0.6, 0.6);
+      -ms-transform: scale(0.6, 0.6);
+      -webkit-transform: scale(0.6, 0.6); } }
+  @media only screen and (min-width: 1200px) {
+    .second_tree img {
+      bottom: 2vh;
+      left: 28vw;
+      transform: scale(0.8, 0.8);
+      -ms-transform: scale(0.8, 0.8);
+      -webkit-transform: scale(0.8, 0.8); } }
+
+.third_tree img {
+  position: absolute;
+  bottom: 22vh;
+  right: 10vw;
+  z-index: 2
+  /*136 x 154 px when transformation applied/
+  /*for macbook 13 inch*/
+  /*delete transform when pics are bigger res*/
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .third_tree img {
+      bottom: 16vh;
+      right: 10vw;
+      transform: scale(0.6, 0.6);
+      -ms-transform: scale(0.6, 0.6);
+      -webkit-transform: scale(0.6, 0.6); } }
+  @media only screen and (min-width: 1200px) {
+    .third_tree img {
+      bottom: 22vh;
+      right: 10vw;
+      transform: scale(0.8, 0.8);
+      -ms-transform: scale(0.8, 0.8);
+      -webkit-transform: scale(0.8, 0.8); } }
+
 @font-face {
   font-family: logo_font;
   src: url("../../fonts/ugo-3dcolor.otf"); }
