@@ -11,6 +11,31 @@
 	padding: 0px;
 	//position: absolute;
 	//bottom: -5px;
+
+	@media only screen and (orientation: landscape) {
+		position: relative;
+		top: 0px;
+		
+    
+	}
+
+	/* Very small decices*/
+    @media only screen and (max-width: 319px) {
+        
+        
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) and (max-width: 479px) {
+       
+        
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) and (max-width: 767px) {
+        
+    }
+
 	img{
 		position: absolute;
 		bottom: 0px;
