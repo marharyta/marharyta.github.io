@@ -5754,6 +5754,11 @@ button.close {
 
 .images_mobile_section {
   position: relative; }
+  .images_mobile_section img {
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0; }
 
 .grass_field img {
   width: 100%;
