@@ -6077,20 +6077,10 @@ button {
   max-height: 40vh;
   width: 100%;
   margin: 0px;
-  padding: 0px;
-  /* Very small decices*/
-  /* Custom, iPhone Retina */
-  /* Extra Small Devices, Phones */ }
-  @media only screen and (orientation: landscape) {
-    .images_mobile_section {
-      position: relative;
-      top: 0px; } }
+  padding: 0px; }
   .images_mobile_section img {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
     min-width: 100%;
+    height: 100%;
     /* Very small decices*/ }
     @media only screen and (max-width: 319px) {
       .images_mobile_section img {
