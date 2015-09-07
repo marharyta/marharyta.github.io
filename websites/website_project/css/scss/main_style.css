@@ -6074,6 +6074,8 @@ button {
   max-height: 80vh; }
 
 .images_mobile_section {
+  position: absolute;
+  bottom: 0px;
   max-height: 40vh;
   width: 100%;
   margin: 0px;
@@ -6081,9 +6083,7 @@ button {
   .images_mobile_section img {
     min-width: 100%;
     max-width: 100%;
-    height: 100%;
-    position: absolute;
-    bottom: 0px; }
+    height: 100%; }
 
 .grass_field img {
   width: 100%;
