@@ -1,50 +1,35 @@
-/* -------------------------------------------------------------
-  Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
-  By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
+/*
+Error: The line was indented 44 levels deeper than the previous line.
+        on line 46 of /Users/Fernando/Desktop/GitHub/marharyta.github.io/websites/web_project_2/css/lib/sass-css3-mixins-master/css3-mixins.sass
 
-  List of CSS3 Sass Mixins File to be @imported and @included as you need
+41:  *    -                                       @include transition (opacity 1s ease-in 2s, width 2s ease-out);
+42:  *    -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
+43:  *    -   keyframes               - arguments: Animation name
+44:  *                                - content:   Animation css
+45:  *    -   animation               - arguments: name duration timing-function delay iteration-count direction fill-mode play-state
+46:                                              (http://www.w3schools.com/cssref/css3_pr_animation.asp)
+47: 
+48:  *-------------------------------------------------------------*\/
+49: 
+50:  // ADDS A BROWSER PREFIX TO THE PROPERTY
+51:  @mixin css3-prefix($property, $value)
 
-  The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER
-  ENDING css files
-
-  note: All CSS3 Properties are being supported by Safari 5
-  more info: http://www.findmebyip.com/litmus/#css3-properties
-
-  Mixins available:
-    -   css3-prefix             - arguments: Property, Value
-    -   background-gradient     - arguments: Start Color: #3C3C3C, End Color: #999999
-    -   background-horizontal   - arguments: Start Color: #3C3C3C, End Color: #999999
-    -   background-radial       - arguments: Start Color: #FFFFFF, Start position: 0%, End Color: #000000, End position: 100%
-    -   background-size         - arguments: Width: 100%, Height: 100%
-    -   background-opacity      - arguments: Color: #000, Opacity: .85
-    -   border-radius           - arguments: Radius: 5px
-    -   border-radius-separate  - arguments: Top Left: 5px, Top Right: 5px, Bottom Left: 5px, Bottom Right: 5px
-    -   box                     - arguments: Orientation: horizontal, Pack: center, Align: center
-    -   box-rgba                - arguments: R: 60, G: 3, B: 12, Opacity: 0.23, Color: #3C3C3C
-    -   box-shadow              - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
-    -   box-sizing              - arguments: Type: border-box
-    -   columns                 - arguments: Count: 3, Gap: 10
-    -   double-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Radius: 0
-    -   flex                    - arguments: Value: 1
-    -   flip                    - arguments: ScaleX: -1
-    -   font-face               - arguments: Font Family: myFont, Eot File Src: myFont.eot, Woff File Src: myFont.woff, Ttf File Src: myFont.ttf
-    -   opacity                 - arguments: Opacity: 0.5
-    -   outline radius          - arguments: Radius: 5px
-    -   resize                  - arguments: Direction: both
-    -   rotate                  - arguments: Degree: 0, M11: 0, M12: 0, M21: 0, M22: 0
-    CSS Matrix Rotation Calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html
-    -   text-shadow             - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
-    -   transform               - arguments: Parameters: null
-    -   transform-style         - arguments: Style: preserve-3d
-    -   transition              - Default arguments: What: all, Length: 1s, Easing: ease-in-out
-    -                            - Examples: @include transition (all 2s ease-in-out);
-    -                                        @include transition (opacity 1s ease-in 2s, width 2s ease-out);
-    -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
-    -   keyframes               - arguments: Animation name
-                                - content:   Animation css
-    -   animation               - arguments: name duration timing-function delay iteration-count direction fill-mode play-state
-                                             (http://www.w3schools.com/cssref/css3_pr_animation.asp)
-
-------------------------------------------------------------- */
-
-/*# sourceMappingURL=css3-mixins.css.map */
+Backtrace:
+/Users/Fernando/Desktop/GitHub/marharyta.github.io/websites/web_project_2/css/lib/sass-css3-mixins-master/css3-mixins.sass:46
+/Users/Fernando/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:509:in `tree'
+/Users/Fernando/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:513:in `tree'
+/Users/Fernando/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:396:in `_to_tree'
+/Users/Fernando/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/Fernando/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/Fernando/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+/Users/Fernando/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/Users/Fernando/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+/Users/Fernando/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+/Users/Fernando/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+/Users/Fernando/Downloads/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
+/Users/Fernando/Downloads/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: The line was indented 44 levels deeper than the previous line.\A         on line 46 of /Users/Fernando/Desktop/GitHub/marharyta.github.io/websites/web_project_2/css/lib/sass-css3-mixins-master/css3-mixins.sass\A \A 41:  *    -                                       @include transition (opacity 1s ease-in 2s, width 2s ease-out);\A 42:  *    -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0\A 43:  *    -   keyframes               - arguments: Animation name\A 44:  *                                - content:   Animation css\A 45:  *    -   animation               - arguments: name duration timing-function delay iteration-count direction fill-mode play-state\A 46:                                              (http://www.w3schools.com/cssref/css3_pr_animation.asp)\A 47: \A 48:  *-------------------------------------------------------------*/\A 49: \A 50:  // ADDS A BROWSER PREFIX TO THE PROPERTY\A 51:  @mixin css3-prefix($property, $value)"; }
