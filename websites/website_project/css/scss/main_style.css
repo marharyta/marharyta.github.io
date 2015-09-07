@@ -5808,15 +5808,17 @@ html, body {
 .full-screen-height {
   min-height: 57vh; }
 
-.companies-centered ul {
-  display: flex;
-  justify-content: center;
-  align-items: baseline; }
-  .companies-centered ul li img {
-    max-width: 70px;
-    width: 50px;
-    max-height: 50px;
-    padding: 0px; }
+.companies-centered {
+  margin: 0px auto; }
+  .companies-centered ul {
+    display: flex;
+    justify-content: center;
+    align-items: baseline; }
+    .companies-centered ul li img {
+      max-width: 70px;
+      width: 50px;
+      max-height: 50px;
+      padding: 0px; }
 
 .logo img {
   max-width: 700px;
