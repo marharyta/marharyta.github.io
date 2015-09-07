@@ -5809,6 +5809,7 @@ html, body {
   min-height: 57vh; }
 
 .companies-centered ul {
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: baseline; }
