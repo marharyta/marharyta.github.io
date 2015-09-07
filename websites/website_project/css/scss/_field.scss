@@ -4,12 +4,13 @@
 }
 
 .images_mobile_section{
-	max-height: 40vh;
+	min-height: 40vh;
+	max-height: 60vh;
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
-	//position: absolute;
-	//bottom: -5px;
+	position: absolute;
+	bottom: -5px;
 
 	img{
 		//position: absolute;
