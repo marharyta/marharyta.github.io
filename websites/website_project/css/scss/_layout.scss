@@ -11,6 +11,7 @@
 		li{
 			img{
 				max-width: 70px;
+				min-width: 50px;
 				max-height: 50px;
 				padding: 0px;
 			}
@@ -46,7 +47,7 @@
 	border-radius: 10px;
 	padding: 5px;
 	margin: 0 auto;
-	border: solid 3px black;
+	border: solid 2.3px black;
 	width: 80%;
 	background-color: white;
 }

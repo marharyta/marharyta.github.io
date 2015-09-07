@@ -5814,6 +5814,7 @@ html, body {
   align-items: baseline; }
   .companies-centered ul li img {
     max-width: 70px;
+    min-width: 50px;
     max-height: 50px;
     padding: 0px; }
 
@@ -5839,7 +5840,7 @@ html, body {
   border-radius: 10px;
   padding: 5px;
   margin: 0 auto;
-  border: solid 3px black;
+  border: solid 2.3px black;
   width: 80%;
   background-color: white; }
 
@@ -5882,7 +5883,7 @@ button {
 
   .main_info {
     background-color: white;
-    padding: 20px 0px; } }
+    padding: 10px 0px; } }
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .companies-centered {
