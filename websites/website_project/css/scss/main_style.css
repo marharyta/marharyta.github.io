@@ -5803,7 +5803,8 @@ button.close {
   max-height: 80vh; }
 
 .images_mobile_section {
-  position: relative; }
+  padding-left: 0px;
+  padding-right: 0px; }
   .images_mobile_section img {
     max-width: 100%;
     min-width: 100vw;
