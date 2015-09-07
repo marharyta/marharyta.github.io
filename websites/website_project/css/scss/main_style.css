@@ -5881,14 +5881,16 @@ button {
     margin-top: 50px; }
 
   .main_info {
-    background-color: white; } }
+    background-color: white;
+    padding: 20px 0px; } }
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .companies-centered {
     margin-top: 50px; }
 
   .main_info {
-    background-color: white; } }
+    background-color: white;
+    padding: 20px 0px; } }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .companies-centered {
@@ -5902,14 +5904,14 @@ button {
     margin-top: 50px; }
 
   .main_info {
-    background-color: white; } }
+    background-color: transparent; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   .companies-centered {
     margin-top: 50px; }
 
   .main_info {
-    background-color: white; } }
+    background-color: transparent; } }
 .cloud_container img {
   z-index: -1; }
 .cloud_container #left_cloud {
