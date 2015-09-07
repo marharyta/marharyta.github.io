@@ -1,0 +1,205 @@
+.cloud_container{
+	//overflow-x: hidden; 
+	img{
+		z-index: -1;
+	}
+	#left_cloud{
+		position: absolute;
+		top: 20vh;
+		left: -20px;
+
+		/* Medium Devices, Desktops */
+	    @media only screen and (min-width : 992px) and (max-width: 1199px) {
+	        top: 20vh;
+			left: -20px;
+	    }
+
+	    /* Large Devices, Wide Screens */
+	    @media only screen and (min-width : 1200px) {
+	    	top: 20vh;
+			left: -20px;
+	    }
+
+		/*delete transform when pics are bigger res*/
+		//transform: scale(2, 2);
+		//-ms-transform: scale(2, 2);
+		//-webkit-transform: scale(2, 2);
+	}
+	#top_cloud{
+		position: absolute;
+		top: 0px;
+		left: 20vw;
+
+		/* Medium Devices, Desktops */
+	    @media only screen and (min-width : 992px) and (max-width: 1199px) {
+	        top: 0px;
+			left: 20vw;
+	    }
+
+	    /* Large Devices, Wide Screens */
+	    @media only screen and (min-width : 1200px) {
+	    	top: 0px;
+			left: 20vw;
+	    }
+
+
+		/*delete transform when pics are bigger res*/
+		//transform: scale(2, 2);
+		//-ms-transform: scale(2, 2);
+		//-webkit-transform: scale(2, 2);
+	}
+	#second_top_cloud{
+		position: absolute;
+		top: 0px;
+		right: 15vw;
+		/* Medium Devices, Desktops */
+	    @media only screen and (min-width : 992px) and (max-width: 1199px) {
+	        top: 0px;
+			right: 15vw;
+	    }
+
+	    /* Large Devices, Wide Screens */
+	    @media only screen and (min-width : 1200px) {
+	    	top: 0px;
+			right: 15vw;
+	    }
+
+
+		/*delete transform when pics are bigger res*/
+		//transform: scale(2, 2);
+		//-ms-transform: scale(2, 2);
+		//-webkit-transform: scale(2, 2);	
+	}
+	#left_bottom_cloud{
+		position: absolute;
+		top: 65vh;
+		left: 0px;
+
+			/* Medium Devices, Desktops */
+	    @media only screen and (min-width : 992px) and (max-width: 1199px) {
+	        top: 65vh;
+			left: 0px;
+	    }
+
+	    /* Large Devices, Wide Screens */
+	    @media only screen and (min-width : 1200px) {
+	    	top: 65vh;
+			left: 0px;
+	    }
+		/*delete transform when pics are bigger res*/
+		//transform: scale(2, 2);
+		//-ms-transform: scale(2, 2);
+		//-webkit-transform: scale(2, 2);	
+	}
+	#right_bottom_cloud{
+		position: absolute;
+		top: 65vh;
+		right: 0px;
+
+		 @media only screen and (min-width : 992px) and (max-width: 1199px) {
+	        top: 65vh;
+			right: 0px;
+	    }
+
+	    /* Large Devices, Wide Screens */
+	    @media only screen and (min-width : 1200px) {
+	    	top: 65vh;
+			right: 0px;
+	    }
+
+		/*delete transform when pics are bigger res*/
+		//transform: scale(2, 2);
+		//-ms-transform: scale(2, 2);
+		//-webkit-transform: scale(2, 2);
+	}
+
+	#left_middle_cloud{
+		position: absolute;
+		top: 135vh;
+		left: 25vw;
+
+		 @media only screen and (min-width : 992px) and (max-width: 1199px) {
+	        top: 135vh;
+			left: 25vw;
+	    }
+
+	    /* Large Devices, Wide Screens */
+	    @media only screen and (min-width : 1200px) {
+	    	top: 135vh;
+			left: 25vw;
+	    }
+		/*delete transform when pics are bigger res*/
+		//transform: scale(2, 2);
+		//-ms-transform: scale(2, 2);
+		//-webkit-transform: scale(2, 2);
+	}
+
+	#right_middle_cloud{
+		position: absolute;
+		top: 120vh;
+		right: 35vw;
+
+		@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	       top: 120vh;
+			right: 35vw;
+	    }
+
+	    /* Large Devices, Wide Screens */
+	    @media only screen and (min-width : 1200px) {
+	    	top: 120vh;
+			right: 35vw;
+	    }
+
+		/*delete transform when pics are bigger res*/
+		//transform: scale(2, 2);
+		//-ms-transform: scale(2, 2);
+		//-webkit-transform: scale(2, 2);
+	}
+
+	#airplane1{
+		position: absolute;
+		top: 20vh;
+		left: 30vh;
+
+		@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	      	top: 15vh;
+			left: 15vh;
+	    }
+
+	    /* Large Devices, Wide Screens */
+	    @media only screen and (min-width : 1200px) {
+	    	top: 20vh;
+			left: 30vh;
+	    }
+
+
+		/*delete transform when pics are bigger res*/
+		transform: scale(0.8, 0.8);
+		-ms-transform: scale(0.8, 0.8);
+		-webkit-transform: scale(0.8, 0.8);
+	}
+
+
+	#airplane2{
+		position: absolute;
+		top: 31vh;
+		right: 35vh;
+
+
+		@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	      	top: 25vh;
+			right: 15vh;
+	    }
+
+	    /* Large Devices, Wide Screens */
+	    @media only screen and (min-width : 1200px) {
+	    	top: 31vh;
+			right: 25vh;
+	    }
+
+		/*delete transform when pics are bigger res*/
+		//transform: scale(2, 2);
+		//-ms-transform: scale(2, 2);
+		//-webkit-transform: scale(2, 2);
+	}
+}
