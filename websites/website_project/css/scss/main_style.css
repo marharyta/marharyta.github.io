@@ -6232,4 +6232,64 @@ button{
       -ms-transform: scale(0.8, 0.8);
       -webkit-transform: scale(0.8, 0.8); } }
 
+@font-face {
+  font-family: logo_font;
+  src: url("../../fonts/ugo-3dcolor.otf"); }
+@font-face {
+  font-family: header_font;
+  src: url("../../fonts/oswald-regular.otf"); }
+@font-face {
+  font-family: header_font_light;
+  src: url("../../fonts/oswald-light.otf"); }
+@font-face {
+  font-family: quote_font;
+  src: url("../../fonts/amplitude-regular.otf"); }
+@font-face {
+  font-family: main_text;
+  src: url("../../fonts/Colfax-Regular.otf"); }
+@font-face {
+  font-family: main_text_bold;
+  src: url("../../fonts/Colfax-Bold.otf"); }
+@font-face {
+  font-family: main_text_medium;
+  src: url("../../fonts/Colfax-Medium.otf"); }
+@font-face {
+  font-family: logo_font_second;
+  src: url("../../fonts/ugo-engreved.otf"); }
+.logo_text {
+  font-family: logo_font;
+  font-family: logo_font_second;
+  font-weight: color;
+  font-size: 7em;
+  color: white; }
+
+h2 {
+  font-family: main_text_medium;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 27px; }
+
+.text-smaller {
+  font-size: smaller; }
+
+.quote p {
+  font-family: quote_font;
+  font-size: 2em; }
+  .quote p span {
+    font-weight: 700; }
+
+.brief_text {
+  font-family: main_text;
+  font-size: 1em; }
+  .brief_text b {
+    font-family: main_text_bold;
+    font-weight: 900; }
+
+.button_section b {
+  font-family: main_text_medium; }
+
+h4 {
+  font-family: main_text_medium; }
+
 /*# sourceMappingURL=main_style.css.map */
