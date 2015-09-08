@@ -16,6 +16,10 @@
         //padding: 5px 0px;
         }
 
+        .shorter{
+        width: 90%;
+        }
+
         footer{
             margin-top: 15px;
         }
@@ -26,6 +30,10 @@
     @media only screen and (min-width : 320px) and (max-width: 479px) {
          .companies-centered{
         margin-top: 20px;
+        }
+
+        .shorter{
+        width: 90%;
         }
 
         .quote{
@@ -57,6 +65,10 @@
         margin-top: 8px;
         //padding: 5px 0px;
         }
+
+        .shorter{
+        width: 70%;
+        }
     }
 
     /* Small Devices, Tablets */
@@ -66,6 +78,10 @@
         }
         .main_info{
         background-color: white;
+        }
+
+        .shorter{
+        width: 70%;
         }
     }
 
@@ -78,6 +94,10 @@
         background-color: transparent;
         } 
 
+        .shorter{
+        width: 60%;
+        }
+
     }
 
     /* Large Devices, Wide Screens */
@@ -87,6 +107,10 @@
         }
          .main_info{
             background-color: transparent;
+        }
+
+        .shorter{
+        width: 90%;
         }
 
     }
