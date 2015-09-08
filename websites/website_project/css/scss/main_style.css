@@ -5815,6 +5815,8 @@ body {
     max-height: 50px;
     height: 13px;
     padding: 0px; }
+.companies-centered .block {
+  display: block; }
 
 .logo img {
   display: block;
