@@ -5759,16 +5759,19 @@ html, body {
   z-index: -1; }
 .cloud_container #left_cloud {
   position: absolute;
-  top: 20vh
+  top: 20vh;
+  left: -20px
   /* Medium Devices, Desktops */
   /* Large Devices, Wide Screens */
   /*delete transform when pics are bigger res*/ }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .cloud_container #left_cloud {
-      top: 20vh; } }
+      top: 20vh;
+      left: -20px; } }
   @media only screen and (min-width: 1200px) {
     .cloud_container #left_cloud {
-      top: 20vh; } }
+      top: 20vh;
+      left: -20px; } }
 .cloud_container #top_cloud {
   position: absolute;
   top: 0px;
