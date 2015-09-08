@@ -17,14 +17,9 @@
 
 .grass_field{
 	img{
-		//min-width: 100vw;
-		//min-height: 32vh;
-		//margin-right: 0;
-		//min-width: 100vw;
 		width: 100%;
 		min-height: 32vh;
 		margin-left: 0px;
-		//margin-right: -20px;
 		padding: 0;
 		position: absolute;
 		bottom: -5px;
@@ -37,8 +32,6 @@
 .sun{
 	img{
 		position: absolute;
-		//bottom: 142px;
-		//left: 538px;
 		bottom: 23vh;
 		left: 35vw;
 		z-index: -1;
@@ -55,18 +48,6 @@
 	    	bottom: 20vh;
 			left: 35vw;
 	    }
-
-		
-		/*delete transform when pics are bigger res*/
-		//transform: scale(2, 2);
-		//-ms-transform: scale(2, 2);
-		//-webkit-transform: scale(2, 2);
-
-		/*506 X 320 px when tranformation applied*/
-		/*for macbook 13 inch*/
-		//min-width: 500px;
-		//min-height: 310px;
-				//max-height: 330px;
 	}
 }
 
@@ -90,16 +71,6 @@
 			left: 23vw;
 	    }
 		
-		/*delete transform when pics are bigger res*/
-		//transform: scale(2.5, 2.5);
-		//-ms-transform: scale(2.5, 2.5);
-		//-webkit-transform: scale(2.5, 2.5);
-		//z-index: 1
-
-		/*443 x 220 px when transformation applied*/
-		/*for macbook 13 inch*/
-		//max-width: 445px;
-		//max-height: 225px;
 	}
 }
 
@@ -120,16 +91,6 @@
 	    	bottom: 17vh;
 			right: 25vw;
 	    }
-		/*433 x 285 px when transformation applied*/
-		/*for macbook 13 inch*/
-		//max-width: 435px;
-		//max-height: 285px;
-
-		/*delete transform when pics are bigger res*/
-		//transform: scale(2.5, 2.5);
-		//-ms-transform: scale(2.5, 2.5);
-		//-webkit-transform: scale(2.5, 2.5);
-		//z-index: 2;
 	}
 }
 
@@ -138,12 +99,7 @@
 		position: absolute;
 		bottom: 25vh;
 		left: 15vw;
-			z-index: 2;
-		/**155 x 136 px when transformation applied/
-		/*for macbook 13 inch*/
-		//max-width: 155px;
-		//max-height: 140px;
-		/*delete transform when pics are bigger res*/
+		z-index: 2;
 		
 
 	    /* Medium Devices, Desktops */
@@ -173,11 +129,7 @@
 		position: absolute;
 		bottom: 3vh;
 		left: 30vw;
-		/*136 x 154 px when transformation applied/
-		/*for macbook 13 inch*/
-		//max-width: 155px;
-		//max-height: 155px;
-			/*delete transform when pics are bigger res*/
+
 		transform: scale(0.8, 0.8);
 		-ms-transform: scale(0.8, 0.8);
 		-webkit-transform: scale(0.8, 0.8);
@@ -185,7 +137,7 @@
 
 	    /* Medium Devices, Desktops */
 	    @media only screen and (min-width : 992px) and (max-width: 1199px) {
-	         bottom: 2vh;
+	        bottom: 2vh;
 			left: 27vw;
 
 			transform: scale(0.6, 0.6);
@@ -212,11 +164,6 @@
 		bottom: 22vh;
 		right: 10vw;
 		z-index: 2;
-		/*136 x 154 px when transformation applied/
-		/*for macbook 13 inch*/
-		//max-width: 155px;
-		//max-height: 155px;
-			/*delete transform when pics are bigger res*/
 	
 
 	    /* Medium Devices, Desktops */
