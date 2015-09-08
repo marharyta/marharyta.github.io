@@ -5804,24 +5804,17 @@ html, body {
 body {
   background-color: #D4EDF9; }
 
+.companies-centered ul {
+  display: flex;
+  justify-content: center;
+  align-items: baseline; }
+  .companies-centered ul li img {
+    max-width: 70px;
+    width: 50px;
+    max-height: 50px;
+    padding: 0px; }
+
 /*
-.companies-centered{
-	//margin-top: 50px;
-	//margin: 0px auto;
-	ul{
-    	display: flex;
-    	justify-content: center;
-    	align-items: baseline;
-		li{
-			img{
-				max-width: 70px;
-				width: 50px;
-				max-height: 50px;
-				padding: 0px;
-			}
-		}
-	}
-}
 
 .logo{
 	img{
