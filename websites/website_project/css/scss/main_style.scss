@@ -3,8 +3,8 @@
 /*Imported sass mixind for cross browser stuff: see http://bourbon.io/*/
 //@import 'vendor/bourbon-master/app/assets/stylesheets/bourbon';
 /*Here are imported files */
-//@import 'config';
-//@import 'base';
+@import 'config';
+@import 'base';
 //@import 'layout';
 //@import 'media_queries_layout';
 @import 'cloud_container';

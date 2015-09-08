@@ -5748,6 +5748,13 @@ button.close {
     display: none !important; } }
 /*Imported sass mixind for cross browser stuff: see http://bourbon.io/*/
 /*Here are imported files */
+body {
+  background-color: #D4EDF9; }
+
+html, body {
+  padding: 0;
+  margin: 0 !important; }
+
 .cloud_container img {
   z-index: -1; }
 .cloud_container #left_cloud {
