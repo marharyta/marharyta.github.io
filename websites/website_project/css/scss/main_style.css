@@ -5751,6 +5751,88 @@ button.close {
 body {
   background-color: #D4EDF9; }
 
+/*.full-screen-height{
+	min-height: 57vh;
+}
+.companies-centered{
+	//margin-top: 50px;
+	//margin: 0px auto;
+	ul{
+    	display: flex;
+    	justify-content: center;
+    	align-items: baseline;
+		li{
+			img{
+				max-width: 70px;
+				width: 50px;
+				max-height: 50px;
+				padding: 0px;
+			}
+		}
+	}
+}
+
+.logo{
+	img{
+		max-width: 700px;
+		max-height: 100%;
+		margin: 0 auto;
+		transform: scale(0.3, 0.3);
+		-ms-transform: scale(0.3, 0.3);
+		-webkit-transform: scale(0.3, 0.3);
+	}
+}
+
+.timetable{
+	margin-top: 32px;
+	img{
+		max-width: 95vw;
+		margin: 0 auto;
+		}
+}
+
+
+.border{
+	border-radius: 10px;
+	padding: 5px;
+	margin: 0 auto;
+	border: solid 2.3px black;
+	width: 80%;
+	background-color: white;
+}
+
+.button_border{
+	//border: solid 2px black;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 0px;
+	//background-color: ghostwhite;
+	//padding: 10px;
+	p{
+		margin: 0px;
+	}
+}
+
+.button_mobile{
+	max-width: 89%;
+	margin-top: 10px;
+	margin: 0 auto;
+}
+
+.hashtags{
+	position: absolute;
+	bottom: 0px;
+	//margin: 0 auto;
+	text-align: center;
+	div{
+		text-align: center;
+		width: 100vw;
+	}
+}
+
+button{
+	border: solid 3px black;
+}*/
 /*==========  Mobile First Method  ==========*/
 /* Very small decices*/
 @media only screen and (max-width: 319px) {
