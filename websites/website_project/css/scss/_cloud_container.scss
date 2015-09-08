@@ -115,17 +115,17 @@
 
 	#left_middle_cloud{
 		position: absolute;
-		top: 135vh;
+		top: 115vh;
 		left: 25vw;
 
 		 @media only screen and (min-width : 992px) and (max-width: 1199px) {
-	        top: 135vh;
+	        top: 105vh;
 			left: 25vw;
 	    }
 
 	    /* Large Devices, Wide Screens */
 	    @media only screen and (min-width : 1200px) {
-	    	top: 135vh;
+	    	top: 100vh;
 			left: 25vw;
 	    }
 		/*delete transform when pics are bigger res*/
@@ -136,17 +136,17 @@
 
 	#right_middle_cloud{
 		position: absolute;
-		top: 120vh;
+		top: 98vh;
 		right: 35vw;
 
 		@media only screen and (min-width : 992px) and (max-width: 1199px) {
-	       top: 120vh;
+	       top: 98vh;
 			right: 35vw;
 	    }
 
 	    /* Large Devices, Wide Screens */
 	    @media only screen and (min-width : 1200px) {
-	    	top: 120vh;
+	    	top: 98vh;
 			right: 35vw;
 	    }
 
