@@ -5846,13 +5846,12 @@ body {
   .button_border p {
     margin: 0px; }
 
-/*
-.button_mobile{
-	max-width: 89%;
-	margin-top: 10px;
-	margin: 0 auto;
-}
+.button_mobile {
+  max-width: 89%;
+  margin-top: 10px;
+  margin: 0 auto; }
 
+/*
 .hashtags{
 	position: absolute;
 	bottom: 0px;
