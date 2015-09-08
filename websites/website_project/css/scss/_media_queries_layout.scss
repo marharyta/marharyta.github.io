@@ -4,7 +4,7 @@
     /* Very small decices*/
     @media only screen and (max-width: 319px) {
         .companies-centered{
-        margin-top: 50px;
+        margin-top: 20px;
         }
         .main_info{
         background-color: white;
@@ -22,7 +22,7 @@
     /* Custom, iPhone Retina */ 
     @media only screen and (min-width : 320px) and (max-width: 479px) {
          .companies-centered{
-        margin-top: 50px;
+        margin-top: 20px;
         }
         .main_info{
         background-color: white;
@@ -39,7 +39,7 @@
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) and (max-width: 767px) {
          .companies-centered{
-        margin-top: 50px;
+        margin-top: 20px;
         }
         .main_info{
         background-color: white;
@@ -56,7 +56,7 @@
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) and (max-width: 991px) {
          .companies-centered{
-        margin-top: 50px;
+        margin-top: 20px;
         }
         .main_info{
         background-color: white;
@@ -71,7 +71,7 @@
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) and (max-width: 1199px) {
          .companies-centered{
-        margin-top: 50px;
+        margin-top: 30px;
         }
          .main_info{
         background-color: transparent;
