@@ -5825,13 +5825,16 @@ body {
 		//-webkit-transform: scale(0.3, 0.3);
 	}
 }*/
-.timetable {
-  margin-top: 32px; }
-  .timetable img {
-    transform: scale(0.3, 0.3);
-    -ms-transform: scale(0.3, 0.3);
-    -webkit-transform: scale(0.3, 0.3); }
-
+/*.timetable{
+	margin-top: 32px;
+	img{
+		
+		transform: scale(0.3, 0.3);
+		-ms-transform: scale(0.3, 0.3);
+		-webkit-transform: scale(0.3, 0.3);
+		//margin: 0 auto;
+		}
+}*/
 /*
 .border{
 	border-radius: 10px;
