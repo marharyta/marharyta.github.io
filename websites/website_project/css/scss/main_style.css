@@ -5825,6 +5825,11 @@ body {
   margin-top: 20px;
   margin-bottom: 15px; }
 
+.shorter {
+  display: block;
+  width: 70%;
+  margin: 0px auto; }
+
 .timetable {
   margin-top: 32px; }
   .timetable img {
@@ -5852,6 +5857,9 @@ body {
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto; }
+
+.quote {
+  margin-top: 20px; }
 
 /*
 .hashtags{
