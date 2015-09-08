@@ -6,18 +6,18 @@
 	#left_cloud{
 		position: absolute;
 		top: 20vh;
-		left: -20px;
+		//left: -20px;
 
 		/* Medium Devices, Desktops */
 	    @media only screen and (min-width : 992px) and (max-width: 1199px) {
 	        top: 20vh;
-			left: -20px;
+			//left: -20px;
 	    }
 
 	    /* Large Devices, Wide Screens */
 	    @media only screen and (min-width : 1200px) {
 	    	top: 20vh;
-			left: -20px;
+			//left: -20px;
 	    }
 
 		/*delete transform when pics are bigger res*/
