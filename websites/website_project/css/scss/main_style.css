@@ -5751,10 +5751,6 @@ button.close {
 body {
   background-color: #D4EDF9; }
 
-html, body {
-  padding: 0;
-  margin: 0 !important; }
-
 .cloud_container img {
   z-index: -1; }
 .cloud_container #left_cloud {
