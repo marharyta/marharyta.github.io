@@ -5835,16 +5835,15 @@ body {
 		//margin: 0 auto;
 		}
 }*/
-/*
-.border{
-	border-radius: 10px;
-	padding: 5px;
-	margin: 0 auto;
-	border: solid 2.3px black;
-	width: 80%;
-	background-color: white;
-}
+.border {
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0 auto;
+  border: solid 2.3px black;
+  width: 80%;
+  background-color: white; }
 
+/*
 .button_border{
 	//border: solid 2px black;
 	margin-top: 30px;
