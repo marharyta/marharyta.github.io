@@ -5815,22 +5815,23 @@ body {
     height: 13px;
     padding: 0px; }
 
-.logo img {
-  max-width: 100%;
-  max-height: 100%;
-  margin: 0 auto; }
+/*.logo{
+	img{
+		max-width: 100%;
+		max-height: 100%;
+		margin: 0 auto;
+		//transform: scale(0.3, 0.3);
+		//-ms-transform: scale(0.3, 0.3);
+		//-webkit-transform: scale(0.3, 0.3);
+	}
+}*/
+.timetable {
+  margin-top: 32px; }
+  .timetable img {
+    max-width: 95vw;
+    margin: 0 auto; }
 
 /*
-
-.timetable{
-	margin-top: 32px;
-	img{
-		max-width: 95vw;
-		margin: 0 auto;
-		}
-}
-
-
 .border{
 	border-radius: 10px;
 	padding: 5px;
