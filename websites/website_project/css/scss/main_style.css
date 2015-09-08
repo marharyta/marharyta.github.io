@@ -5820,7 +5820,10 @@ body {
   display: block;
   max-width: 100%;
   max-height: 80px;
-  margin: 0 auto; }
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 15px; }
 
 .timetable {
   margin-top: 32px; }
