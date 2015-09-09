@@ -5863,9 +5863,7 @@ body {
   padding-top: 20px; }
 
 .button {
-  display: block;
-  width: 80%;
-  margin: 0px auto; }
+  display: block; }
 
 /*
 .hashtags{
