@@ -90,6 +90,7 @@
 
 .button{
 	display: block;
+	width: 100px;
 	@media only screen and (max-width: 319px) {
         width: 80%;
         margin: $auto_margin;
