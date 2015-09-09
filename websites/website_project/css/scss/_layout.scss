@@ -78,7 +78,6 @@
 .button_mobile{
 	display: block;
 	max-width: 78%;
-	min-width: 75%;
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
@@ -89,9 +88,9 @@
 	padding-top: 20px; 
 }
 
-button a{
-	text-decoration: none;
-	color: inherit;
+.button{
+	display: block;
+	width: 80%;
 }
 
 /*
