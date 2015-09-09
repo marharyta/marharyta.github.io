@@ -92,21 +92,25 @@
 	display: block;
 	@media only screen and (max-width: 319px) {
         width: 80%;
+        margin: $auto_margin;
     }
 
     /* Custom, iPhone Retina */ 
     @media only screen and (min-width : 320px) and (max-width: 479px) {
           width: 80%;
+          margin: $auto_margin;
     }
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) and (max-width: 767px) {
         width: 80%;
+        margin: $auto_margin;
     }
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) and (max-width: 991px) {
           width: 80%;
+          margin: $auto_margin;
     }
     //width: 80%;
     //margin: 0px auto;
