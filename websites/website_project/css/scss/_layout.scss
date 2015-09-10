@@ -124,8 +124,12 @@
 
 .flexbox{
 	display: flex;
-    	justify-content: space-around;
-    	align-items: baseline;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content:stretch;
+    justify-content: space-around;
+    align-items: baseline;
+
     
 }
 /*
