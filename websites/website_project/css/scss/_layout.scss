@@ -142,6 +142,7 @@
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) and (max-width: 767px) {
         justify-content: space-between;
+    }
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) and (max-width: 991px) {
@@ -150,18 +151,3 @@
 
     
 }
-/*
-.hashtags{
-	position: absolute;
-	bottom: 0px;
-	//margin: 0 auto;
-	text-align: center;
-	div{
-		text-align: center;
-		width: 100vw;
-	}
-}
-
-button{
-	border: solid 3px black;
-}*/
