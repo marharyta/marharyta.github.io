@@ -121,6 +121,12 @@
 	min-width: 20px;
 	min-height: 20px;
 }
+
+.flexbox{
+	display: flex;
+    	justify-content: center;
+    	align-items: baseline;
+}
 /*
 .hashtags{
 	position: absolute;
