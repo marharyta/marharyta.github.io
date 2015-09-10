@@ -5871,7 +5871,8 @@ body {
   -webkit-box-align: baseline;
   -webkit-align-items: baseline;
       -ms-flex-align: baseline;
-          align-items: baseline; }
+          align-items: baseline;
+  margin-bottom: 20px; }
 
 /*
 .hashtags{
