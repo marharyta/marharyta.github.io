@@ -1,9 +1,30 @@
 .companies-centered{
+
+
+ 
 	ul{
     	display: flex;
     	justify-content: center;
     	align-items: baseline;
     	margin-left: 0px !important;
+
+    	   @media only screen and (max-width: 319px) {
+       		margin: $auto_margin;
+    		}
+
+    		/* Custom, iPhone Retina */ 
+   			 @media only screen and (min-width : 320px) and (max-width: 479px) {
+          		margin: $auto_margin;
+    	}
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) and (max-width: 767px) {
+        margin: $auto_margin;
+    }
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) and (max-width: 991px) {
+          margin: $auto_margin;
+    }
 		li{
 			img{
 				max-width: 70px;
