@@ -5808,7 +5808,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: baseline;
-  margin-left: 0px; }
+  margin-left: 0px !important; }
   .companies-centered ul li img {
     max-width: 70px;
     width: 50px;
