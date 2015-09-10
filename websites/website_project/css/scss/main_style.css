@@ -6393,6 +6393,13 @@ h2 {
     font-family: main_text_bold;
     font-weight: 900; }
 
+.exp_text {
+  font-family: main_text;
+  font-size: 1em; }
+  .exp_text b {
+    font-family: main_text_bold;
+    font-weight: 900; }
+
 .button_section b {
   font-family: main_text_medium; }
 
