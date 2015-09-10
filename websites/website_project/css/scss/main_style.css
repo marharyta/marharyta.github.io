@@ -5915,6 +5915,9 @@ body {
     .flexbox {
       justify-content: space-around; } }
 
+.twitter-share-button img {
+  display: block; }
+
 /*==========  Mobile First Method  ==========*/
 /* Very small decices*/
 @media only screen and (max-width: 319px) {
