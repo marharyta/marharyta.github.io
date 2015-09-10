@@ -6190,11 +6190,11 @@ body {
       left: 23vw; } }
   @media screen and (min-device-width: 1600px) and (max-device-width: 2000px) and (-webkit-min-device-pixel-ratio: 1) {
     .mountain img {
-      bottom: 27vh;
+      bottom: 19vh;
       left: 29vw; } }
   @media screen and (min-device-width: 2000px) and (max-device-width: 3000px) and (-webkit-min-device-pixel-ratio: 1) {
     .mountain img {
-      bottom: 29vh;
+      bottom: 23vh;
       left: 31vw; } }
   @media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
     .mountain img {
@@ -6220,11 +6220,11 @@ body {
       right: 25vw; } }
   @media screen and (min-device-width: 1600px) and (max-device-width: 2000px) and (-webkit-min-device-pixel-ratio: 1) {
     .city img {
-      bottom: 27vh;
+      bottom: 23vh;
       right: 29vw; } }
   @media screen and (min-device-width: 2000px) and (max-device-width: 3000px) and (-webkit-min-device-pixel-ratio: 1) {
     .city img {
-      bottom: 30vh;
+      bottom: 24vh;
       right: 31vw; } }
   @media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
     .city img {
