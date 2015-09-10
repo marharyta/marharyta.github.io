@@ -127,8 +127,26 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-content:stretch;
-    justify-content: space-between;
+	 justify-content: space-around;
     align-items: baseline;
+
+    @media only screen and (max-width: 319px) {
+        justify-content: space-between;
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) and (max-width: 479px) {
+          justify-content: space-between;
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) and (max-width: 767px) {
+        justify-content: space-between;
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) and (max-width: 991px) {
+           justify-content: space-around;
+    }
 
     
 }
