@@ -6347,6 +6347,12 @@ body {
       -ms-transform: scale(0.8, 0.8);
       -webkit-transform: scale(0.8, 0.8); } }
 
+.copyright {
+  position: absolute;
+  z-index: 6;
+  bottom: 5px;
+  left: 7vw; }
+
 @font-face {
   font-family: logo_font;
   src: url("../../fonts/ugo-3dcolor.otf"); }
@@ -6413,6 +6419,10 @@ h2 {
   font-family: main_text_medium; }
 
 .int_applicants h4 {
+  font-family: main_text_medium;
+  font-size: 16px; }
+
+.copyright {
   font-family: main_text_medium;
   font-size: 16px; }
 
