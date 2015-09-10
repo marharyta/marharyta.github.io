@@ -127,8 +127,12 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-content:stretch;
-	 justify-content: space-around;
+	 justify-content: center;
     align-items: baseline;
+    a{
+    	display: block;
+    	margin-right: 9px;
+    }
 
     @media only screen and (max-width: 319px) {
         justify-content: space-between;
