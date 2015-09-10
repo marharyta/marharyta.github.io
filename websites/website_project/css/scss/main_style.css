@@ -6150,7 +6150,8 @@ body {
   z-index: -1;
   max-width: 33%;
   /* Medium Devices, Desktops */
-  /* Large Devices, Wide Screens */ }
+  /* Large Devices, Wide Screens */
+  /* ----------- Retina Screens ----------- */ }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .sun img {
       bottom: 17vh;
@@ -6159,6 +6160,10 @@ body {
     .sun img {
       bottom: 20vh;
       left: 35vw; } }
+  @media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    .sun img {
+      bottom: 19vh;
+      left: 34vw; } }
 
 .mountain img {
   position: absolute;
@@ -6166,7 +6171,8 @@ body {
   left: 22vw;
   max-width: 40%;
   /* Medium Devices, Desktops */
-  /* Large Devices, Wide Screens */ }
+  /* Large Devices, Wide Screens */
+  /* ----------- Retina Screens ----------- */ }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .mountain img {
       bottom: 10vh;
@@ -6175,13 +6181,18 @@ body {
     .mountain img {
       bottom: 16vh;
       left: 23vw; } }
+  @media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    .mountain img {
+      bottom: 27vh;
+      left: 29vw; } }
 
 .city img {
   position: absolute;
   bottom: 20vh;
   right: 25vw;
   /* Medium Devices, Desktops */
-  /* Large Devices, Wide Screens */ }
+  /* Large Devices, Wide Screens */
+  /* ----------- Retina Screens ----------- */ }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .city img {
       bottom: 10vh;
@@ -6190,6 +6201,10 @@ body {
     .city img {
       bottom: 17vh;
       right: 25vw; } }
+  @media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    .city img {
+      bottom: 27vh;
+      right: 29vw; } }
 
 .first_tree img {
   position: absolute;
@@ -6197,7 +6212,8 @@ body {
   left: 15vw;
   z-index: 2;
   /* Medium Devices, Desktops */
-  /* Large Devices, Wide Screens */ }
+  /* Large Devices, Wide Screens */
+  /* ----------- Retina Screens ----------- */ }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .first_tree img {
       bottom: 20vh;
@@ -6212,6 +6228,13 @@ body {
       transform: scale(0.8, 0.8);
       -ms-transform: scale(0.8, 0.8);
       -webkit-transform: scale(0.8, 0.8); } }
+  @media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    .first_tree img {
+      bottom: 29vh;
+      left: 19vw;
+      transform: scale(1.2, 1.2);
+      -ms-transform: scale(1.2, 1.2);
+      -webkit-transform: scale(1.2, 1.2); } }
 
 .second_tree img {
   position: absolute;

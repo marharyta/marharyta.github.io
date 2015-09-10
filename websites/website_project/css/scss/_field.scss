@@ -48,6 +48,17 @@
 	    	bottom: 20vh;
 			left: 35vw;
 	    }
+
+	    /* ----------- Retina Screens ----------- */
+
+		@media only screen and (min-device-width: 1200px) 
+  		and (max-device-width: 1600px) 
+  		and (-webkit-min-device-pixel-ratio: 2)
+ 		 and (min-resolution: 192dpi) { 
+ 			bottom: 19vh;
+			left: 34vw;
+
+		}
 	}
 }
 
@@ -70,6 +81,17 @@
 	    	bottom: 16vh;
 			left: 23vw;
 	    }
+
+	    /* ----------- Retina Screens ----------- */
+
+	    @media only screen and (min-device-width: 1200px) 
+  		and (max-device-width: 1600px) 
+  		and (-webkit-min-device-pixel-ratio: 2)
+ 		 and (min-resolution: 192dpi) { 
+ 			bottom: 27vh;
+			left: 29vw;
+
+		}
 		
 	}
 }
@@ -91,6 +113,17 @@
 	    	bottom: 17vh;
 			right: 25vw;
 	    }
+
+	    /* ----------- Retina Screens ----------- */
+
+	    @media only screen and (min-device-width: 1200px) 
+  		and (max-device-width: 1600px) 
+  		and (-webkit-min-device-pixel-ratio: 2)
+ 		 and (min-resolution: 192dpi) { 
+ 			bottom: 27vh;
+			right: 29vw;
+
+		}
 	}
 }
 
@@ -121,6 +154,21 @@
 			-webkit-transform: scale(0.8, 0.8);
 
 	    }
+
+	    /* ----------- Retina Screens ----------- */
+
+	    @media only screen and (min-device-width: 1200px) 
+  		and (max-device-width: 1600px) 
+  		and (-webkit-min-device-pixel-ratio: 2)
+ 		 and (min-resolution: 192dpi) { 
+ 			bottom: 29vh;
+			left: 19vw;
+
+			transform: scale(1.2, 1.2);
+			-ms-transform: scale(1.2, 1.2);
+			-webkit-transform: scale(1.2, 1.2);
+
+		}
 	}
 }
 
