@@ -6147,7 +6147,7 @@ body {
     .sun img {
       bottom: 20vh;
       left: 35vw; } }
-  @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  @media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
     .sun img {
       bottom: 19vh;
       left: 34vw; } }
@@ -6173,7 +6173,7 @@ body {
     .mountain img {
       bottom: 16vh;
       left: 23vw; } }
-  @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  @media screen and (min-device-width: 1600px) and (max-device-width: 2000px) and (-webkit-min-device-pixel-ratio: 1) {
     .mountain img {
       bottom: 27vh;
       left: 29vw; } }

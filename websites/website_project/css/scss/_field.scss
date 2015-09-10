@@ -50,7 +50,7 @@
 	    }
 
 	    /* ----------- Non-Retina Screens ----------- */
-	@media screen 
+		@media only screen 
   		and (min-device-width: 1200px) 
   		and (max-device-width: 1600px) 
   		and (-webkit-min-device-pixel-ratio: 1) { 
@@ -93,8 +93,8 @@
 
 	        /* ----------- Non-Retina Screens ----------- */
 	@media screen 
-  		and (min-device-width: 1200px) 
-  		and (max-device-width: 1600px) 
+  		and (min-device-width: 1600px) 
+  		and (max-device-width: 2000px) 
   		and (-webkit-min-device-pixel-ratio: 1) { 
   			bottom: 27vh;
 			left: 29vw;
