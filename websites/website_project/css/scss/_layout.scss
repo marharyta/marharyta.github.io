@@ -144,34 +144,33 @@
 }
 
 .flexbox{
-	display: flex;
-	flex-direction: row;
+	@include display(flex);
+	@include flex-direction(row);
 	flex-wrap: wrap;
-	align-content: baseline;
-	 justify-content: center;
-    align-items: baseline;
+	@include align-items(baseline);
+	 @include justify-content(center);
     a{
     	display: block;
     	margin-right: 9px;
     }
 
     @media only screen and (max-width: 319px) {
-        justify-content: space-between;
+         @include justify-content(space-between);
     }
 
     /* Custom, iPhone Retina */ 
     @media only screen and (min-width : 320px) and (max-width: 479px) {
-          justify-content: space-between;
+           @include justify-content(space-between);
     }
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) and (max-width: 767px) {
-        justify-content: space-between;
+         @include justify-content(space-between);
     }
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) and (max-width: 991px) {
-           justify-content: space-around;
+            @include justify-content(space-around);
     }
 
     
