@@ -70,7 +70,7 @@
 
 .click:hover{
 	color: white;
-	background-color: black;
+	background-color: #404040;
 }
 
 
@@ -146,6 +146,12 @@
     }
     //width: 80%;
     //margin: 0px auto;
+}
+
+.share_icons{
+	position: absolute;
+	top: 5px;
+	right: 10px;
 }
 
 .share-icon img{

@@ -5849,7 +5849,7 @@ body {
 
 .click:hover {
   color: white;
-  background-color: black; }
+  background-color: #404040; }
 
 .timetable {
   margin-top: 32px; }
@@ -5903,6 +5903,11 @@ body {
     .button {
       width: 80%;
       margin: 0px auto; } }
+
+.share_icons {
+  position: absolute;
+  top: 5px;
+  right: 10px; }
 
 .share-icon img {
   min-width: 20px;
