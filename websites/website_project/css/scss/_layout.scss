@@ -217,6 +217,10 @@
 	min-height: 20px;
 }
 
+.padding_more{
+	padding: 10px 0px;
+}
+
 .flexbox{
 	@include display(flex);
 	@include flex-direction(row);
