@@ -6005,14 +6005,6 @@ body {
       justify-content: space-around;
       -ms-flex-pack: distribute; } }
 
-.share_icon {
-  display: block;
-  margin: 0px auto;
-  width: 56px !important;
-  height: 20px !important; }
-  .share_icon div span {
-    vertical-align: none !important; }
-
 .int_applicants {
   margin-top: 30px; }
 
