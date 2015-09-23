@@ -5909,6 +5909,10 @@ body {
   top: 50px;
   right: 26px; }
 
+.share_icon {
+  display: inline-block;
+  margin-right: 8px; }
+
 .share-icon img {
   min-width: 20px;
   min-height: 20px; }
