@@ -5948,9 +5948,15 @@ body {
   /* Extra Small Devices, Phones */
   /* Small Devices, Tablets */ }
 
-.share_icon {
-  display: inline-block;
-  margin-right: 8px; }
+.facebook_share {
+  position: absolute;
+  top: 50px;
+  right: 60px; }
+
+.twitter_share {
+  position: absolute;
+  top: 50px;
+  right: 30px; }
 
 .share-icon img {
   min-width: 20px;
