@@ -5906,7 +5906,7 @@ body {
 
 .share_icons {
   position: absolute;
-  top: 50px;
+  top: 20px;
   right: 26px;
   display: -webkit-box;
   display: -moz-box;
@@ -5950,12 +5950,10 @@ body {
 
 .facebook_share {
   position: absolute;
-  top: 30px;
   right: 80px; }
 
 .twitter_share {
   position: absolute;
-  top: 30px;
   right: 20px; }
 
 .share-icon img {
