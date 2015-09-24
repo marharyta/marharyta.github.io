@@ -6480,9 +6480,6 @@ iframe {
   bottom: 5px;
   margin: 0px auto; }
 
-iframe {
-  margin-bottom: 30px !important; }
-
 /*==========  Mobile First Method  ==========*/
 /* Very small decices*/
 @media only screen and (max-width: 319px) {
@@ -6491,7 +6488,8 @@ iframe {
     padding-bottom: 76.25%;
     padding-top: 5px;
     height: 0;
-    overflow: hidden; }
+    overflow: hidden;
+    margin-bottom: 30px !important; }
 
   .iframe-container iframe {
     position: absolute;
@@ -6506,7 +6504,8 @@ iframe {
     padding-bottom: 76.25%;
     padding-top: 5px;
     height: 0;
-    overflow: hidden; }
+    overflow: hidden;
+    margin-bottom: 30px !important; }
 
   .iframe-container iframe {
     position: absolute;
@@ -6521,7 +6520,8 @@ iframe {
     padding-bottom: 76.25%;
     padding-top: 5px;
     height: 0;
-    overflow: hidden; }
+    overflow: hidden;
+    margin-bottom: 30px !important; }
 
   .iframe-container iframe {
     position: absolute;
