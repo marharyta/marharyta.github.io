@@ -5967,9 +5967,7 @@ body {
   position: absolute;
   right: 20px; }
 
-.share-icon img {
-  min-width: 20px;
-  min-height: 20px;
+.share-icons {
   z-index: 10; }
 
 .padding_more {
