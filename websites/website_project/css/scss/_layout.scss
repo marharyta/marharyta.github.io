@@ -207,26 +207,15 @@
 	right: 80px;
 }
 
-.fb-share-button {
-    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s;
-}
-
-.fb-share-button:hover {
-    width: 300px;
-}
-
 .twitter_share{
 	position: absolute;
 	//top: 30px;
 	right: 20px;
 }
-.share-icon img{
-	min-width: 20px;
-	min-height: 20px;
+
+.share-icons{
   z-index: 10;
 }
-
 .padding_more{
 	padding: 10px 0px;
 }
