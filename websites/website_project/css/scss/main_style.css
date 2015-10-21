@@ -5847,10 +5847,10 @@ body {
   display: block;
   margin: 0px auto; }
 
-.click:hover {
-  color: white;
-  background-color: #404040; }
-
+/*.click:hover{
+	color: white;
+	background-color: #404040;
+}*/
 .timetable {
   margin-top: 32px; }
   .timetable img {
@@ -6309,8 +6309,8 @@ iframe {
       left: 35vw; } }
   @media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
     .sun img {
-      bottom: 19vh;
-      left: 34vw; } }
+      bottom: 17vh;
+      left: 37vw; } }
 
 .mountain img {
   position: absolute;
