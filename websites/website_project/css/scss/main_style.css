@@ -5824,10 +5824,10 @@ body {
     .companies-centered ul {
       margin: 0px auto; } }
   .companies-centered ul li img {
-    max-width: 70px;
-    width: 50px;
-    max-height: 50px;
-    height: 13px;
+    max-width: 100px;
+    width: 70px;
+    max-height: 70px;
+    height: 20px;
     padding: 0px; }
 .companies-centered .block {
   display: block;
@@ -5963,7 +5963,7 @@ body {
   z-index: 10; }
 
 .padding_more {
-  padding: 10px 0px; }
+  padding: 20px 0px; }
 
 .flexbox {
   display: -webkit-box;
@@ -6055,9 +6055,12 @@ body {
 .int_applicants {
   margin-top: 30px; }
 
-iframe {
-  margin-top: 0px !important;
-  padding-top: 0px; }
+ul.share-buttons {
+  list-style: none;
+  padding: 15px; }
+
+ul.share-buttons li {
+  display: inline; }
 
 /*==========  Mobile First Method  ==========*/
 /* Very small decices*/
