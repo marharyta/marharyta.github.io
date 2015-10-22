@@ -5826,14 +5826,14 @@ body {
   .companies-centered ul li img {
     padding: 0px; }
   .companies-centered ul li .reaktor-logo {
-    width: 90px;
-    height: 15px; }
+    width: 70px;
+    height: 1em; }
   .companies-centered ul li .finnair-logo {
     width: 103px;
-    height: 10px; }
+    height: 0.85em; }
   .companies-centered ul li .finavia-logo {
     width: 100px;
-    height: 15px; }
+    height: 1em; }
 .companies-centered .block {
   display: block;
   margin-top: 20px;
