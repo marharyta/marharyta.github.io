@@ -32,20 +32,20 @@
 .sun{
 	img{
 		position: absolute;
-		bottom: 23vh;
-		left: 35vw;
+		bottom: 12vh;
+		left: 32vw;
 		z-index: -1;
 		max-width: 33%;
 
 	    /* Medium Devices, Desktops */
 	    @media only screen and (min-width : 992px) and (max-width: 1199px) {
-	        bottom: 17vh;
+	        bottom: 5vh;
 			right: 29vw;
 	    }
 
 	    /* Large Devices, Wide Screens */
 	    @media only screen and (min-width : 1200px) {
-	    	bottom: 20vh;
+	    	bottom: 3vh;
 			left: 35vw;
 	    }
 
@@ -54,8 +54,8 @@
   		and (min-device-width: 1200px) 
   		and (max-device-width: 1600px) 
   		and (-webkit-min-device-pixel-ratio: 1) { 
-  			bottom: 17vh;
-			left: 37vw;
+  			bottom: 7vh;
+			left: 35vw;
 		}
 
 	    /* ----------- Retina Screens ----------- */

@@ -5839,14 +5839,16 @@ body {
   margin-top: 20px;
   margin-bottom: 0px; }
 
-.logo img {
-  display: block;
-  max-width: 100%;
-  max-height: 80px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 20px;
-  margin-bottom: 15px; }
+.logo {
+  margin-top: 30px; }
+  .logo img {
+    display: block;
+    max-width: 100%;
+    max-height: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 15px; }
 
 .shorter {
   display: block;
@@ -5857,7 +5859,7 @@ body {
 	background-color: #404040;
 }*/
 .timetable {
-  margin-top: 32px; }
+  margin-top: 23px; }
   .timetable img {
     width: 100%;
     margin: 0px auto; }
@@ -5911,7 +5913,7 @@ body {
 
 .share_icons {
   position: absolute;
-  top: 35px;
+  top: 21px;
   right: 26px;
   display: -webkit-box;
   display: -moz-box;
@@ -6291,8 +6293,8 @@ ul.share-buttons li {
 
 .sun img {
   position: absolute;
-  bottom: 23vh;
-  left: 35vw;
+  bottom: 12vh;
+  left: 32vw;
   z-index: -1;
   max-width: 33%;
   /* Medium Devices, Desktops */
@@ -6309,16 +6311,16 @@ ul.share-buttons li {
   		}*/ }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .sun img {
-      bottom: 17vh;
+      bottom: 5vh;
       right: 29vw; } }
   @media only screen and (min-width: 1200px) {
     .sun img {
-      bottom: 20vh;
+      bottom: 3vh;
       left: 35vw; } }
   @media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
     .sun img {
-      bottom: 17vh;
-      left: 37vw; } }
+      bottom: 7vh;
+      left: 35vw; } }
 
 .mountain img {
   position: absolute;
