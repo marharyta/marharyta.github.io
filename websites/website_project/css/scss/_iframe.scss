@@ -1,6 +1,8 @@
-
-
-
+ iframe {
+    margin: 0px auto;
+    
+    
+}
    /*==========  Mobile First Method  ==========*/
 
     /* Very small decices*/
@@ -18,9 +20,10 @@
  .iframe-container iframe {
     position: absolute;
     top:0;
-    left: 0;
-    width: 100%;
+    left: 2.5%;
+    width: 95%;
     height: 100%;
+    margin: 0px auto;
 }
     }
 
@@ -38,9 +41,10 @@
  .iframe-container iframe {
     position: absolute;
     top:0;
-    left: 0;
-    width: 100%;
+    left: 2.5%;
+    width: 95%;
     height: 100%;
+     margin: 0px auto;
 }
         
     }
@@ -59,8 +63,9 @@
  .iframe-container iframe {
     position: absolute;
     top:0;
-    left: 0;
-    width: 100%;
+    left: 2.5%;
+    width: 95%;
     height: 100%;
+     margin: 0px auto;
 }
     }
