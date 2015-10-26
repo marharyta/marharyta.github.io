@@ -5839,6 +5839,33 @@ body {
   margin-top: 20px;
   margin-bottom: 0px; }
 
+@media only screen and (max-width: 319px) {
+  .reaktor-logo {
+    width: 60px;
+    height: 1em; }
+
+  .finnair-logo {
+    width: 80px;
+    height: 0.6em; }
+
+  .finavia-logo {
+    width: 90px;
+    height: 1em; } }
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .reaktor-logo {
+    width: 60px;
+    height: 1em; }
+
+  .finnair-logo {
+    width: 80px;
+    height: 0.6em; }
+
+  .finavia-logo {
+    width: 90px;
+    height: 1em; } }
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
 .logo {
   margin-top: 30px; }
   .logo img {
@@ -5957,6 +5984,9 @@ body {
 
 .margin_auto {
   margin: 0px auto; }
+
+.block {
+  display: block; }
 
 .facebook_share {
   position: absolute;
