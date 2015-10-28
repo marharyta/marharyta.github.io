@@ -5939,6 +5939,7 @@ body {
   position: absolute;
   top: 21px;
   right: 26px;
+  z-index: 10;
   display: -webkit-box;
   display: -moz-box;
   display: box;
@@ -5979,12 +5980,6 @@ body {
   /* Extra Small Devices, Phones */
   /* Small Devices, Tablets */ }
 
-.margin_auto {
-  margin: 0px auto; }
-
-.block {
-  display: block; }
-
 .facebook_share {
   position: absolute;
   right: 80px; }
@@ -5993,11 +5988,14 @@ body {
   position: absolute;
   right: 20px; }
 
-.share-icons {
-  z-index: 10; }
-
 .padding_more {
   padding: 20px 0px; }
+
+.margin_auto {
+  margin: 0px auto; }
+
+.block {
+  display: block; }
 
 .flexbox {
   display: -webkit-box;
@@ -6115,7 +6113,60 @@ body {
     width: 50%; }
 
   footer {
-    margin-top: 15px; } }
+    margin-top: 15px; }
+
+  .share_icons {
+    position: absolute;
+    bottom: 21px;
+    right: 26px;
+    z-index: 10;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-align: baseline;
+    -moz-box-align: baseline;
+    box-align: baseline;
+    -webkit-align-items: baseline;
+    -moz-align-items: baseline;
+    -ms-align-items: baseline;
+    -o-align-items: baseline;
+    align-items: baseline;
+    -ms-flex-align: baseline;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    /* Custom, iPhone Retina */
+    /* Extra Small Devices, Phones */
+    /* Small Devices, Tablets */ }
+
+  .facebook_share {
+    position: absolute;
+    right: 80px; }
+
+  .twitter_share {
+    position: absolute;
+    right: 20px; } }
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .companies-centered {
@@ -6129,7 +6180,60 @@ body {
     margin-top: 20px; }
 
   footer {
-    margin-top: 15px; } }
+    margin-top: 15px; }
+
+  .share_icons {
+    position: absolute;
+    bottom: 21px;
+    right: 26px;
+    z-index: 10;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-align: baseline;
+    -moz-box-align: baseline;
+    box-align: baseline;
+    -webkit-align-items: baseline;
+    -moz-align-items: baseline;
+    -ms-align-items: baseline;
+    -o-align-items: baseline;
+    align-items: baseline;
+    -ms-flex-align: baseline;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    /* Custom, iPhone Retina */
+    /* Extra Small Devices, Phones */
+    /* Small Devices, Tablets */ }
+
+  .facebook_share {
+    position: absolute;
+    right: 80px; }
+
+  .twitter_share {
+    position: absolute;
+    right: 20px; } }
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .companies-centered {
@@ -6148,7 +6252,60 @@ body {
     max-width: 460px; }
 
   .border {
-    width: 80%; } }
+    width: 80%; }
+
+  .share_icons {
+    position: absolute;
+    bottom: 21px;
+    right: 26px;
+    z-index: 10;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-align: baseline;
+    -moz-box-align: baseline;
+    box-align: baseline;
+    -webkit-align-items: baseline;
+    -moz-align-items: baseline;
+    -ms-align-items: baseline;
+    -o-align-items: baseline;
+    align-items: baseline;
+    -ms-flex-align: baseline;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    /* Custom, iPhone Retina */
+    /* Extra Small Devices, Phones */
+    /* Small Devices, Tablets */ }
+
+  .facebook_share {
+    position: absolute;
+    right: 80px; }
+
+  .twitter_share {
+    position: absolute;
+    right: 20px; } }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .companies-centered {
@@ -6166,7 +6323,60 @@ body {
     max-width: 500px; }
 
   .border {
-    width: 80%; } }
+    width: 80%; }
+
+  .share_icons {
+    position: absolute;
+    bottom: 21px;
+    right: 26px;
+    z-index: 10;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-align: baseline;
+    -moz-box-align: baseline;
+    box-align: baseline;
+    -webkit-align-items: baseline;
+    -moz-align-items: baseline;
+    -ms-align-items: baseline;
+    -o-align-items: baseline;
+    align-items: baseline;
+    -ms-flex-align: baseline;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    /* Custom, iPhone Retina */
+    /* Extra Small Devices, Phones */
+    /* Small Devices, Tablets */ }
+
+  .facebook_share {
+    position: absolute;
+    right: 80px; }
+
+  .twitter_share {
+    position: absolute;
+    right: 20px; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .companies-centered {

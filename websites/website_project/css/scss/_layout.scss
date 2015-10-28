@@ -205,7 +205,7 @@
 	position: absolute;
 	top: 21px;
 	right: 26px;
-
+   z-index: 10;
 	display: -webkit-box;
   	display: -moz-box;
   	display: box;
@@ -248,16 +248,6 @@
 
  }
 
-.margin_auto{
-	//display: inline-block;
-	//margin-right: 8px;
-	margin: $auto_margin;
-}
-
-.block{
-    display: block;
-
-  }
 
 .facebook_share{
 	position: absolute;
@@ -271,12 +261,21 @@
 	right: 20px;
 }
 
-.share-icons{
-  z-index: 10;
-}
 .padding_more{
 	padding: 20px 0px;
 }
+
+.margin_auto{
+  //display: inline-block;
+  //margin-right: 8px;
+  margin: $auto_margin;
+}
+
+.block{
+    display: block;
+
+  }
+
 
 .flexbox{
 	@include display(flex);

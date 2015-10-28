@@ -21,6 +21,66 @@
         footer{
             margin-top: 15px;
         }
+
+        .share_icons{
+    position: absolute;
+    bottom: 21px;
+    right: 26px;
+   z-index: 10;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-align: baseline;
+    -moz-box-align: baseline;
+    box-align: baseline;
+    -webkit-align-items: baseline;
+    -moz-align-items: baseline;
+    -ms-align-items: baseline;
+    -o-align-items: baseline;
+    align-items: baseline;
+    -ms-flex-align: baseline;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+
+ }
+
+
+.facebook_share{
+    position: absolute;
+    //top: 30px;
+    right: 80px;
+}
+
+.twitter_share{
+    position: absolute;
+    //top: 30px;
+    right: 20px;
+}
         
     }
 
@@ -44,6 +104,67 @@
          footer{
             margin-top: 15px;
         }
+
+
+        .share_icons{
+    position: absolute;
+    bottom: 21px;
+    right: 26px;
+   z-index: 10;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-align: baseline;
+    -moz-box-align: baseline;
+    box-align: baseline;
+    -webkit-align-items: baseline;
+    -moz-align-items: baseline;
+    -ms-align-items: baseline;
+    -o-align-items: baseline;
+    align-items: baseline;
+    -ms-flex-align: baseline;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+
+ }
+
+
+.facebook_share{
+    position: absolute;
+    //top: 30px;
+    right: 80px;
+}
+
+.twitter_share{
+    position: absolute;
+    //top: 30px;
+    right: 20px;
+}
         
     }
 
@@ -74,6 +195,67 @@
             width: 80%;
             
         }
+
+
+        .share_icons{
+    position: absolute;
+    bottom: 21px;
+    right: 26px;
+   z-index: 10;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-align: baseline;
+    -moz-box-align: baseline;
+    box-align: baseline;
+    -webkit-align-items: baseline;
+    -moz-align-items: baseline;
+    -ms-align-items: baseline;
+    -o-align-items: baseline;
+    align-items: baseline;
+    -ms-flex-align: baseline;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+
+ }
+
+
+.facebook_share{
+    position: absolute;
+    //top: 30px;
+    right: 80px;
+}
+
+.twitter_share{
+    position: absolute;
+    //top: 30px;
+    right: 20px;
+}
     }
 
     /* Small Devices, Tablets */
@@ -102,6 +284,67 @@
             width: 80%;
             
         }
+
+        
+        .share_icons{
+    position: absolute;
+    bottom: 21px;
+    right: 26px;
+   z-index: 10;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-align: baseline;
+    -moz-box-align: baseline;
+    box-align: baseline;
+    -webkit-align-items: baseline;
+    -moz-align-items: baseline;
+    -ms-align-items: baseline;
+    -o-align-items: baseline;
+    align-items: baseline;
+    -ms-flex-align: baseline;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+
+ }
+
+
+.facebook_share{
+    position: absolute;
+    //top: 30px;
+    right: 80px;
+}
+
+.twitter_share{
+    position: absolute;
+    //top: 30px;
+    right: 20px;
+}
     }
 
     /* Medium Devices, Desktops */
