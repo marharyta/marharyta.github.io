@@ -6153,7 +6153,7 @@ ul.share-buttons li {
     background-color: transparent; }
 
   .shorter {
-    width: 80%; }
+    width: 60%; }
 
   #keys {
     display: block;
@@ -6304,12 +6304,12 @@ ul.share-buttons li {
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     .cloud_container #right_middle_cloud {
       width: 100%;
-      top: 280vh;
+      top: 200vh;
       left: 0vw; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .cloud_container #right_middle_cloud {
       width: 100%;
-      top: 340vh;
+      top: 200vh;
       left: 0vw; } }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .cloud_container #right_middle_cloud {
