@@ -142,6 +142,20 @@
 			left: 0vw; 
 		}
 
+		@media only screen 
+	    and (min-device-width : 414px) 
+	    and (max-device-width : 736px)
+	    and (device-width : 414px)
+	    and (device-height : 736px)
+	    and (orientation : portrait) 
+	    and (-webkit-min-device-pixel-ratio : 3) 
+	    and (-webkit-device-pixel-ratio : 3)
+		{
+			width: 100%;
+	        top: 270vh;
+			left: 0vw; 
+		 }
+
 	     /* Custom, iPhone 6 6s 6plus Retina */ 
 	   /* @media only screen and (min-width : 375px) and (max-width: 479px) {
 	    	width: 100%;
