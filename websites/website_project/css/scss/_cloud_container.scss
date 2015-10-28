@@ -119,11 +119,11 @@
 	    }
 
 	    /* Custom, iPhone 4 5 5s Retina */ 
-	   /* @media only screen and (min-width : 320px) and (max-width: 479px) {
+	    @media only screen and (min-width : 320px) and (max-width: 479px) {
 	    	width: 100%;
 	        top: 360vh;
 			left: 0vw;
-	    }*/
+	    }
 
 	     /* Custom, iPhone 6 6s 6plus Retina */ 
 	    @media only screen and (min-width : 375px) and (max-width: 479px) {
@@ -132,44 +132,6 @@
 			left: 0vw;
 	    }
 
-	    /* Custom, iPhone 6 6s 6plus Retina  Landscape*/ 
-
-		@media only screen 
-		    and (min-device-width : 375px) // or 213.4375em or 3in or 9cm
-		    and (max-device-width : 667px) // or 41.6875em
-		    and (width : 667px) // or 41.6875em
-		    and (height : 375px) // or 23.4375em
-		    and (orientation : landscape) 
-		    and (color : 8)
-		    and (device-aspect-ratio : 375/667)
-		    and (aspect-ratio : 667/375)
-		    and (device-pixel-ratio : 2)
-		    and (-webkit-min-device-pixel-ratio : 2)
-		{
-			width: 100%;
-	        top: 480vh;
-			left: 0vw;
-		 }
-
-		  /* Custom, iPhone 6 6s 6plus Retina  Portrait*/ 
-
-		@media only screen 
-		    and (min-device-width : 375px) // or 213.4375em
-		    and (max-device-width : 667px) // or 41.6875em
-		    and (width : 375px) // or 23.4375em
-		    and (height : 559px) // or 34.9375em
-		    and (orientation : portrait) 
-		    and (color : 8)
-		    and (device-aspect-ratio : 375/667)
-		    and (aspect-ratio : 375/559)
-		    and (device-pixel-ratio : 2)
-		    and (-webkit-min-device-pixel-ratio : 2)
-		{
-
-			width: 100%;
-	        top: 360vh;
-			left: 0vw; 
-		}
 
 	    /* Extra Small Devices, Phones */ 
 	    @media only screen and (min-width : 480px) and (max-width: 767px) {
@@ -195,6 +157,12 @@
 	    	top: 98vh;
 			right: 35vw;
 	    }
+	}
+
+	#cloud-over-judges{
+		position: relative;
+		top: -20px;
+		width: 100%;
 	}
 
 	#airplane1{
