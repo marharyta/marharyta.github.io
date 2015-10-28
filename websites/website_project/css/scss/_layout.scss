@@ -316,12 +316,12 @@
 
 }
 
-ul.share-buttons{
+.share-buttons{
   list-style: none;
   padding: 15px;
 }
 
-ul.share-buttons li{
+.share-buttons li{
   display: inline;
 
 }
@@ -329,5 +329,6 @@ ul.share-buttons li{
 .share-small{
   position: absolute;
   bottom: 10px;
+  x-index: 10;
 }
 
