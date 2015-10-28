@@ -238,7 +238,7 @@ content="http://graphics.myfavnews.com/images/logo-100x100.jpg" />
 				</p>
 				<p class="brief_text">
 
-					<b>PARTICIPANTS: Watch this space. We will make materials available a few days prior to the event.</b>
+					<b>Want to know what we will be looking for? Read more in our post on the <a href="http://hackjunction.com/guest-post/reaktor/2015/10/26/future-of-air-travel.html" target="_blank">Junction Blog</a>.</b>
 
 				</p>
 			</div>
@@ -347,7 +347,7 @@ content="http://graphics.myfavnews.com/images/logo-100x100.jpg" />
 				<div class="row">
 					<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 text-center int_applicants">
 						<h2>INTERNATIONAL APPLICANTS</h2>
-						<p>Thank you all for your video entries. Our selection panel is working overtime to be able to get back to you as soon as possible. Selected teams / participants will be notified by Tuesday 27th of October.</p>
+						<p id="myP">Thank you all for your video entries. Our selection panel is working overtime to be able to get back to you as soon as possible. Selected teams / participants will be notified by Tuesday 27th of October.</p>
 
 
 								<!--Old frame -->
@@ -462,5 +462,17 @@ content="http://graphics.myfavnews.com/images/logo-100x100.jpg" />
 	     );
 	   });
 	 </script>
+
+	 <script>
+		window.onscroll = function() {myFunction()};
+
+		function myFunction() {
+		    if (document.body.scrollTop || document.documentElement.scrollTop > 50) {
+		        document.getElementById("airplane1").className = "test";
+		    } else {
+		        document.getElementById("airplane1").className = "";
+		    }
+		}
+	</script>
   </body>
 </html>

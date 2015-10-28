@@ -6655,4 +6655,22 @@ h2 {
   font-family: main_text;
   font-size: 16px; }
 
+.test {
+  position: absolute;
+  top: 10vh;
+  left: 80vh;
+  /* Large Devices, Wide Screens */
+  /*delete transform when pics are bigger res*/
+  transform: scale(0.8, 0.8);
+  -ms-transform: scale(0.8, 0.8);
+  -webkit-transform: scale(0.8, 0.8); }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .test {
+      top: 30vh;
+      left: 40vh; } }
+  @media only screen and (min-width: 1200px) {
+    .test {
+      top: 50vh;
+      left: 50vh; } }
+
 /*# sourceMappingURL=main_style.css.map */
