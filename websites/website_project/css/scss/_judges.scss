@@ -13,15 +13,16 @@
 		background-size: cover;
 
 		border-style: solid;
-    border-width: 2.5px;
+    	border-width: 2.5px;
 		width: 140px;
 		height: 140px;
 			max-width: 47.5%;
 			max-height: 47.5%;
 		
-		-webkit-border-radius: 100px;
-		-moz-border-radius: 100px;
-		border-radius: 100px;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+
 	}
 
 	.judge-name{

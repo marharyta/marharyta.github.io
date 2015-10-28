@@ -6777,9 +6777,9 @@ h2 {
     height: 140px;
     max-width: 47.5%;
     max-height: 47.5%;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    border-radius: 100px; }
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; }
   .judge .judge-name {
     padding-top: 8px; }
 
