@@ -6270,7 +6270,7 @@ ul.share-buttons li {
     .cloud_container #right_middle_cloud {
       width: 100%;
       top: 360vh;
-      left: 15vw; } }
+      left: 0vw; } }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     .cloud_container #right_middle_cloud {
       top: 348vh;
