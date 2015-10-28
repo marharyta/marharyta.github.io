@@ -6264,19 +6264,19 @@ ul.share-buttons li {
   /* Large Devices, Wide Screens */ }
   @media only screen and (max-width: 319px) {
     .cloud_container #right_middle_cloud {
-      top: 600vh;
+      top: 341vh;
       left: 15vw; } }
   @media only screen and (min-width: 320px) and (max-width: 479px) {
     .cloud_container #right_middle_cloud {
-      top: 600vh;
+      top: 341vh;
       left: 15vw; } }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     .cloud_container #right_middle_cloud {
-      top: 600vh;
+      top: 348vh;
       left: 15vw; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .cloud_container #right_middle_cloud {
-      top: 298vh;
+      top: 380vh;
       left: 15vw; } }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .cloud_container #right_middle_cloud {
