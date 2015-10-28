@@ -6096,6 +6096,10 @@ ul.share-buttons {
 ul.share-buttons li {
   display: inline; }
 
+.share-small {
+  position: absolute;
+  bottom: 10px; }
+
 /*==========  Mobile First Method  ==========*/
 /* Very small decices*/
 @media only screen and (max-width: 319px) {
@@ -6153,7 +6157,7 @@ ul.share-buttons li {
     background-color: transparent; }
 
   .shorter {
-    width: 50%; }
+    width: 60%; }
 
   #keys {
     display: block;
