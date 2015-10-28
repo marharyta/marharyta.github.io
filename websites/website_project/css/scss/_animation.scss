@@ -1,0 +1,22 @@
+.test{
+		position: absolute;
+		top: 10vh;
+		left: 80vh;
+
+		@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	      	top: 30vh;
+			left: 40vh;
+	    }
+
+	    /* Large Devices, Wide Screens */
+	    @media only screen and (min-width : 1200px) {
+	    	top: 50vh;
+			left: 50vh;
+	    }
+
+
+		/*delete transform when pics are bigger res*/
+		transform: scale(0.8, 0.8);
+		-ms-transform: scale(0.8, 0.8);
+		-webkit-transform: scale(0.8, 0.8);
+	}

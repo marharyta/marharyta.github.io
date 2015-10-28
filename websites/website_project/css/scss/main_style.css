@@ -5862,7 +5862,7 @@ body {
     height: 0.6em; }
 
   .finavia-logo {
-    width: 90px;
+    width: 0px;
     height: 1em; } }
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
@@ -6110,7 +6110,7 @@ ul.share-buttons li {
     margin-top: 20px; }
 
   .shorter {
-    width: 90%; }
+    width: 50%; }
 
   footer {
     margin-top: 15px; } }
@@ -6120,7 +6120,7 @@ ul.share-buttons li {
     margin-top: 15px; }
 
   .shorter {
-    width: 90%; }
+    width: 50%; }
 
   .main_info {
     background-color: white;
@@ -6138,7 +6138,7 @@ ul.share-buttons li {
     margin-top: 20px; }
 
   .shorter {
-    width: 90%; } }
+    width: 50%; } }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .companies-centered {
@@ -6148,7 +6148,7 @@ ul.share-buttons li {
     background-color: transparent; }
 
   .shorter {
-    width: 90%; } }
+    width: 50%; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .companies-centered {
@@ -6158,7 +6158,7 @@ ul.share-buttons li {
     background-color: transparent; }
 
   .shorter {
-    width: 80%; } }
+    width: 40%; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   .companies-centered {
@@ -6168,7 +6168,7 @@ ul.share-buttons li {
     background-color: transparent; }
 
   .shorter {
-    width: 70%; } }
+    width: 30%; } }
 .cloud_container img {
   z-index: -1; }
 .cloud_container #left_cloud {
@@ -6257,7 +6257,27 @@ ul.share-buttons li {
   position: absolute;
   top: 98vh;
   right: 35vw;
+  /* Very small decices*/
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
   /* Large Devices, Wide Screens */ }
+  @media only screen and (max-width: 319px) {
+    .cloud_container #right_middle_cloud {
+      top: 403vh;
+      left: 15vw; } }
+  @media only screen and (min-width: 320px) and (max-width: 479px) {
+    .cloud_container #right_middle_cloud {
+      top: 403vh;
+      left: 15vw; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .cloud_container #right_middle_cloud {
+      top: 403vh;
+      left: 15vw; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .cloud_container #right_middle_cloud {
+      top: 398vh;
+      left: 15vw; } }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .cloud_container #right_middle_cloud {
       top: 98vh;
@@ -6616,7 +6636,7 @@ h2 {
   margin-bottom: 27px; }
 
 .text-smaller {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-family: register_button_text; }
   .text-smaller a {
     text-decoration: none;
@@ -6651,6 +6671,13 @@ h2 {
   font-family: main_text_medium;
   font-size: 16px; }
 
+.judge-name h3 {
+  font-family: main_text_medium;
+  font-size: 16px; }
+.judge-name p {
+  font-family: main_text;
+  font-size: 1em; }
+
 .copyright {
   font-family: main_text;
   font-size: 16px; }
@@ -6672,5 +6699,27 @@ h2 {
     .test {
       top: 50vh;
       left: 50vh; } }
+
+.judge {
+  padding-top: 27px; }
+  .judge .bordered-image {
+    display: block;
+    margin: 0px auto;
+    background-color: green;
+    background-image: url("../../images/bc.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-style: solid;
+    border-width: 2.5px;
+    width: 140px;
+    height: 140px;
+    max-width: 47.5%;
+    max-height: 47.5%;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px; }
+  .judge .judge-name {
+    padding-top: 16px; }
 
 /*# sourceMappingURL=main_style.css.map */

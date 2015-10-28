@@ -78,7 +78,7 @@ h2{
 }
 
 .text-smaller{
-	font-size: 1.5em;
+	font-size: 1.2em;
 	font-family: register_button_text;
 	a{
 		text-decoration: none;
@@ -131,9 +131,24 @@ h2{
 	}
 }
 
+.judge-name{
+	h3{
+		font-family: main_text_medium;
+		font-size: 16px;
+	}
+
+	p{
+		font-family: main_text;
+	font-size: 1em;
+	}
+		
+	}
+
 .copyright{
 	font-family: main_text;
 		font-size: 16px;
 }
+
+
 
 

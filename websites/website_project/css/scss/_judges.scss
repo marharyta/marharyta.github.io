@@ -1,0 +1,29 @@
+.judge{
+
+	padding-top: 27px;
+	//height: 200px;
+	.bordered-image{
+		display: block;
+			margin: 0px auto;
+		background-color: green;
+		background-image: url("../../images/bc.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+
+		border-style: solid;
+    border-width: 2.5px;
+		width: 140px;
+		height: 140px;
+			max-width: 47.5%;
+			max-height: 47.5%;
+		
+		-webkit-border-radius: 100px;
+		-moz-border-radius: 100px;
+		border-radius: 100px;
+	}
+
+	.judge-name{
+		padding-top: 16px;
+	}
+}
