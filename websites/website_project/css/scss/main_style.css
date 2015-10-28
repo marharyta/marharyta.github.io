@@ -5939,7 +5939,6 @@ body {
   position: absolute;
   top: 21px;
   right: 26px;
-  z-index: 10;
   display: -webkit-box;
   display: -moz-box;
   display: box;
@@ -5980,6 +5979,12 @@ body {
   /* Extra Small Devices, Phones */
   /* Small Devices, Tablets */ }
 
+.margin_auto {
+  margin: 0px auto; }
+
+.block {
+  display: block; }
+
 .facebook_share {
   position: absolute;
   right: 80px; }
@@ -5988,14 +5993,11 @@ body {
   position: absolute;
   right: 20px; }
 
+.share-icons {
+  z-index: 10; }
+
 .padding_more {
   padding: 20px 0px; }
-
-.margin_auto {
-  margin: 0px auto; }
-
-.block {
-  display: block; }
 
 .flexbox {
   display: -webkit-box;
@@ -6087,17 +6089,12 @@ body {
 .int_applicants {
   margin-top: 30px; }
 
-.share-buttons {
+ul.share-buttons {
   list-style: none;
   padding: 15px; }
 
-.share-buttons li {
+ul.share-buttons li {
   display: inline; }
-
-.share-small {
-  position: absolute;
-  bottom: 10px;
-  x-index: 10; }
 
 /*==========  Mobile First Method  ==========*/
 /* Very small decices*/
