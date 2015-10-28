@@ -6113,6 +6113,8 @@ ul.share-buttons li {
     width: 50%; }
 
   #keys {
+    display: block;
+    margin: 0px auto;
     max-width: 270px; }
 
   footer {
@@ -6130,6 +6132,8 @@ ul.share-buttons li {
     margin-top: 20px; }
 
   #keys {
+    display: block;
+    margin: 0px auto;
     max-width: 300px; }
 
   footer {
@@ -6147,6 +6151,8 @@ ul.share-buttons li {
     width: 50%; }
 
   #keys {
+    display: block;
+    margin: 0px auto;
     max-width: 460px; } }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -6160,6 +6166,8 @@ ul.share-buttons li {
     width: 50%; }
 
   #keys {
+    display: block;
+    margin: 0px auto;
     max-width: 500px; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
