@@ -6258,7 +6258,10 @@ ul.share-buttons li {
   top: 98vh;
   right: 35vw;
   /* Very small decices*/
-  /* Custom, iPhone Retina */
+  /* Custom, iPhone 4 5 5s Retina */
+  /* Custom, iPhone 6 6s 6plus Retina */
+  /* Custom, iPhone 6 6s 6plus Retina  Landscape*/
+  /* Custom, iPhone 6 6s 6plus Retina  Portrait*/
   /* Extra Small Devices, Phones */
   /* Small Devices, Tablets */
   /* Large Devices, Wide Screens */ }
@@ -6271,6 +6274,21 @@ ul.share-buttons li {
     .cloud_container #right_middle_cloud {
       width: 100%;
       top: 360vh;
+      left: 0vw; } }
+  @media only screen and (min-width: 375px) and (max-width: 479px) {
+    .cloud_container #right_middle_cloud {
+      width: 100%;
+      top: 360vh;
+      left: 0vw; } }
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (width: 667px) and (height: 375px) and (orientation: landscape) and (color: 8) and (device-aspect-ratio: 375 / 667) and (aspect-ratio: 667 / 375) and (device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2) {
+    .cloud_container #right_middle_cloud {
+      width: 100%;
+      top: 520vh;
+      left: 0vw; } }
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (width: 375px) and (height: 559px) and (orientation: portrait) and (color: 8) and (device-aspect-ratio: 375 / 667) and (aspect-ratio: 375 / 559) and (device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2) {
+    .cloud_container #right_middle_cloud {
+      width: 100%;
+      top: 430vh;
       left: 0vw; } }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     .cloud_container #right_middle_cloud {
