@@ -6264,15 +6264,15 @@ ul.share-buttons li {
   /* Large Devices, Wide Screens */ }
   @media only screen and (max-width: 319px) {
     .cloud_container #right_middle_cloud {
-      top: 403vh;
+      top: 600vh;
       left: 15vw; } }
   @media only screen and (min-width: 320px) and (max-width: 479px) {
     .cloud_container #right_middle_cloud {
-      top: 341vh;
+      top: 600vh;
       left: 15vw; } }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     .cloud_container #right_middle_cloud {
-      top: 398vh;
+      top: 600vh;
       left: 15vw; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .cloud_container #right_middle_cloud {

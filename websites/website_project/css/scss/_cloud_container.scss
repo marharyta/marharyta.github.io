@@ -112,20 +112,20 @@
 
 		 /* Very small decices*/
 	    @media only screen and (max-width: 319px) {
-	        top: 403vh;
+	        top: 600vh;
 			left: 15vw;
 	        
 	    }
 
 	    /* Custom, iPhone Retina */ 
 	    @media only screen and (min-width : 320px) and (max-width: 479px) {
-	        top: 341vh;
+	        top: 600vh;
 			left: 15vw;
 	    }
 
 	    /* Extra Small Devices, Phones */ 
 	    @media only screen and (min-width : 480px) and (max-width: 767px) {
-	       top: 398vh;
+	       top: 600vh;
 			left: 15vw;
 	    }
 
