@@ -1,11 +1,12 @@
 .judge{
 
-	padding-top: 40px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	//height: 200px;
 	.bordered-image{
 		display: block;
 			margin: 0px auto;
-		background-color: green;
+		background-color: transparent;
 		//background-image: url("../../images/bc.png");
 		background-repeat: no-repeat;
 		background-position: center;
@@ -24,7 +25,7 @@
 	}
 
 	.judge-name{
-		padding-top: 10px;
+		padding-top: 8px;
 	}
 }
 
