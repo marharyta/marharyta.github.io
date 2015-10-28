@@ -6297,9 +6297,30 @@ ul.share-buttons li {
       top: 98vh;
       right: 35vw; } }
 .cloud_container #cloud-over-judges {
-  position: relative;
-  top: -20px;
-  width: 100%; }
+  position: absolute;
+  top: 20vh;
+  left: 30vh;
+  /* Very small decices*/
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Large Devices, Wide Screens */ }
+  @media only screen and (max-width: 319px) {
+    .cloud_container #cloud-over-judges {
+      top: 20vh;
+      left: 30vh; } }
+  @media only screen and (min-width: 320px) and (max-width: 479px) {
+    .cloud_container #cloud-over-judges {
+      top: 20vh;
+      left: 30vh; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .cloud_container #cloud-over-judges {
+      top: 20vh;
+      left: 30vh; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .cloud_container #cloud-over-judges {
+      top: 20vh;
+      left: 30vh; } }
 .cloud_container #airplane1 {
   position: absolute;
   top: 20vh;
