@@ -125,13 +125,13 @@
 
 	    /* Extra Small Devices, Phones */ 
 	    @media only screen and (min-width : 480px) and (max-width: 767px) {
-	       top: 403vh;
+	       top: 398vh;
 			left: 15vw;
 	    }
 
 	    /* Small Devices, Tablets */
 	    @media only screen and (min-width : 768px) and (max-width: 991px) {
-	         top: 398vh;
+	         top: 298vh;
 			left: 15vw;
 	    }
 
@@ -151,6 +151,27 @@
 		position: absolute;
 		top: 20vh;
 		left: 30vh;
+
+		 /* Very small decices*/
+	    @media only screen and (max-width: 319px) {
+	        display: none;
+	        
+	    }
+
+	    /* Custom, iPhone Retina */ 
+	    @media only screen and (min-width : 320px) and (max-width: 479px) {
+	        display: none;
+	    }
+
+	    /* Extra Small Devices, Phones */ 
+	    @media only screen and (min-width : 480px) and (max-width: 767px) {
+	       display: none;
+	    }
+
+	    /* Small Devices, Tablets */
+	    @media only screen and (min-width : 768px) and (max-width: 991px) {
+	        display: none;
+	    }
 
 		@media only screen and (min-width : 992px) and (max-width: 1199px) {
 	      	top: 15vh;
