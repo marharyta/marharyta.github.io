@@ -1,12 +1,12 @@
 .judge{
 
-	padding-top: 27px;
+	padding-top: 40px;
 	//height: 200px;
 	.bordered-image{
 		display: block;
 			margin: 0px auto;
 		background-color: green;
-		background-image: url("../../images/bc.png");
+		//background-image: url("../../images/bc.png");
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -26,4 +26,29 @@
 	.judge-name{
 		padding-top: 10px;
 	}
+}
+
+#eero-knuutila{
+	background-image: url("../../images/judges/eero-knuutila.jpg");
+
+}
+
+#erica-swallow{
+	background-image: url("../../images/judges/erica-swallow.jpg");
+}
+
+#heikki-koski-finavia{
+	background-image: url("../../images/judges/heikki-koski-finavia.jpg");
+}
+
+#konsta-hansson{
+	background-image: url("../../images/judges/konsta-hansson.jpg");
+}
+
+#maryann-simson{
+	background-image: url("../../images/judges/maryann-simson.jpg");
+}
+
+#oskari-kettunen{
+	background-image: url("../../images/judges/oskari-kettunen.jpg");
 }

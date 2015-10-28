@@ -6276,7 +6276,7 @@ ul.share-buttons li {
   @media only screen and (min-width: 320px) and (max-width: 479px) {
     .cloud_container #right_middle_cloud {
       width: 100%;
-      top: 285vh;
+      top: 320vh;
       left: 0vw; } }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (width: 375px) and (height: 559px) and (orientation: portrait) and (color: 8) and (device-aspect-ratio: 375 / 667) and (aspect-ratio: 375 / 559) and (device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2) {
     .cloud_container #right_middle_cloud {
@@ -6757,12 +6757,11 @@ h2 {
       left: 50vh; } }
 
 .judge {
-  padding-top: 27px; }
+  padding-top: 40px; }
   .judge .bordered-image {
     display: block;
     margin: 0px auto;
     background-color: green;
-    background-image: url("../../images/bc.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -6777,5 +6776,23 @@ h2 {
     border-radius: 100px; }
   .judge .judge-name {
     padding-top: 10px; }
+
+#eero-knuutila {
+  background-image: url("../../images/judges/eero-knuutila.jpg"); }
+
+#erica-swallow {
+  background-image: url("../../images/judges/erica-swallow.jpg"); }
+
+#heikki-koski-finavia {
+  background-image: url("../../images/judges/heikki-koski-finavia.jpg"); }
+
+#konsta-hansson {
+  background-image: url("../../images/judges/konsta-hansson.jpg"); }
+
+#maryann-simson {
+  background-image: url("../../images/judges/maryann-simson.jpg"); }
+
+#oskari-kettunen {
+  background-image: url("../../images/judges/oskari-kettunen.jpg"); }
 
 /*# sourceMappingURL=main_style.css.map */
