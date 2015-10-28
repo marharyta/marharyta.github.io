@@ -172,7 +172,7 @@
 	    /* Extra Small Devices, Phones */ 
 	    @media only screen and (min-width : 480px) and (max-width: 767px) {
 	       width: 100%;
-	        top: 340vh;
+	        top: 280vh;
 			left: 0vw;
 	    }
 
@@ -192,46 +192,6 @@
 	    @media only screen and (min-width : 1200px) {
 	    	top: 98vh;
 			right: 35vw;
-	    }
-	}
-
-	#cloud-over-judges{
-		position: absolute;
-		top: 20vh;
-		left: 30vh;
-
-		/* Very small decices*/
-	    @media only screen and (max-width: 319px) {
-	        top: 20vh;
-		left: 30vh;
-	        
-	    }
-
-	    /* Custom, iPhone Retina */ 
-	    @media only screen and (min-width : 320px) and (max-width: 479px) {
-	        top: 20vh;
-		left: 30vh;
-	    }
-
-	    /* Extra Small Devices, Phones */ 
-	    @media only screen and (min-width : 480px) and (max-width: 767px) {
-	       top: 20vh;
-		left: 30vh;
-	    }
-
-	    /* Small Devices, Tablets */
-	    @media only screen and (min-width : 768px) and (max-width: 991px) {
-	        top: 20vh;
-		left: 30vh;
-	    }
-
-		@media only screen and (min-width : 992px) and (max-width: 1199px) {
-	      	
-	    }
-
-	    /* Large Devices, Wide Screens */
-	    @media only screen and (min-width : 1200px) {
-	    	
 	    }
 	}
 
