@@ -5898,7 +5898,6 @@ body {
   margin-right: auto;
   margin-left: auto;
   border: solid 2.3px black;
-  width: 80%;
   background-color: white; }
 
 .button_border {
@@ -6112,11 +6111,6 @@ ul.share-buttons li {
   .shorter {
     width: 50%; }
 
-  #keys {
-    display: block;
-    margin: 0px auto;
-    max-width: 220px; }
-
   footer {
     margin-top: 15px; } }
 /* Custom, iPhone Retina */
@@ -6130,11 +6124,6 @@ ul.share-buttons li {
   .main_info {
     background-color: white;
     margin-top: 20px; }
-
-  #keys {
-    display: block;
-    margin: 0px auto;
-    max-width: 270px; }
 
   footer {
     margin-top: 15px; } }
@@ -6153,7 +6142,10 @@ ul.share-buttons li {
   #keys {
     display: block;
     margin: 0px auto;
-    max-width: 460px; } }
+    max-width: 460px; }
+
+  .border {
+    width: 80%; } }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .companies-centered {
@@ -6168,7 +6160,10 @@ ul.share-buttons li {
   #keys {
     display: block;
     margin: 0px auto;
-    max-width: 500px; } }
+    max-width: 500px; }
+
+  .border {
+    width: 80%; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .companies-centered {
@@ -6188,7 +6183,7 @@ ul.share-buttons li {
     background-color: transparent; }
 
   .shorter {
-    width: 30%; } }
+    width: 50%; } }
 .cloud_container img {
   z-index: -1; }
 .cloud_container #left_cloud {
