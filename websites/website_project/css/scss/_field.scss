@@ -302,6 +302,109 @@
 	}
 }
 
+.facebook_abs{
+	img{
+		position: absolute;
+		bottom: 22vh;
+		right: 10vw;
+		z-index: 10;
+	
+
+	   
+
+		 /* Very small decices*/
+	    @media only screen and (max-width: 319px) {
+	        //width: 100%;
+	      position: absolute;
+		bottom: 22vh;
+		right: 10vw;
+		z-index: 10;
+	        
+	    }
+
+	    /* Custom, iPhone 4 5 5s Retina */ 
+	    @media only screen and (min-width : 320px) and (max-width: 479px) {
+	    	position: absolute;
+		bottom: 22vh;
+		right: 10vw;
+		z-index: 10;
+	    }
+
+	    //Iphone 6 Portrait
+
+	    @media only screen 
+		    and (min-device-width : 375px) // or 213.4375em
+		    and (max-device-width : 667px) // or 41.6875em
+		    and (width : 375px) // or 23.4375em
+		    and (height : 559px) // or 34.9375em
+		    and (orientation : portrait) 
+		    and (color : 8)
+		    and (device-aspect-ratio : 375/667)
+		    and (aspect-ratio : 375/559)
+		    and (device-pixel-ratio : 2)
+		    and (-webkit-min-device-pixel-ratio : 2)
+		{
+		position: absolute;
+		bottom: 22vh;
+		right: 10vw;
+		z-index: 10;
+		}
+
+	    //Iphone 6+ Portrait
+		@media only screen 
+	    and (min-device-width : 414px) 
+	    and (max-device-width : 736px)
+	    and (device-width : 414px)
+	    and (device-height : 736px)
+	    and (orientation : portrait) 
+	    and (-webkit-min-device-pixel-ratio : 3) 
+	    and (-webkit-device-pixel-ratio : 3)
+		{
+			position: absolute;
+		bottom: 22vh;
+		right: 10vw;
+		z-index: 10;
+		 }
+
+	     /* Custom, iPhone 6 6s 6plus Retina */ 
+	   /* @media only screen and (min-width : 375px) and (max-width: 479px) {
+	    	width: 100%;
+	        top: 360vh;
+			left: 0vw;
+	    }*/
+
+	    
+
+
+	    /* Extra Small Devices, Phones */ 
+	    @media only screen and (min-width : 480px) and (max-width: 767px) {
+	       position: absolute;
+		bottom: 22vh;
+		right: 10vw;
+		z-index: 10;
+	    }
+
+	    /* Small Devices, Tablets */
+	    @media only screen and (min-width : 768px) and (max-width: 991px) {
+	         position: absolute;
+		bottom: 22vh;
+		right: 10vw;
+		z-index: 10;
+	    }
+
+		@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	       display: none;
+	    }
+
+	    /* Large Devices, Wide Screens */
+	    @media only screen and (min-width : 1200px) {
+	    	display: none;
+	    }
+
+	}
+
+}
+
 .copyright{
 	position: absolute;
 	z-index: 6;

@@ -205,7 +205,7 @@
 	position: absolute;
 	top: 21px;
 	right: 26px;
-z-index: 10;
+  z-index: 10;
 	display: -webkit-box;
   	display: -moz-box;
   	display: box;
@@ -246,30 +246,23 @@ z-index: 10;
   /* Extra Small Devices, Phones */
   /* Small Devices, Tablets */
 
+      .facebook_share{
+      position: absolute;
+      //top: 30px;
+      right: 80px;
+    }
+
+    .twitter_share{
+      position: absolute;
+      //top: 30px;
+      right: 20px;
+    }
+
  }
 
-.margin_auto{
-	//display: inline-block;
-	//margin-right: 8px;
-	margin: $auto_margin;
-}
 
-.block{
-    display: block;
 
-  }
 
-.facebook_share{
-	position: absolute;
-	//top: 30px;
-	right: 80px;
-}
-
-.twitter_share{
-	position: absolute;
-	//top: 30px;
-	right: 20px;
-}
 
 .share-icons-mobile{
   position: absolute;
@@ -314,10 +307,44 @@ z-index: 10;
   /* Custom, iPhone Retina */
   /* Extra Small Devices, Phones */
   /* Small Devices, Tablets */
+     .facebook_share{
+      position: absolute;
+      //top: 30px;
+      right: 80px;
+    }
+
+    .twitter_share{
+      position: absolute;
+      //top: 30px;
+      right: 20px;
+    }
 }
+
+
+ul.share-buttons{
+  list-style: none;
+  padding: 15px;
+}
+
+ul.share-buttons li{
+  display: inline;
+
+}
+
 .padding_more{
 	padding: 20px 0px;
 }
+
+.margin_auto{
+  //display: inline-block;
+  //margin-right: 8px;
+  margin: $auto_margin;
+}
+
+.block{
+    display: block;
+
+  }
 
 .flexbox{
 	@include display(flex);
@@ -357,13 +384,4 @@ z-index: 10;
 
 }
 
-ul.share-buttons{
-  list-style: none;
-  padding: 15px;
-}
-
-ul.share-buttons li{
-  display: inline;
-
-}
 

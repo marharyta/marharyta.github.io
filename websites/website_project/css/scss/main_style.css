@@ -5979,20 +5979,12 @@ body {
   /* Custom, iPhone Retina */
   /* Extra Small Devices, Phones */
   /* Small Devices, Tablets */ }
-
-.margin_auto {
-  margin: 0px auto; }
-
-.block {
-  display: block; }
-
-.facebook_share {
-  position: absolute;
-  right: 80px; }
-
-.twitter_share {
-  position: absolute;
-  right: 20px; }
+  .share_icons .facebook_share {
+    position: absolute;
+    right: 80px; }
+  .share_icons .twitter_share {
+    position: absolute;
+    right: 20px; }
 
 .share-icons-mobile {
   position: absolute;
@@ -6037,9 +6029,28 @@ body {
   /* Custom, iPhone Retina */
   /* Extra Small Devices, Phones */
   /* Small Devices, Tablets */ }
+  .share-icons-mobile .facebook_share {
+    position: absolute;
+    right: 80px; }
+  .share-icons-mobile .twitter_share {
+    position: absolute;
+    right: 20px; }
+
+ul.share-buttons {
+  list-style: none;
+  padding: 15px; }
+
+ul.share-buttons li {
+  display: inline; }
 
 .padding_more {
   padding: 20px 0px; }
+
+.margin_auto {
+  margin: 0px auto; }
+
+.block {
+  display: block; }
 
 .flexbox {
   display: -webkit-box;
@@ -6131,13 +6142,6 @@ body {
 .int_applicants {
   margin-top: 30px; }
 
-ul.share-buttons {
-  list-style: none;
-  padding: 15px; }
-
-ul.share-buttons li {
-  display: inline; }
-
 /*==========  Mobile First Method  ==========*/
 /* Very small decices*/
 @media only screen and (max-width: 319px) {
@@ -6152,17 +6156,7 @@ ul.share-buttons li {
     width: 50%; }
 
   footer {
-    margin-top: 15px; }
-
-  .facebook_share {
-    position: absolute;
-    bottom: 30px;
-    right: 80px; }
-
-  .twitter_share {
-    position: absolute;
-    bottom: 30px;
-    right: 20px; } }
+    margin-top: 15px; } }
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .companies-centered {
@@ -6176,17 +6170,7 @@ ul.share-buttons li {
     margin-top: 20px; }
 
   footer {
-    margin-top: 15px; }
-
-  .facebook_share {
-    position: absolute;
-    bottom: 30px;
-    right: 80px; }
-
-  .twitter_share {
-    position: absolute;
-    bottom: 30px;
-    right: 20px; } }
+    margin-top: 15px; } }
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .companies-centered {
@@ -6205,17 +6189,7 @@ ul.share-buttons li {
     max-width: 460px; }
 
   .border {
-    width: 80%; }
-
-  .facebook_share {
-    position: absolute;
-    bottom: 30px;
-    right: 80px; }
-
-  .twitter_share {
-    position: absolute;
-    bottom: 30px;
-    right: 20px; } }
+    width: 80%; } }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .companies-centered {
@@ -6233,17 +6207,7 @@ ul.share-buttons li {
     max-width: 500px; }
 
   .border {
-    width: 80%; }
-
-  .facebook_share {
-    position: absolute;
-    bottom: 30px;
-    right: 80px; }
-
-  .twitter_share {
-    position: absolute;
-    bottom: 30px;
-    right: 20px; } }
+    width: 80%; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .companies-centered {
@@ -6663,6 +6627,65 @@ ul.share-buttons li {
       transform: scale(0.8, 0.8);
       -ms-transform: scale(0.8, 0.8);
       -webkit-transform: scale(0.8, 0.8); } }
+
+.facebook_abs img {
+  position: absolute;
+  bottom: 22vh;
+  right: 10vw;
+  z-index: 10;
+  /* Very small decices*/
+  /* Custom, iPhone 4 5 5s Retina */
+  /* Custom, iPhone 6 6s 6plus Retina */
+   /* @media only screen and (min-width : 375px) and (max-width: 479px) {
+    	width: 100%;
+        top: 360vh;
+		left: 0vw;
+    }*/
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Large Devices, Wide Screens */ }
+  @media only screen and (max-width: 319px) {
+    .facebook_abs img {
+      position: absolute;
+      bottom: 22vh;
+      right: 10vw;
+      z-index: 10; } }
+  @media only screen and (min-width: 320px) and (max-width: 479px) {
+    .facebook_abs img {
+      position: absolute;
+      bottom: 22vh;
+      right: 10vw;
+      z-index: 10; } }
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (width: 375px) and (height: 559px) and (orientation: portrait) and (color: 8) and (device-aspect-ratio: 375 / 667) and (aspect-ratio: 375 / 559) and (device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2) {
+    .facebook_abs img {
+      position: absolute;
+      bottom: 22vh;
+      right: 10vw;
+      z-index: 10; } }
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) and (-webkit-device-pixel-ratio: 3) {
+    .facebook_abs img {
+      position: absolute;
+      bottom: 22vh;
+      right: 10vw;
+      z-index: 10; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .facebook_abs img {
+      position: absolute;
+      bottom: 22vh;
+      right: 10vw;
+      z-index: 10; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .facebook_abs img {
+      position: absolute;
+      bottom: 22vh;
+      right: 10vw;
+      z-index: 10; } }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .facebook_abs img {
+      display: none; } }
+  @media only screen and (min-width: 1200px) {
+    .facebook_abs img {
+      display: none; } }
 
 .copyright {
   position: absolute;
