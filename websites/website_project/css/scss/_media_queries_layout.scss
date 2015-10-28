@@ -16,6 +16,10 @@
             width: 50%;
         }
 
+         #keys{
+            max-width: 270px;
+        }
+
         footer{
             margin-top: 15px;
         }
@@ -36,6 +40,10 @@
             background-color: white;
             margin-top: 20px;
         } 
+
+        #keys{
+            max-width: 300px;
+        }
          footer{
             margin-top: 15px;
         }
@@ -56,6 +64,11 @@
         .shorter{
             width: 50%;
         }
+
+
+        #keys{
+            max-width: 460px;
+        }
     }
 
     /* Small Devices, Tablets */
@@ -69,6 +82,11 @@
 
         .shorter{
             width: 50%;
+        }
+
+
+        #keys{
+            max-width: 500px;
         }
     }
 
