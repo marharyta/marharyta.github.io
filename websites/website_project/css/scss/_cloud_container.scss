@@ -112,8 +112,9 @@
 
 		 /* Very small decices*/
 	    @media only screen and (max-width: 319px) {
-	        top: 341vh;
-			left: 15vw;
+	        width: 100%;
+	        top: 360vh;
+			left: 0vw;
 	        
 	    }
 
@@ -126,8 +127,9 @@
 
 	    /* Extra Small Devices, Phones */ 
 	    @media only screen and (min-width : 480px) and (max-width: 767px) {
-	       top: 348vh;
-			left: 15vw;
+	       width: 100%;
+	        top: 360vh;
+			left: 0vw;
 	    }
 
 	    /* Small Devices, Tablets */
