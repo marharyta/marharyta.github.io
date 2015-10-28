@@ -6268,7 +6268,7 @@ ul.share-buttons li {
       left: 15vw; } }
   @media only screen and (min-width: 320px) and (max-width: 479px) {
     .cloud_container #right_middle_cloud {
-      top: 380vh;
+      top: 360vh;
       left: 15vw; } }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     .cloud_container #right_middle_cloud {
