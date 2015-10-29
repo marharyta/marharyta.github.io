@@ -6285,7 +6285,7 @@ ul.share-buttons li {
   @media only screen and (min-width: 320px) and (max-width: 479px) {
     .cloud_container #right_middle_cloud {
       width: 100%;
-      top: 360vh;
+      top: 340vh;
       left: 0vw; } }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (width: 375px) and (height: 559px) and (orientation: portrait) and (color: 8) and (device-aspect-ratio: 375 / 667) and (aspect-ratio: 375 / 559) and (device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2) {
     .cloud_container #right_middle_cloud {
