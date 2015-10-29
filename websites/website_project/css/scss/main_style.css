@@ -5986,57 +5986,6 @@ body {
     position: absolute;
     right: 20px; }
 
-.share-icons-mobile {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
-  display: -webkit-box;
-  display: -moz-box;
-  display: box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -moz-box-direction: normal;
-  box-direction: normal;
-  -webkit-flex-direction: row;
-  -moz-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-direction: row;
-  flex-wrap: wrap;
-  -webkit-box-align: baseline;
-  -moz-box-align: baseline;
-  box-align: baseline;
-  -webkit-align-items: baseline;
-  -moz-align-items: baseline;
-  -ms-align-items: baseline;
-  -o-align-items: baseline;
-  align-items: baseline;
-  -ms-flex-align: baseline;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  box-pack: center;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  -o-justify-content: center;
-  justify-content: center;
-  -ms-flex-pack: center;
-  /* Custom, iPhone Retina */
-  /* Extra Small Devices, Phones */
-  /* Small Devices, Tablets */ }
-  .share-icons-mobile .facebook_share {
-    position: absolute;
-    right: 80px; }
-  .share-icons-mobile .twitter_share {
-    position: absolute;
-    right: 20px; }
-
 ul.share-buttons {
   list-style: none;
   padding: 15px; }
@@ -6630,10 +6579,10 @@ ul.share-buttons li {
       -webkit-transform: scale(0.8, 0.8); } }
 
 .facebook_abs img {
-  position: absolute;
-  bottom: 22vh;
-  right: 10vw;
-  z-index: 10;
+  position: relative;
+  top: -60px;
+  right: 40px;
+  z-index: 25;
   /* Very small decices*/
   /* Custom, iPhone 4 5 5s Retina */
   /* Custom, iPhone 6 6s 6plus Retina */
@@ -6647,46 +6596,52 @@ ul.share-buttons li {
   /* Large Devices, Wide Screens */ }
   @media only screen and (max-width: 319px) {
     .facebook_abs img {
-      position: absolute;
-      bottom: 22vh;
-      right: 10vw;
-      z-index: 10; } }
+      position: relative;
+      top: -60px;
+      right: 40px;
+      z-index: 25; } }
   @media only screen and (min-width: 320px) and (max-width: 479px) {
     .facebook_abs img {
-      position: absolute;
-      bottom: 22vh;
-      right: 10vw;
-      z-index: 10; } }
+      position: relative;
+      top: -60px;
+      right: 40px;
+      z-index: 25; } }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (width: 375px) and (height: 559px) and (orientation: portrait) and (color: 8) and (device-aspect-ratio: 375 / 667) and (aspect-ratio: 375 / 559) and (device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2) {
     .facebook_abs img {
-      position: absolute;
-      bottom: 22vh;
-      right: 10vw;
-      z-index: 10; } }
+      position: relative;
+      top: -60px;
+      right: 40px;
+      z-index: 25; } }
   @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) and (-webkit-device-pixel-ratio: 3) {
     .facebook_abs img {
-      position: absolute;
-      bottom: 22vh;
-      right: 10vw;
-      z-index: 10; } }
+      position: relative;
+      top: -60px;
+      right: 40px;
+      z-index: 25; } }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     .facebook_abs img {
-      position: absolute;
-      bottom: 22vh;
-      right: 10vw;
-      z-index: 10; } }
+      position: relative;
+      top: -60px;
+      right: 40px;
+      z-index: 25; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .facebook_abs img {
-      position: absolute;
-      bottom: 22vh;
-      right: 10vw;
-      z-index: 10; } }
+      position: relative;
+      top: -60px;
+      right: 40px;
+      z-index: 25; } }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .facebook_abs img {
-      display: none; } }
+      position: relative;
+      top: -60px;
+      right: 40px;
+      z-index: 25; } }
   @media only screen and (min-width: 1200px) {
     .facebook_abs img {
-      display: none; } }
+      position: relative;
+      top: -60px;
+      right: 40px;
+      z-index: 25; } }
 
 .copyright {
   position: absolute;
