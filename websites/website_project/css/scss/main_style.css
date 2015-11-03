@@ -6899,6 +6899,10 @@ h2 {
   border-bottom: none;
   padding: 16px; }
 
+.apis ul li:last-child {
+  border-right: dashed;
+  border-width: 2px; }
+
 .border-dotted-bottom {
   background-color: transparent;
   display: inline-block;
@@ -6910,12 +6914,16 @@ h2 {
   border-right: none;
   padding: 16px; }
 
-.apis ul li:last-child {
-  border-right: dashed;
-  border-width: 2px; }
-
 .apis ul {
-  margin-top: 0px; }
+  display: block;
+  margin: 30px auto 40px auto; }
+
+.hidden-api {
+  display: none; }
+
+.border-white {
+  border-radius: 10px;
+  background-color: white; }
 
 .taxi {
   position: absolute;
