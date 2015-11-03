@@ -1,7 +1,7 @@
 .toolkit{
 	height: 200px;
 	border-bottom: black solid 5px;
-	margin-bottom: 60px;
+	margin-bottom: 0px;
 }
 
 .home{
@@ -90,6 +90,64 @@
 .section:last-child {
     border-bottom: none;
 }
+
+//for names
+
+.themes{
+	height: 40px;
+	margin-bottom: 30px;
+}
+
+.booking{
+	display: block;
+	position: absolute;
+	top: 0vh;
+	left:0vw;
+}
+
+.transportation{
+	display: block;
+	position: absolute;
+	top: 0vh;
+	left:8vw;
+}
+
+.airport{
+	display: block;
+	position: absolute;
+	top: 0vh;
+	left:23vw;
+}
+
+.take-off{
+	display: block;
+	position: absolute;
+	top: 0vh;
+	left:32vw;
+}
+
+.inflight{
+	display: block;
+	position: absolute;
+	top: 0vh;
+	left:42vw;
+}
+
+.landing{
+	display: block;
+	position: absolute;
+	top: 0vh;
+	left:52vw;
+}
+
+.destination{
+	display: block;
+	position: absolute;
+	top: 0vh;
+	left:60vw;
+}
+
+//for desktop api info
 
 .border-dotted{
 	background-color: transparent;
