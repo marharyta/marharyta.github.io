@@ -1,0 +1,127 @@
+.toolkit{
+	height: 200px;
+	border-bottom: black solid 5px;
+	margin-bottom: 60px;
+}
+
+.home{
+	position: absolute;
+	bottom: 0vh;
+	left:0vw;
+}
+
+.taxi{
+	position: absolute;
+	bottom: 0vh;
+	left: 6vw;
+}
+
+.traveller{
+	position: absolute;
+	bottom: 0vh;
+	left: 19vw;
+	//display: none;
+}
+
+.airport1{
+	position: absolute;
+	bottom: 0vh;
+	left: 21vw;
+}
+
+.plane1{
+	position: absolute;
+	bottom: 3vh;
+	left: 31vw;
+}
+
+.plane2{
+	position: absolute;
+	bottom: 7vh;
+	left: 41vw;
+	display: none;
+}
+
+.plane3{
+	position: absolute;
+	bottom: 3vh;
+	left: 49vw;
+	display: none;
+}
+
+.airport2{
+	position: absolute;
+	bottom: 0vh;
+	right: 0vw;
+}
+
+
+//mobile representation
+
+.section{
+	border-bottom: grey solid 1px;
+	padding-bottom: 20px;
+
+	img{
+		display: block;
+		margin: 20px auto;
+	}
+
+   .traveller-near{
+		position: relative;
+		top: 100px;
+		left: -60px;
+
+	}
+
+	.airport-near{
+		position: relative;
+		
+		left: 20px;
+	}
+
+	.button-border{
+		border-bottom: black solid 3px;
+		padding-bottom: 10px;
+	}
+
+}
+
+.section:last-child {
+    border-bottom: none;
+}
+
+.border-dotted{
+	background-color: transparent;
+	display: inline-block;
+	list-style-type: none;
+	border-style:dashed;
+	border-width: 2px;
+	width: 25%;
+	float: left;
+	border-right: none; 
+	border-bottom: none;
+	padding: 16px;
+}
+
+.border-dotted-bottom{
+	background-color: transparent;
+	display: inline-block;
+	list-style-type: none;
+	border-style:dashed;
+	border-width: 2px;
+	width: 25%;
+	float: left;
+	border-right: none;
+	padding: 16px; 
+}
+
+.apis ul li:last-child {
+	border-right: dashed; 
+	border-width: 2px;
+}
+
+.apis ul{
+	margin-top: 0px;
+	
+}

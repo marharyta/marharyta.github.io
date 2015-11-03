@@ -1,22 +1,296 @@
-.test{
-		position: absolute;
-		top: 10vh;
-		left: 80vh;
+.taxi{
+    position: absolute;
+    bottom: 0vh;
+    left: 4.5vw;
 
-		@media only screen and (min-width : 992px) and (max-width: 1199px) {
-	      	top: 30vh;
-			left: 40vh;
-	    }
+    //animation 
 
-	    /* Large Devices, Wide Screens */
-	    @media only screen and (min-width : 1200px) {
-	    	top: 50vh;
-			left: 50vh;
-	    }
+    -webkit-animation-name: move; /* Chrome, Safari, Opera */
+     -webkit-animation-delay: 0s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-name: move;
+    animation-delay: 0s;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes move {
+    from   {
+            left: 4.5vw;
+        }
+    to {
+         left: 15vw;
+            
+        }
+}
+
+/* Standard syntax */
+@keyframes move {
+      from   {
+            left: 4.5vw;
+        }
+    to {
+         left: 15vw;
+            
+        }
+}
 
 
-		/*delete transform when pics are bigger res*/
-		transform: scale(0.8, 0.8);
-		-ms-transform: scale(0.8, 0.8);
-		-webkit-transform: scale(0.8, 0.8);
-	}
+.plane1{
+    position: absolute;
+    bottom: 1vh;
+    left: 30vw;
+
+    
+    
+
+    -webkit-animation-name: fly; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 5s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-timing-function: ease-in-out;
+    animation-name: fly;
+    animation-delay: 5s;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fly {
+
+    0%   {bottom: 1vh;
+            left: 30vw;
+        }
+    5% {
+         -ms-transform: rotate(10deg); /* IE 9 */
+        -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+        transform: rotate(10deg);
+            
+        }
+    10% {
+        -ms-transform: rotate(15deg); /* IE 9 */
+        -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
+        transform: rotate(15deg);
+            
+        }
+    15% {
+         -ms-transform: rotate(20deg); /* IE 9 */
+        -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
+        transform: rotate(20deg);
+            
+        }
+    20% {
+         -ms-transform: rotate(25deg); /* IE 9 */
+        -webkit-transform: rotate(25deg); /* Chrome, Safari, Opera */
+        transform: rotate(25deg);
+            
+        }
+    25% {bottom: 5vh;
+        -ms-transform: rotate(30deg); /* IE 9 */
+        -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+        transform: rotate(30deg);
+            
+        }
+    30% {
+        -ms-transform: rotate(35deg); /* IE 9 */
+        -webkit-transform: rotate(35deg); /* Chrome, Safari, Opera */
+        transform: rotate(35deg);
+            
+        }
+    35% {
+        -ms-transform: rotate(40deg); /* IE 9 */
+        -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
+        transform: rotate(40deg);
+            
+        }
+    40% {
+        -ms-transform: rotate(45deg); /* IE 9 */
+        -webkit-transform: rotate(54deg); /* Chrome, Safari, Opera */
+        transform: rotate(45deg);
+            
+        }
+     45% {
+        -ms-transform: rotate(45deg); /* IE 9 */
+        -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+        transform: rotate(45deg);
+            
+        }
+    50% {bottom: 1.8vh;
+        left: 52vw;
+        -ms-transform: rotate(42deg); /* IE 9 */
+        -webkit-transform: rotate(42deg); /* Chrome, Safari, Opera */
+        transform: rotate(42deg);}
+    100% {bottom: 1.8vh;
+        left: 52vw;
+        -ms-transform: rotate(42deg); /* IE 9 */
+        -webkit-transform: rotate(42deg); /* Chrome, Safari, Opera */
+        transform: rotate(42deg);}
+
+
+}
+
+/* Standard syntax */
+@keyframes fly {
+    
+    
+    0%   {bottom: 1vh;
+            left: 30vw;
+        }
+    5% {
+         -ms-transform: rotate(10deg); /* IE 9 */
+        -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+        transform: rotate(10deg);
+            
+        }
+    10% {
+        -ms-transform: rotate(15deg); /* IE 9 */
+        -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
+        transform: rotate(15deg);
+            
+        }
+    15% {
+         -ms-transform: rotate(20deg); /* IE 9 */
+        -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
+        transform: rotate(20deg);
+            
+        }
+    20% {
+         -ms-transform: rotate(25deg); /* IE 9 */
+        -webkit-transform: rotate(25deg); /* Chrome, Safari, Opera */
+        transform: rotate(25deg);
+            
+        }
+    25% {bottom: 5vh;
+        -ms-transform: rotate(30deg); /* IE 9 */
+        -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+        transform: rotate(30deg);
+            
+        }
+    30% {
+        -ms-transform: rotate(35deg); /* IE 9 */
+        -webkit-transform: rotate(35deg); /* Chrome, Safari, Opera */
+        transform: rotate(35deg);
+            
+        }
+    35% {
+        -ms-transform: rotate(40deg); /* IE 9 */
+        -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
+        transform: rotate(40deg);
+            
+        }
+    40% {
+        -ms-transform: rotate(45deg); /* IE 9 */
+        -webkit-transform: rotate(54deg); /* Chrome, Safari, Opera */
+        transform: rotate(45deg);
+            
+        }
+     45% {
+        -ms-transform: rotate(45deg); /* IE 9 */
+        -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+        transform: rotate(45deg);
+            
+        }
+    50% {bottom: 1.8vh;
+        left: 52vw;
+        -ms-transform: rotate(42deg); /* IE 9 */
+        -webkit-transform: rotate(42deg); /* Chrome, Safari, Opera */
+        transform: rotate(42deg);}
+    100% {bottom: 1.8vh;
+        left: 52vw;
+        -ms-transform: rotate(42deg); /* IE 9 */
+        -webkit-transform: rotate(42deg);}
+
+}
+
+.traveller{
+    position: absolute;
+    bottom: 0vh;
+    left: 19vw;
+    //display: hidden;
+    //animation 
+
+    //animation: walk_to_plane 3s 8s, walk_to_airport 3s 16s ;
+   
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes walk_to_car {
+    from   {
+            left: 2vw;
+        }
+    to {
+         left: 5vw;
+         display: none;
+            
+        }
+}
+
+/* Standard syntax */
+@keyframes walk_to_car {
+    from   {
+            left: 2vw;
+        }
+    to {
+         left: 5vw;
+         display: none;
+            
+        }
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes walk_to_plane {
+    from   {
+            left: 15vw;
+            display: block;
+        }
+    to {
+         left: 30vw;
+         display: none;
+            
+        }
+}
+
+/* Standard syntax */
+@keyframes walk_to_plane{
+     from   {
+            left: 15vw;
+            display: block;
+        }
+    to {
+         left: 30vw;
+         display: none;
+            
+        }
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes walk_to_airport {
+    from   {
+            left: 52vw;
+            display: block;
+        }
+    to {
+         left: 58vw;
+         display: none;
+            
+        }
+}
+
+/* Standard syntax */
+@keyframes walk_to_airport{
+     from   {
+            left: 52vw;
+        
+        }
+    to {
+         left: 58vw;
+         display: none;
+            
+        }
+}

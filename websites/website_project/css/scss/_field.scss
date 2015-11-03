@@ -3,13 +3,20 @@
 	max-height: 80vh;
 }
 
-.images_mobile_section{
+.no-margin{
+	margin-top: 0px;
+	margin-bottom: 0px !important;
+}
 
+.images_mobile_section{
+	background-color: #FFAC68;
 	padding-left:0px;
 	padding-right: 0px;
+	margin-top: 0px;
+	padding-top: 20px;	
 	img{
-		    max-width: 100vw;
-    		min-width: 100vw;
+		    max-width: 99vw;
+    		min-width: 98vw;
    			margin: 0;
     		padding: 0;
 	}
