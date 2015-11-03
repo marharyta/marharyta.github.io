@@ -4,7 +4,7 @@ $(document).ready(function(){
 	//hidden-api
 	//$( ".apis ul li" ).addClass( "hidden-api" );
 	
-
+		$(".show-all").hide();
 
    // jQuery methods go here...
  
@@ -15,11 +15,13 @@ $(document).ready(function(){
    $(".home").click(function(){
    		$( ".apis ul li" ).addClass( "hidden-api" );
    		$( ".home-apis li" ).removeClass( "hidden-api" ).addClass( "border-dotted-bottom border-white" );
+   		$(".show-all").show();
     });
    //or
    $(".booking").click(function(){
    		$( ".apis ul li" ).addClass( "hidden-api" );
         $( ".home-apis li" ).removeClass( "hidden-api" ).addClass( "border-dotted-bottom border-white" );
+        $(".show-all").show();
     });
 
    //display transportation related apis
@@ -27,6 +29,7 @@ $(document).ready(function(){
    $(".taxi").click(function(){
    		console.log("it works");
    		$( ".apis ul li" ).addClass( "hidden-api" );
+        $(".show-all").show();
         $(".transportation-apis li").removeClass( "hidden-api" ).addClass( "border-dotted-bottom border-white" );
     });
    //or
@@ -88,6 +91,15 @@ $(document).ready(function(){
     	$( ".apis ul li" ).addClass( "hidden-api" );
         $(".other-apis li").removeClass( "hidden-api" ).addClass( "border-dotted-bottom border-white" );
     });
+
+    //show all
+    $(".show-all a").click(function(){
+		$( ".apis ul li" ).addClass( "hidden-api" );
+        $(".apis ul li").removeClass( "hidden-api border-white border-dotted-bottom" );
+        $(".airport-apis li").removeClass( "hidden-api" ).addClass( "border-dotted-bottom" );
+    });
+
+    //show-all
 
 
 });

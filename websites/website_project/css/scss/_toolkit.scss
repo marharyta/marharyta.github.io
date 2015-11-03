@@ -64,25 +64,28 @@
 
 	img{
 		display: block;
-		margin: 20px auto;
+		margin: 40px auto;
 	}
 
    .traveller-near{
 		position: relative;
-		top: 100px;
+		top: 125px;
 		left: -60px;
 
 	}
 
 	.airport-near{
 		position: relative;
-		
 		left: 20px;
 	}
 
 	.button-border{
 		border-bottom: black solid 3px;
 		padding-bottom: 10px;
+	}
+
+	p {
+		margin-bottom: 20px;
 	}
 
 }
@@ -168,15 +171,8 @@
 }
 
 .border-dotted-bottom{
-	background-color: transparent;
-	display: inline-block;
-	list-style-type: none;
-	border-style:dashed;
+	border-bottom: dashed;
 	border-width: 2px;
-	width: 25%;
-	float: left;
-	border-right: none;
-	padding: 16px; 
 }
 
 
@@ -199,6 +195,7 @@
 
 .show-all{
 	margin-top: 30px;
+	//width: 20%;
 }
 
 //disclaimer styling

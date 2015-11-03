@@ -5891,7 +5891,7 @@ body {
 
 .border {
   border-radius: 10px;
-  padding: 5px;
+  padding: 7px;
   margin-top: 30px;
   margin-right: auto;
   margin-left: auto;
@@ -6770,6 +6770,19 @@ h2 {
   font-family: main_text;
   font-size: 1em; }
 
+.themes {
+  font-family: main_text_medium; }
+
+.show-all a {
+  font-family: main_text_medium;
+  text-decoration: underline;
+  color: black; }
+
+.section h4 a {
+  font-family: main_text_medium;
+  text-decoration: underline;
+  color: black; }
+
 .copyright {
   font-family: main_text;
   font-size: 12px; }
@@ -6826,10 +6839,10 @@ h2 {
   padding-bottom: 20px; }
   .section img {
     display: block;
-    margin: 20px auto; }
+    margin: 40px auto; }
   .section .traveller-near {
     position: relative;
-    top: 100px;
+    top: 125px;
     left: -60px; }
   .section .airport-near {
     position: relative;
@@ -6837,6 +6850,8 @@ h2 {
   .section .button-border {
     border-bottom: black solid 3px;
     padding-bottom: 10px; }
+  .section p {
+    margin-bottom: 20px; }
 
 .section:last-child {
   border-bottom: none; }
@@ -6904,15 +6919,8 @@ h2 {
   border-width: 2px; }
 
 .border-dotted-bottom {
-  background-color: transparent;
-  display: inline-block;
-  list-style-type: none;
-  border-style: dashed;
-  border-width: 2px;
-  width: 25%;
-  float: left;
-  border-right: none;
-  padding: 16px; }
+  border-bottom: dashed;
+  border-width: 2px; }
 
 .apis ul {
   display: block;
