@@ -6925,6 +6925,13 @@ h2 {
   border-radius: 10px;
   background-color: white; }
 
+.disclaimer {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  text-align: justify; }
+  .disclaimer h6 {
+    text-align: center; }
+
 .taxi {
   position: absolute;
   bottom: 0vh;
