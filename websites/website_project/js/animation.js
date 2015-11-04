@@ -14,13 +14,16 @@ $(document).ready(function(){
    //display booking related apis
    $(".home").click(function(){
    		$( ".flextoolkit div" ).addClass( "hidden-api" );
-   		$( ".home-apis div" ).removeClass( "hidden-api" ).addClass( "border-dotted-bottom border-white" );
+   		$( ".home-apis" ).removeClass( "hidden-api" ).addClass( "border-dotted-bottom border-white" );
+      $( ".home-apis:last-of-type" ).removeClass( "hidden-api" ).addClass( "border-dotted-right" );
+      //last-of-type
    		$(".show-all").show();
     });
    //or
    $(".booking").click(function(){
    		$( ".flextoolkit div" ).addClass( "hidden-api" );
-        $( ".home-apis div" ).removeClass( "hidden-api" ).addClass( "border-dotted-bottom border-white" );
+        $( ".home-apis" ).removeClass( "hidden-api" ).addClass( "border-dotted-bottom border-white" );
+        $( ".home-apis:last-of-type" ).removeClass( "hidden-api" ).addClass( "border-dotted-right" );
         $(".show-all").show();
     });
 
@@ -31,12 +34,14 @@ $(document).ready(function(){
    		$( ".flextoolkit div" ).addClass( "hidden-api" );
         $(".show-all").show();
         $(".transportation-apis").removeClass( "hidden-api" ).addClass( "border-dotted-bottom border-white" );
+        $( ".transportation-apis:last-of-type" ).removeClass( "hidden-api" ).addClass( "border-dotted-right" );
     });
    //or
    $(".transportation").click(function(){
    		$( ".flextoolkit div" ).addClass( "hidden-api" );
    		 $(".show-all").show();
         $(".transportation-apis").removeClass( "hidden-api" ).addClass( "border-dotted-bottom border-white" );
+        $( ".transportation-apis:last-of-type" ).removeClass( "hidden-api" ).addClass( "border-dotted-right" );
     });
 
 
@@ -47,6 +52,7 @@ $(document).ready(function(){
    		$( ".flextoolkit div" ).addClass( "hidden-api" );
    		 $(".show-all").show();
         $(".airport-apis").removeClass( "hidden-api" ).addClass( "border-dotted-bottom border-white" );
+        $( ".airport-apis" ).removeClass( "hidden-api" ).addClass( "border-dotted-right" );
     });
    //or
    $(".airport").click(function(){
