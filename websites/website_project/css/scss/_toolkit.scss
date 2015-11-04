@@ -67,15 +67,22 @@
 		margin: 20px auto 40px auto;
 	}
 
+	.class{
+		 -ms-transform: scale(2em); /* IE 9 */
+    -webkit-transform: scale(2em); /* Chrome, Safari, Opera */
+    transform: scale(2em);
+	}
+
    .traveller-near{
 		position: relative;
-		top: 125px;
+		top: 75px;
 		left: -60px;
 
 	}
 
 	.airport-near{
 		position: relative;
+		top: -50px;
 		left: 20px;
 	}
 
@@ -152,6 +159,11 @@
 
 //for desktop api info
 
+.apis-auto{
+	display: block;
+	margin: 0px auto;
+}
+
 .apis ul{
 	display: block;
 	width: 100%;
@@ -172,11 +184,28 @@
 	//max-height: 233px;
 	//min-height: 200px;
 	//height: 250px;
+
+	a{
+		color: black;
+	}
 }
 
 .border-dotted-right{
-	border-right: dashed; 
+	
+	background-color: transparent;
+	display: inline-block;
+	list-style-type: none;
+	border-style:dashed;
 	border-width: 2px;
+	width: 25%;
+	float: left;
+	padding: 12px;
+	border-right: dashed; 
+	border-bottom: none;
+	padding: 12px;
+	//max-height: 233px;
+	//min-height: 200px;
+	//height: 250px;
 }
 
 
@@ -187,6 +216,11 @@
 .border-dotted:nth-child(4n) {
   border-right: dashed; 
 	border-width: 2px;
+}
+
+.border-dotted:nth-child(n+9) {
+    border-bottom: dashed;
+	border-width: 2px; 
 }
 
 .border-dotted-bottom{
@@ -208,7 +242,7 @@
 //show all
 
 .show-all{
-	margin-top: 30px;
+	margin: 30px 0px;
 	//width: 20%;
 }
 
@@ -221,6 +255,10 @@
 	margin-top: 50px;
 	margin-bottom: 70px;
 	text-align: justify;
+}
+
+.dim{
+	background-color: rgba(20, 21, 23, 0.19);
 }
 
 //flex
