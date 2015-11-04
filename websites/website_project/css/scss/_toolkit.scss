@@ -64,7 +64,7 @@
 
 	img{
 		display: block;
-		margin: 40px auto;
+		margin: 20px auto 40px auto;
 	}
 
    .traveller-near{
@@ -152,6 +152,12 @@
 
 //for desktop api info
 
+.apis ul{
+	display: block;
+	width: 100%;
+	float: left;
+	padding-left: 0px;
+}
 .border-dotted{
 	background-color: transparent;
 	display: inline-block;
@@ -162,11 +168,18 @@
 	float: left;
 	border-right: none; 
 	border-bottom: none;
-	padding: 16px;
+	padding: 12px;
+	max-height: 233px;
+	min-height: 200px;
+	height: 250px;
 }
 
-.apis ul li:last-child {
+.border-dotted:last-child {
 	border-right: dashed; 
+	border-width: 2px;
+}
+.border-dotted:nth-child(4n) {
+  border-right: dashed; 
 	border-width: 2px;
 }
 
@@ -177,11 +190,6 @@
 
 
 
-.apis ul{
-	display: block;
-	margin: 30px auto 40px auto;
-	
-}
 
 .hidden-api{
 	display: none;
@@ -208,3 +216,39 @@
 	margin-bottom: 70px;
 	text-align: justify;
 }
+
+//flex
+
+.flextoolkit{
+	@include display(flex);
+	@include flex-direction(row);
+	flex-wrap: wrap;
+	@include align-items( stretch);
+	 @include justify-content(flex-start);
+    a{
+    	display: block;
+    	//margin-right: 9px;
+    }
+
+    @media only screen and (max-width: 319px) {
+         @include justify-content(space-between);
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) and (max-width: 479px) {
+           @include justify-content(space-between);
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) and (max-width: 767px) {
+         @include justify-content(space-between);
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) and (max-width: 991px) {
+            @include justify-content(flex-start);
+    }
+
+    
+}
+
