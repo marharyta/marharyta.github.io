@@ -6812,7 +6812,7 @@ h2 {
     left: -60px; }
   .section .airport-near {
     position: relative;
-    top: -50px;
+    top: -30px;
     left: 20px; }
   .section .button-border {
     border-bottom: black solid 3px;
@@ -6940,7 +6940,7 @@ h2 {
     text-align: center; }
 
 .dim {
-  background-color: rgba(119, 121, 125, 0.22); }
+  background-color: rgba(20, 21, 23, 0.19); }
 
 .flextoolkit {
   display: -webkit-box;
