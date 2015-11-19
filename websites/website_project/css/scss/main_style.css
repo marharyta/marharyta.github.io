@@ -6165,12 +6165,10 @@ ul.share-buttons li {
     left: -60px; }
 
   #winner1 {
-    background-image: url("../../images/winners/winner2.jpeg");
     position: relative;
     left: 60px; }
 
   #winner2 {
-    background-image: url("../../images/winners/winner1.jpeg");
     position: relative;
     left: -60px; } }
 /* Large Devices, Wide Screens */
@@ -6199,12 +6197,10 @@ ul.share-buttons li {
     left: -60px; }
 
   #winner1 {
-    background-image: url("../../images/winners/winner2.jpeg");
     position: relative;
     left: 60px; }
 
   #winner2 {
-    background-image: url("../../images/winners/winner1.jpeg");
     position: relative;
     left: -60px; } }
 .cloud_container img {
