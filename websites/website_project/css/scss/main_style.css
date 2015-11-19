@@ -7207,7 +7207,8 @@ h2 {
     border-radius: 50%; }
   .judge .judge-name {
     padding-top: 8px;
-    width: 60%; }
+    width: 60%;
+    margin: 0px auto; }
 
 #winner1 {
   background-image: url("../../images/winners/winner2.jpeg"); }
