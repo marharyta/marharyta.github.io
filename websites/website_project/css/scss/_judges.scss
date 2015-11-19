@@ -14,8 +14,8 @@
 
 		border-style: solid;
     	border-width: 2.5px;
-		width: 200px;
-		height: 200px;
+		width: 220px;
+		height: 220px;
 		max-width: 60%;
 		max-height: 60%;
 		
@@ -25,19 +25,32 @@
 
 	}
 
-	.judge-name{
+	.judge-name1{
 		padding-top: 8px;
 		width: 60%;
 		margin: 0px auto;
+		position: relative;
+		left: 50px;
+	}
+	.judge-name2{
+		padding-top: 8px;
+		width: 60%;
+		margin: 0px auto;
+		position: relative;
+		left: -50px;
 	}
 }
 
 #winner1{
 	background-image: url("../../images/winners/winner2.jpeg");
+	position: relative;
+	left: 50px;
 }
 
 #winner2{
 	background-image: url("../../images/winners/winner1.jpeg");
+	position: relative;
+	left: -50px;
 }
 
 #eero-knuutila{
