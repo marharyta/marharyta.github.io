@@ -6148,7 +6148,31 @@ ul.share-buttons li {
     background-color: transparent; }
 
   .shorter {
-    width: 50%; } }
+    width: 50%; }
+
+  .judge-name1 {
+    padding-top: 8px;
+    width: 60%;
+    margin: 0px auto;
+    position: relative;
+    left: 60px; }
+
+  .judge-name2 {
+    padding-top: 8px;
+    width: 60%;
+    margin: 0px auto;
+    position: relative;
+    left: -60px; }
+
+  #winner1 {
+    background-image: url("../../images/winners/winner2.jpeg");
+    position: relative;
+    left: 60px; }
+
+  #winner2 {
+    background-image: url("../../images/winners/winner1.jpeg");
+    position: relative;
+    left: -60px; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   .companies-centered {
@@ -6158,7 +6182,31 @@ ul.share-buttons li {
     background-color: transparent; }
 
   .shorter {
-    width: 50%; } }
+    width: 50%; }
+
+  .judge-name1 {
+    padding-top: 8px;
+    width: 60%;
+    margin: 0px auto;
+    position: relative;
+    left: 60px; }
+
+  .judge-name2 {
+    padding-top: 8px;
+    width: 60%;
+    margin: 0px auto;
+    position: relative;
+    left: -60px; }
+
+  #winner1 {
+    background-image: url("../../images/winners/winner2.jpeg");
+    position: relative;
+    left: 60px; }
+
+  #winner2 {
+    background-image: url("../../images/winners/winner1.jpeg");
+    position: relative;
+    left: -60px; } }
 .cloud_container img {
   z-index: -1; }
 .cloud_container #left_cloud {
@@ -7206,27 +7254,15 @@ h2 {
     max-height: 60%;
     border-radius: 50%; }
   .judge .judge-name1 {
-    padding-top: 8px;
-    width: 60%;
-    margin: 0px auto;
-    position: relative;
-    left: 60px; }
+    padding-top: 8px; }
   .judge .judge-name2 {
-    padding-top: 8px;
-    width: 60%;
-    margin: 0px auto;
-    position: relative;
-    left: -60px; }
+    padding-top: 8px; }
 
 #winner1 {
-  background-image: url("../../images/winners/winner2.jpeg");
-  position: relative;
-  left: 60px; }
+  background-image: url("../../images/winners/winner2.jpeg"); }
 
 #winner2 {
-  background-image: url("../../images/winners/winner1.jpeg");
-  position: relative;
-  left: -60px; }
+  background-image: url("../../images/winners/winner1.jpeg"); }
 
 #eero-knuutila {
   background-image: url("../../images/judges/eero-knuutila.jpg"); }

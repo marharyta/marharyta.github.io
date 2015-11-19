@@ -147,6 +147,32 @@
             width: 50%;
         }
 
+        .judge-name1{
+        padding-top: 8px;
+        width: 60%;
+        margin: 0px auto;
+        position: relative;
+        left: 60px;
+    }
+    .judge-name2{
+        padding-top: 8px;
+        width: 60%;
+        margin: 0px auto;
+        position: relative;
+        left: -60px;
+    }
+    #winner1{
+    background-image: url("../../images/winners/winner2.jpeg");
+    position: relative;
+    left: 60px;
+}
+
+#winner2{
+    background-image: url("../../images/winners/winner1.jpeg");
+    position: relative;
+    left: -60px;
+}
+
     }
 
     /* Large Devices, Wide Screens */
@@ -161,5 +187,30 @@
         .shorter{
             width: 50%;
         }
+        .judge-name1{
+        padding-top: 8px;
+        width: 60%;
+        margin: 0px auto;
+        position: relative;
+        left: 60px;
+    }
+    .judge-name2{
+        padding-top: 8px;
+        width: 60%;
+        margin: 0px auto;
+        position: relative;
+        left: -60px;
+    }
+    #winner1{
+    background-image: url("../../images/winners/winner2.jpeg");
+    position: relative;
+    left: 60px;
+}
+
+#winner2{
+    background-image: url("../../images/winners/winner1.jpeg");
+    position: relative;
+    left: -60px;
+}
 
     }
