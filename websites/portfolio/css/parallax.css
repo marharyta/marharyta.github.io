@@ -1,0 +1,75 @@
+/*parallax rules*/
+.parallax {
+  height: 500px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 250px;
+  /* Chrome, Safari, Opera */
+  perspective: 250px; 
+
+}
+
+.parallax__layer {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0
+}
+
+  /*
+	Controlling layer speed
+	Layer speed is controlled by a combination of the perspective and the Z translation values. Elements with negative Z values will scroll slower than those with a positive value. The further the value is from 0 the more pronounced the parallax effect (i.e. translateZ(-10px) will scroll slower than translateZ(-1px)).
+
+	*/
+
+ .parallax__layer--base--front--first {
+  -webkit-transform: translateZ(90px) scale(0.5);
+          transform: translateZ(90px) scale(0.5);
+  z-index: 6; }
+
+.parallax__layer--base--front {
+  -webkit-transform: translate(0px, 100px) translateZ(20px) scale(1.02);
+          transform: translate(0px, 100px) translateZ(20px) scale(1.02);
+  z-index: 5;
+  height: 300px; 
+}
+
+.parallax__layer--base--front-1 {
+  -webkit-transform: translate(0px, 120px) translateZ(50px) scale(0.9);
+          transform: translate(0px, 120px) translateZ(50px) scale(0.9);
+  z-index: 5;
+  height: 300px; 
+}
+
+.parallax__layer--base--front-2 {
+  -webkit-transform: translate(0px, 100px) translateZ(20px) scale(1.02);
+          transform: translate(0px, 100px) translateZ(20px) scale(1.02);
+  z-index: 5;
+  height: 300px; 
+}
+
+ 
+
+  .parallax__layer--back {
+  height: 100vh;
+    -ms-transform: translate(0px, 160px) translateZ(-50px) scale(1.05);
+    /* IE 9 */
+    -webkit-transform: translate(0px, 160px) translateZ(-50px) scale(1.05);
+    /* Safari */
+    transform: translate(0px, 160px) translateZ(-50px) scale(1.05);
+    /* Standard syntax */
+    /*-ms-transform: translateZ(-90px) scale(1.2);
+    -webkit-transform: translateZ(-90px) scale(1.2);
+    transform: translateZ(-90px) scale(1.2);*/
+    z-index: 2; }
+
+.parallax__layer--back--deep {
+  
+  -webkit-transform: translate(0px, 680px) translateZ(-290px) scale(2.1);
+          transform: translate(0px, 680px) translateZ(-290px) scale(2.1);
+  z-index: 0;
+  
+
+   }

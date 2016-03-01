@@ -1,0 +1,330 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald|Montserrat|Josefin+Sans|Merriweather+Sans|Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Dancing+Script|Satisfy|Courgette|Permanent+Marker|Bad+Script|Homemade+Apple|Kaushan+Script|Cookie|Tangerine);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700|VT323|Anonymous+Pro:400,700|Cutive+Mono);
+
+/*
+
+font-family: 'Pacifico', cursive;
+
+font-family: 'Dancing Script', cursive;
+
+font-family: 'Satisfy', cursive;
+
+font-family: 'Courgette', cursive;
+
+font-family: 'Permanent Marker', cursive;
+
+font-family: 'Bad Script', cursive;
+
+font-family: 'Homemade Apple', cursive;
+
+font-family: 'Kaushan Script', cursive;
+
+font-family: 'Cookie', cursive;
+
+font-family: 'Tangerine', cursive;
+
+
+*/
+/*
+
+font-family: 'Inconsolata', ;
+
+font-family: 'VT323', ;
+
+font-family: 'Anonymous Pro', ;
+
+font-family: 'Cutive Mono', ;
+
+
+*/
+
+body{
+  background-color: white;
+  color: #292929;
+  font-family: "Inconsolata";
+}
+
+a{
+  color: #292929;
+}
+
+.logo{
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  -ms-transform: rotate(15deg); /* IE 9 */
+  -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
+  transform: rotate(15deg);
+}
+
+#contacts{
+  display: block;
+  position: relative;
+  bottom: -800px;}
+#about{
+  display: block;
+  position: relative;
+  top: -200px;
+}
+
+
+
+
+
+	/*
+
+	if parallax group set to 
+	    position: relative;
+    height: 100vh;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: rotateY(30deg);
+    transform: rotateY(30deg);
+
+    we get a tourch effect
+
+	*/
+.title {
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.border{
+  border: 2px solid black;
+  padding: 20px;
+}
+.underlined{
+  text-decoration: underline;
+}
+
+.nav{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  background-color: white ;
+  z-index: 12;
+  padding-bottom: 0px;
+  
+}
+
+.navTranslate {
+  -webkit-transition: top 1s;
+  -moz-transition: top 1s;
+  -ms-transition:  top 1s;
+  -o-transition: top 1s;
+  transition: top 1s;
+  top: -100px;
+  overflow-y: hidden; 
+}
+
+.green{
+  background-color: green;
+}
+
+.nav ul{
+  width: 100%;
+}
+
+.nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    width: 20%;
+    margin: 20px auto 0 auto;
+    padding: 5px;
+    text-align: center;
+}
+.nav ul li a{
+  border: 2px solid black;
+  padding: 5px;
+}
+hr {
+  width: 15%;
+  display: block;
+  margin: 30px auto;
+  height: 2px;
+  border: 0;
+  box-shadow: inset 0 12px 12px #D21B53;
+  background: #fff;
+ }
+
+.intro {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 56%;
+  /*font-family: "Inconsolata";*/
+  font-size: 1.3em; }
+
+  .intro a{
+    text-decoration: underline;
+
+  }
+
+.name {
+  display: block;
+  /*position: relative;
+  top: 29vh;*/
+  margin: 0 auto;
+  margin-top: 28vh;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+  text-align: center;
+  color: #D21B53; }
+
+ .tech{
+   /*font-family: "Inconsolata";*/
+  font-size: 1.3rem;
+  margin: 20px auto;
+  text-align: center;
+ } 
+
+.skills {
+  /*font-family: "Inconsolata";*/
+  font-size: 1.3rem;
+  margin: 0px auto;
+  width: 76%;
+  display: block;
+  text-align: center; }
+  .skills li {
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: solid 2px #292929; }
+  .skills li:last-child {
+    border-right: none; }
+
+.work-title {
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  margin: 50px auto;
+  font-size: 2.3rem; }
+
+.network-icon {
+  width: 32.3%;
+  display: inline-block;
+  margin-bottom: 60px; }
+  .network-icon img {
+    display: block;
+    margin: 0 auto;
+    width: 52px; }
+
+.flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: justify;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-align-content: sspace-around;
+      -ms-flex-line-pack: justify;
+          align-content: space-between; }
+.flex-container a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.bubble {
+ 
+  background-color: black;
+  display: inline-block; }
+
+.bubble-big {
+  width: 180px;
+  height: 180px;
+
+  -webkit-transition: width 2s, height 2s;
+  transition: width 2s, height 2s;
+  
+}
+
+
+.bubble-big:hover{
+  width: 200px;
+  height: 200px;
+}
+
+.futureoftravel {
+  background-color: #D4EDF9;
+  background-image: url("img/aero_logo_new.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.villavanilla {
+  background-color: #F3E5AB;
+  background-image: url("img/vanilla_logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.xmascards {
+  background-image: url("img/xmas/xmascard.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.timelab {
+  background-color: #89E8D3;
+  background-image: url("img/timalab_logo_white.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.metalist {
+  background-color: #F0527E;
+  background-image: url("img/metalist-promo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.business_cards {
+  background-color: #52f0e7;
+  background-image: url("img/bc_logo_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.coming-soon {
+  background-color: #F39A0E;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.touch {
+  cursor: pointer; }
+
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */

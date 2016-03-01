@@ -1,0 +1,62 @@
+.project-page{
+	padding-left: 60px;
+	overflow-x: hidden; 
+}
+
+.project-name {
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+.project-name span{
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+.project-name img{
+	max-width: 60%;
+	height: auto;
+	padding: 20px;
+}
+
+.project-describtion{
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+.project-images img{
+	max-width: 95%;
+	height: auto;
+	margin: 20px;
+}
+
+.project-images p{
+	margin-left: 20px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+.project-link{
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+.project-more h2{
+
+margin-left: 20px;
+margin-top: 50px;
+}
+.project-more p{
+
+margin-left: 20px;
+margin-top: 20px;
+
+
+}
+
+.project-more img{
+
+margin-left: 20px;
+width: 45%;
+height: auto;
+
+
+}
