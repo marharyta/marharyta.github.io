@@ -1,0 +1,602 @@
+@import 'https://fonts.googleapis.com/css?family=Bungee+Inline';
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+@import 'https://fonts.googleapis.com/css?family=Lato';
+@import 'https://fonts.googleapis.com/css?family=Inconsolata';
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display';
+@import 'https://fonts.googleapis.com/css?family=Press+Start+2P';
+
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+p{
+  letter-spacing: 150%;
+  line-height: 150% !important;
+}
+
+
+.main-wrapper{
+  
+}
+
+
+/*utility css*/
+.section-title-left{
+  text-align: left;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background:-webkit-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-title-middle{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background:-webkit-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-title-middle-white{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: white;
+}
+
+.move-down{
+  top: 20vh;
+}
+
+.orange-blur{
+ 
+  /*background-color: orange;*/
+  background-color: rgba(224,99,83,0.61);
+  background-color: rgba(255,119,0,0.61);
+
+}
+
+/* agenda css*/
+.absolutely{
+  display: block;
+  background-color: white;
+  position: absolute;
+  top: 105vh;
+  left: 65%;
+  width: 300px;
+  min-height: 800px;
+  box-shadow: 10px 10px grey;
+  border-radius: 10px;
+  z-index: 200000; 
+}
+
+.agenda{
+  padding-right: 30px;
+}
+
+.agenda li{
+  list-style-type: none;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.agenda li span{
+  font-family: 'Playfair Display', serif;
+  font-family: 'Bungee Inline', cursive;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  background:-webkit-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* quote in about section*/
+
+.quote-background{
+  /*background: rgba(194,29,136,0.61);
+  background: -moz-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(194,29,136,0.61)), color-stop(52%, rgba(117,24,240,0.61)), color-stop(54%, rgba(153,52,247,0.61)), color-stop(70%, rgba(224,99,83,0.61)), color-stop(100%, rgba(255,119,0,0.61)));
+  background: -webkit-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: -o-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: -ms-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: linear-gradient(to right, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c21d88', endColorstr='#ff7700', GradientType=1 );
+*/
+
+}
+
+.quote{
+  display: block;
+  border-top: 20px solid rgba(194,29,136,0.61);
+  border-bottom: 20px solid rgba(194,29,136,0.61);
+  margin: 30px 0px;
+  padding: 30px;
+  font-style: italic;
+  font-family: serif;
+  font-size: 1.6em;
+  text-align: justify;
+}
+
+
+#map {
+  height: 300px;
+  width: 100%;
+  z-index: 20000;
+}
+
+
+
+/* hero image css*/
+
+.hero{
+  height: 800px;
+  height: 100vh;
+  background-color: black;  
+  background-image: url("http://www.nordicstartupbits.com/wp-content/uploads/2016/02/girls-in-tech.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 70px;
+  overflow: hidden;
+}
+
+.gradient{
+  background: rgba(194,29,136,0.61);
+  background: -moz-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(194,29,136,0.61)), color-stop(52%, rgba(117,24,240,0.61)), color-stop(54%, rgba(153,52,247,0.61)), color-stop(70%, rgba(224,99,83,0.61)), color-stop(100%, rgba(255,119,0,0.61)));
+  background: -webkit-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: -o-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: -ms-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: linear-gradient(to right, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c21d88', endColorstr='#ff7700', GradientType=1 );
+
+  /*background: rgba(241,111,92,1);
+background: -moz-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(112,13,44,1) 0%, rgba(255,165,21,0.59) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,111,92,1)), color-stop(0%, rgba(112,13,44,1)), color-stop(100%, rgba(255,165,21,0.59)));
+background: -webkit-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(112,13,44,1) 0%, rgba(255,165,21,0.59) 100%);
+background: -o-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(112,13,44,1) 0%, rgba(255,165,21,0.59) 100%);
+background: -ms-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(112,13,44,1) 0%, rgba(255,165,21,0.59) 100%);
+background: linear-gradient(to right, rgba(241,111,92,1) 0%, rgba(112,13,44,1) 0%, rgba(255,165,21,0.59) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f16f5c', endColorstr='#ffa515', GradientType=1 );
+  */
+}
+
+.pink-blur{
+  display: block;
+  background-color: rgba(136, 120, 140, 0.64);
+  width: 100%;
+  height: 700%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  
+
+}
+
+.hero h1{
+  font-family: 'Bungee Inline', cursive;
+  font-size: 3.2em;
+  display: block;
+  margin: 0px auto;
+  width: 90%;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  vertical-align: middle;
+
+  
+}
+.hero .info{
+  display: block;
+  margin: 60px auto 20px auto;
+  width: 80%;
+  color: white;
+
+}
+.hero .info span{
+  display: inline-block;
+  width: 32.9%;
+  text-align: center;
+  vertical-align: top;
+  font-size: 1em;
+}
+
+.hero .info span b{
+    margin-top: 10px;
+    display: block;
+}
+
+.hero button{
+  display: block;
+  margin: 50px auto 30px auto;
+  width: 200px;
+  padding:10px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+}
+
+
+/* about event css*/ 
+
+.about{
+  text-align: justify;
+}
+
+/*.event-background{
+  background-color: pink;
+  background-image: url("https://girlsintechlondon.files.wordpress.com/2014/01/img_8901.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.event-blur {
+  background-color: rgba(255,182,193, 0.9);
+}
+
+.event p{
+  width: 100%;
+  display: inline-block;
+}
+
+.event ul{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.agenda li p{
+    display: inline-block;
+    width: 84%;
+   
+    background-color: white;
+    height: 80px;
+    box-sizing: border-box;
+    
+    padding-top: 32px;
+        padding-left: 15px;
+    margin-left: 5px;
+}*/
+
+
+/* speakers section */
+
+.speakers ul li{
+  list-style-type: none;
+}
+
+/*.img-background{
+  width: 200px;
+  height: 200px;
+  background: rgba(194,29,136,0.61);
+  background: -moz-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(194,29,136,0.61)), color-stop(52%, rgba(117,24,240,0.61)), color-stop(54%, rgba(153,52,247,0.61)), color-stop(70%, rgba(224,99,83,0.61)), color-stop(100%, rgba(255,119,0,0.61)));
+  background: -webkit-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: -o-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: -ms-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: linear-gradient(to right, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c21d88', endColorstr='#ff7700', GradientType=1 );
+  margin-bottom: 40px;
+
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
+.speaker-img{
+  width: 180px;
+  height: 180px;
+  background-color: white;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 10px;
+}
+
+/* speakers portraits*/
+#mikael{
+  background-image: url("https://lh3.googleusercontent.com/-3uhEihzFG78/AAAAAAAAAAI/AAAAAAAAAAA/Jo_EpGmQ3e0/photo.jpg");
+}
+
+#jaana{
+  background-image: url("https://lh3.googleusercontent.com/-3uhEihzFG78/AAAAAAAAAAI/AAAAAAAAAAA/Jo_EpGmQ3e0/photo.jpg");
+}
+
+#marcia{
+  background-image: url("https://lh3.googleusercontent.com/-3uhEihzFG78/AAAAAAAAAAI/AAAAAAAAAAA/Jo_EpGmQ3e0/photo.jpg");
+}
+
+#chryssa{
+  background-image: url("https://lh3.googleusercontent.com/-3uhEihzFG78/AAAAAAAAAAI/AAAAAAAAAAA/Jo_EpGmQ3e0/photo.jpg");
+}
+
+#juhani{
+  background-image: url("https://lh3.googleusercontent.com/-3uhEihzFG78/AAAAAAAAAAI/AAAAAAAAAAA/Jo_EpGmQ3e0/photo.jpg");
+}
+
+.speakers  .speaker-info{
+  display: block; 
+  padding-left: 10px;
+  box-sizing: border-box;
+  display: block;
+  height: 50px;
+}
+.speakers .speaker-info h4{
+  background-color: white;
+  padding: 5px;
+  border: 2px solid rgba(117,24,240,0.61);  
+  margin: 20px auto 5px auto;  
+  text-align: center;
+  width: 200px;
+  z-index: 500;
+      border-radius: 5px;
+      color: rgba(117,24,240,0.61);
+}
+
+.speakers p{
+  background-color: white;
+  height: 90%;
+  padding: 20px; 
+  position: relative;
+  right: 0px;
+  top: 0;
+  background-color: white;
+  text-align: justify;
+
+}
+
+
+
+.coaches{
+  background-color: orange;
+  background-image: url("http://imgc.allpostersimages.com/images/P-473-488-90/92/9297/KWT5500Z/posters/noppadon-sangpeam-white-marble-texture-detailed-structure-of-marble-in-natural-patterned-for-background-and-design.jpg"); 
+}
+
+.coach-img{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.coaches .coach-info{
+  display: block; 
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+
+.coaches .coach-info h4{
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    /* transform: translate(-20px, -20px); */
+    position: relative;
+    right: -60px;
+    top: -55px;
+    text-align: center;
+    width: 200px;
+    z-index: 500;
+}
+
+.coaches p{
+  background-color: white;
+  box-shadow: 10px 10px grey;
+  padding: 20px; 
+  position: relative;
+  right: 0px;
+  top: -55px;
+}
+/*
+
+
+#content{
+  z-index: 20009;
+  height: 100px;
+}
+
+.frosmo{
+  display: block;
+  width: 60%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.peopleOfFrosmo{
+
+  width: 100%;
+  height: 200px;
+  z-index: 6000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url("http://frosmo.com/en/wp-content/uploads/2016/05/frosmo_epic_cut.jpg");
+}
+
+*/
+
+.frosmo{
+  /*background-image: url("https://media.licdn.com/media/AAEAAQAAAAAAAAkDAAAAJGE5NWVhZDE1LTczNTgtNGQxMC1iZGQ5LTNlNTJhZDJhOTAyMg.png");*/
+}
+
+.frosmo p{
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.frosmo img{
+  width: 100%;
+  position: relative;
+  top: 30px;
+}
+
+/* registration css */
+
+
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) and (max-width : 479px){
+      .move-down{
+        top: 10vh;
+      }
+      .hero h1{
+        font-size: 2em; 
+      }
+      .hero button{
+        display: block;
+        margin: 10px auto 10px auto;
+      }
+      .hero .info{
+        display: block;
+        margin: 20px auto 20px auto;
+        width: 80%;
+        color: white;
+
+      }
+      .hero .info span{
+        display: block;
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+        vertical-align: top;
+        font-size: 1em;
+      }
+
+      .hero .info span b{
+          margin-top: 10px;
+          display: block;
+      }
+
+      .quote{
+        font-size: 1em;
+      }
+
+      .frosmo img{
+        width: 80%;
+        height: 80%;
+        margin: 10px auto 20px auto;
+      }
+
+      .frosmo{
+        height: 100vh;
+      }
+        
+    }
+
+
+    /*and (orientation: landscape) */
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) and (max-width : 479px) and (orientation: landscape){
+      .hero{
+        height: 150vh;
+      }
+        
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) and (max-width : 767px){
+
+       .move-down{
+        top: 10vh;
+      }
+
+      .hero h1{
+        font-size: 2em; 
+      }
+
+
+      .hero button{
+        display: block;
+        margin: 10px auto 10px auto;
+      }
+
+      .hero .info{
+        display: block;
+        margin: 20px auto 20px auto;
+        width: 80%;
+        color: white;
+
+      }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) and (max-width : 767px) and (orientation: landscape){
+      .hero{
+        height: 150vh;
+      }
+       
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
+
